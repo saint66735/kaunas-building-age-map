@@ -1,6 +1,6 @@
 # Kaunas building-age join: Phase 2 key search (national sources)
 
-Date: 2026-08-16. Follow-up to `REPORT.md`'s Phase 1, which checked only
+Date: 2026-08-16. Follow-up to `PHASE1_JOIN_FEASIBILITY.md`'s Phase 1, which checked only
 Kaunas municipality's own ArcGIS mirror and the `gov/rc/ntr`/`gov/rc/ar`
 Spinta namespaces. This pass checks national-level sources per the plan:
 geoportal.lt, inspire.lt, Registrų centras's own map viewer, and a deeper
@@ -52,8 +52,8 @@ this is a proper OGC WFS, not just a static file:
   exposes two feature types: `bu:BU.Building_point` and
   `bu:BU.Building_polygon`.
 - `DescribeFeatureType` for `bu:BU.Building_polygon` (full schema, pulled
-  directly, saved to `analysis/data/phase2_describe_building_polygon.xml`
-  equivalent — see below for path note): `ogc_fid, gml_id,
+  directly, saved to `analysis/evidence/inspire_wfs/describe_building_polygon.xml`):
+  `ogc_fid, gml_id,
   beginlifespanversion, localid, namespace, versionid, currentuse_title,
   currentuse_href, percentage, referencegeometry,
   horizontalgeometryreference_title, horizontalgeometryreference_href,
@@ -226,7 +226,7 @@ Checked directly against the 8 real Dataset A sample rows pulled above:
 | 7568589576494715 | 20/110/2 | 136 m², 1926 | 8,385 |
 
 Not remotely confident on its own — same order of magnitude as the
-area+district ambiguity already documented in `REPORT.md`.
+area+district ambiguity already documented in `PHASE1_JOIN_FEASIBILITY.md`.
 
 ## What this does and doesn't solve
 
@@ -278,11 +278,14 @@ assumed to clear the 60-70% bar without actually running it.
 
 ## Files
 
-- `analysis/data/phase2_d_features.pkl` — parsed Kaunas features from the
-  `unikalus_nr` dataset (49,487 records), for reuse if the three-way
-  matching experiment above is pursued later.
-- Raw evidence files (schema/capability responses, dataset page dumps,
-  the downloaded Kaunas `unikalus_nr` zip/JSON) are in the repo root as
-  `phase2_*` — not yet moved into `analysis/data/`, left as-is given this
-  was an evidence-gathering pass; worth tidying into `analysis/data/` if
-  this becomes a real follow-up build.
+- `analysis/data/cache/dataset_2838_kaunas_features.pkl` — parsed Kaunas
+  features from the `unikalus_nr` dataset (49,487 records), for reuse if
+  the three-way matching experiment above is pursued later.
+- `analysis/data/cache/dataset_2838_kaunas_pastatai_erdviniai.zip` — the
+  raw downloaded Kaunas resource (`gis_kada_pastatu_taskai_19.json`) from
+  dataset #2838.
+- Raw evidence (schema/capability responses, dataset page dumps, RC's
+  data-need request page) is organized under `analysis/evidence/` by
+  source: `inspire_wfs/`, `registru_centras_portal/`,
+  `dataset_2838_unikalus_nr/` (the headline find), `dataset_3742_unrelated/`
+  (checked, turned out irrelevant), `spinta_namespace/`, `misc/`.

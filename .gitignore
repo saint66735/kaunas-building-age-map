@@ -1,0 +1,4 @@
+# Leftover from a reorg: locked by another process (Windows Defender/Search
+# indexer) at the time, couldn't be deleted after copying to data/cache/.
+# Safe to delete manually once unlocked; ignored so it can't be re-added.
+analysis/data/buildings_raw.json

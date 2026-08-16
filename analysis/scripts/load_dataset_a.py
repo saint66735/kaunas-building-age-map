@@ -23,7 +23,7 @@ def _comma_to_float(s):
     return float(str(s).replace(",", "."))
 
 
-def load(path="statiniai_Kauno_m_sav.csv"):
+def load(path="analysis/data/source/statiniai_Kauno_m_sav.csv"):
     df = pd.read_csv(path, sep="|", encoding="utf-8", dtype=str, keep_default_na=False)
     df.replace("", np.nan, inplace=True)
     for c in NUMERIC_COMMA_COLS:

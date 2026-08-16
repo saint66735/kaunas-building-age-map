@@ -75,7 +75,7 @@ def match_row(area_a, seniunija_a, b_index):
 
 
 def main():
-    with open("analysis/data/buildings_with_seniunija.pkl", "rb") as f:
+    with open("analysis/data/cache/buildings_with_seniunija.pkl", "rb") as f:
         b_records = pickle.load(f)
     b_index = build_b_index(b_records)
 

@@ -21,7 +21,7 @@ KAUNAS_CITY_SENIUNIJOS = {
 
 
 def main():
-    with open("analysis/data/seniunijos_raw.json", encoding="utf-8") as f:
+    with open("analysis/data/cache/seniunijos_raw.json", encoding="utf-8") as f:
         sen_feats = json.load(f)
 
     sen_polys = []
@@ -43,7 +43,7 @@ def main():
 
     tree = STRtree(sen_polys)
 
-    with open("analysis/data/buildings_raw.json", encoding="utf-8") as f:
+    with open("analysis/data/cache/buildings_raw.json", encoding="utf-8") as f:
         bld_feats = json.load(f)
 
     from shapely.geometry import Polygon as ShpPolygon
@@ -82,7 +82,7 @@ def main():
 
     print(f"buildings total {len(results)}, unassigned to any Kaunas-city seniunija: {unassigned}")
 
-    with open("analysis/data/buildings_with_seniunija.pkl", "wb") as f:
+    with open("analysis/data/cache/buildings_with_seniunija.pkl", "wb") as f:
         pickle.dump(results, f)
 
     from collections import Counter

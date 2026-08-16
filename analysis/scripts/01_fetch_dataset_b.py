@@ -53,7 +53,7 @@ def fetch_layer_paginated(layer_id, out_fields, page_size=100, total=None, worke
 def main():
     # Seniunija boundaries (small layer, fetch whole)
     sen_feats = fetch_layer_paginated(82, "OBJECTID,SEN_PAV,SEN_KODAS,SAV_KODAS", page_size=1000)
-    with open("analysis/data/seniunijos_raw.json", "w", encoding="utf-8") as f:
+    with open("analysis/data/cache/seniunijos_raw.json", "w", encoding="utf-8") as f:
         json.dump(sen_feats, f, ensure_ascii=False)
     print("seniunijos features:", len(sen_feats))
 
@@ -61,7 +61,7 @@ def main():
     bld_feats = fetch_layer_paginated(
         101, "OBJECTID,TOP_ID,GKODAS,PASK,Shape_Area,Shape_Length", page_size=100
     )
-    with open("analysis/data/buildings_raw.json", "w", encoding="utf-8") as f:
+    with open("analysis/data/cache/buildings_raw.json", "w", encoding="utf-8") as f:
         json.dump(bld_feats, f, ensure_ascii=False)
     print("building features:", len(bld_feats))
 

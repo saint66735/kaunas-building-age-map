@@ -29,7 +29,7 @@ KAUNAS_CITY_SENIUNIJOS = {
 
 
 def plot_choropleth():
-    with open("analysis/data/seniunijos_raw.json", encoding="utf-8") as f:
+    with open("analysis/data/cache/seniunijos_raw.json", encoding="utf-8") as f:
         sen_feats = json.load(f)
     med = pd.read_csv("analysis/output/median_year_by_seniunija.csv", index_col=0)["stat_pabaigos_metai"]
 
@@ -68,7 +68,7 @@ def plot_choropleth():
 
 
 def plot_illustrative_scatter():
-    with open("analysis/data/buildings_with_seniunija.pkl", "rb") as f:
+    with open("analysis/data/cache/buildings_with_seniunija.pkl", "rb") as f:
         b_records = pickle.load(f)
     b_by_objid = {r["OBJECTID"]: r for r in b_records}
 

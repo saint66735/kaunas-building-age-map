@@ -21,24 +21,24 @@ looks geographically sane — that's the fallback recommendation.
 > a deeper Spinta pass. It found a real official RC unique building number
 > (`unikalus_nr`) published with coordinates in a dataset not covered
 > below, but confirmed it still does not exact-join to Dataset A. Full
-> evidence and verdict in `KEY_SEARCH_PHASE2.md`.
+> evidence and verdict in `PHASE2_KEY_SEARCH.md`.
 
 
 Checked for a real shared identifier before writing any fuzzy-matching code,
 since a real key would have made this trivial:
 
-- **ArcGIS layer 101 field schema** (`analysis/data/layer101_meta.json`):
+- **ArcGIS layer 101 field schema** (`analysis/data/cache/layer101_meta.json`):
   fields are `OBJECTID, Shape, TOP_ID, GKODAS, META, RED_PRIEZA, RED_SALTIN,
   PASK, SHAPE_Leng, Suk_DATA, Red_DATA, Shape_Length, Shape_Area`. `TOP_ID`
   is a raw GUID (e.g. `06EC2A22-2355-40BE-BB99-EE0F7A2F6ECF`) — a GRPK
   cadastre-layer internal identifier, not the Registrų centras "unikalus
   numeris" (which has the dashed-digit-group format `nnnn-nnnn-nnnn`).
   `GKODAS` and the other fields carry no resemblance to that format either.
-- **Full ArcGIS MapServer layer listing** (`analysis/data/mapserver_meta.json`):
+- **Full ArcGIS MapServer layer listing** (`analysis/data/cache/mapserver_meta.json`):
   no seniūnija boundary layer or address-point layer lives in this service
   alongside the building layer (the seniūnija boundaries used below came
   from a separate service). No bridging table to RC unique numbers.
-- **Raw Spinta JSON for `ntr_pastatai`** (`analysis/data/ntrpastatas_sample.json`):
+- **Raw Spinta JSON for `ntr_pastatai`** (`analysis/data/cache/ntrpastatas_sample.json`):
   exposes `id` (matches the CSV's `dirbt_id` — internal Spinta row ID, not an
   RC unique number) and `seniunija._id`, but **no address field and no
   geometry reference of any kind**. This closes off Dataset C (Pastatas /
@@ -69,7 +69,7 @@ field at all, so district + area is the entire fuzzy signal available.
 - Fetched all **66,343** Dataset B building polygons from the ArcGIS
   MapServer (paginated at the server's 100-record page cap) —
   `analysis/scripts/01_fetch_dataset_b.py`, raw output cached in
-  `analysis/data/buildings_raw.json`.
+  `analysis/data/cache/buildings_raw.json`.
 - Fetched the Kaunas city seniūnija boundary layer and spatially assigned
   each of the 66,343 B polygons to one of the 13 real seniūnijos by
   centroid-in-polygon — `analysis/scripts/02_assign_seniunija.py`. Only 2
@@ -186,6 +186,7 @@ margin (0% vs. a 60-70% target).
 - `scripts/03_match.py` — main fuzzy match + stats (generous tolerance)
 - `scripts/03b_match_tight_sensitivity.py` — tight-tolerance sensitivity check
 - `scripts/04_plots.py` — Phase 4 visuals
-- `data/` — cached raw API responses (mapserver/layer metadata, building
+- `data/source/` — the two raw government exports (Dataset A CSV, Dataset C CSV)
+- `data/cache/` — cached raw API responses (mapserver/layer metadata, building
   geometry, seniūnija boundaries, Dataset A/B linked pickle)
 - `output/` — CSV stats, per-district breakdown, the two PNGs
