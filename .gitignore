@@ -2,3 +2,5 @@
 # indexer) at the time, couldn't be deleted after copying to data/cache/.
 # Safe to delete manually once unlocked; ignored so it can't be re-added.
 analysis/data/buildings_raw.json
+
+__pycache__/
