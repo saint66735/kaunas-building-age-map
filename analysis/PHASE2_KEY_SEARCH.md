@@ -109,24 +109,55 @@ this is a proper OGC WFS, not just a static file:
   - `ntr_kiti_klasifikatoriai`: `NtrIdTipas, NtrIsigijimoTipas,
     NtrKainosTipas, NtrMatavimoVnt, NtrNaudotojoTipas, NtrRegistroTipas,
     NtrSandorioTipas`. `NtrIdTipas` ("NTR identifier types") looked
-    promising by name — attempted to fetch its contents but the request
-    timed out repeatedly (60s), so **not conclusively verified**. Given
-    every sibling model in this namespace is a small closed-vocabulary
-    classifier (transaction types, price types, measurement units, user
-    types...), the strong prior is that `NtrIdTipas` is a lookup of
-    *identifier type labels* (e.g. distinguishing what kind of ID a field
-    is), not a table of actual `dirbt_id`↔`unikalus_nr` value pairs — but
-    this is inference from the pattern, not a direct read, and is flagged
-    as such.
+    promising by name. **Update (2026-08-16, follow-up session):**
+    retried fetching its contents in both JSON and CSV export formats —
+    both hung for the full 30s timeout. Combined with the two earlier
+    60s timeouts in the original pass, that's **4 failed attempts across
+    2 sessions** with no successful response of any kind. Treating this
+    endpoint as effectively unreachable rather than "unresolved" — the
+    consistent, format-independent failure is no longer explainable as
+    one-off flakiness. The content remains genuinely unknown, but there
+    is no practical path to checking it via this API.
   - A direct single-object fetch (`.../NtrPastatas/{dirbt_id}` for a real
     `dirbt_id` from the local CSV) was attempted to check whether
     individual-object responses expose fields hidden from list views —
-    **this also timed out repeatedly** and could not be completed in this
-    session. Not resolved either way.
-- **Verdict: no crosswalk table found** among the models that were
-  successfully listed; two specific follow-up checks (`NtrIdTipas`
-  contents, single-object fetch) hit server timeouts and remain
-  unverified rather than confirmed negative.
+    this timed out repeatedly in the original pass. **Update (2026-08-16,
+    follow-up session):** retried and got an actual response this time
+    instead of a timeout: `.../NtrPastatas/65178183482725541` returns
+    `{"errors":[{"code":"ModelNotFound", "message":"Model
+    'datasets/gov/rc/ntr/ntr_pastatai/NtrPastatas/65178183482725541' not
+    found."}]}` — Spinta's path-based object lookup expects its own
+    internal `_id` (a UUID, e.g. `6b7edfb3-2b4f-4dad-8130-7dc27d5ac817`
+    from `analysis/data/cache/ntrpastatas_sample.json`), not the CSV's
+    `dirbt_id`, so the extra path segment is parsed as an invalid
+    sub-model name instead. Tried the query-filter form instead
+    (`?id=65178183482725541`): 500 Internal Server Error immediately;
+    the quoted-string variant (`?id="65178183482725541"`) hung for the
+    full 45s timeout. **This path is now a confirmed dead end**, not an
+    unresolved timeout — there is no working way to fetch a single
+    `NtrPastatas` record by its CSV `dirbt_id` through this API.
+  - Also checked two more `gov/rc/ntr` sub-namespaces not drilled into in
+    the original pass (a user screenshot prompted this): `ntr_atributai`
+    (5 models — `NtrAtributas, NtrAtributoPozymis, NtrAtributoReiksme,
+    NtrAtributoTipas, NtrLeistinasAtributas` — a generic attribute
+    type/value system used across the whole NTR registry, not building-
+    specific; all classifiers, no `dirbt_id`-shaped field) and
+    `ntr_inzineriniai_statiniai` (one model, `NtrInzinerinisStatinys` —
+    engineering structures, a sibling dataset to buildings rather than
+    buildings themselves; live sample pulled, same internal-ID schema as
+    `ntr_pastatai`, `id`/`savivaldybe._id`/`seniunija._id`, no unique-
+    number field). `ntr_naudojimo_budai` was also attempted but timed out
+    on two separate 30s tries — unreachable, same as `NtrIdTipas`.
+- **Verdict: no crosswalk table found** among the seven of ten `gov/rc/ntr`
+  sub-namespaces successfully checked (`ntr_atributai`,
+  `ntr_inzineriniai_statiniai`, `ntr_kiti_klasifikatoriai`'s six other
+  models, `ntr_objektai`, plus `ntr_pastatai` itself). Two sub-namespaces
+  (`NtrIdTipas` specifically, and all of `ntr_naudojimo_budai`) remain
+  genuinely unreachable through this API after 6 combined attempts across
+  2 sessions — not confirmed negative, but not practically checkable
+  either. The single-object-by-`dirbt_id` fetch path is now a confirmed
+  dead end (wrong ID type / query hangs), superseding the original
+  report's "timed out, unresolved" note for that specific check.
 
 ## New dataset found: "Pastatų erdviniai duomenys" (data.gov.lt #2838)
 
@@ -262,11 +293,17 @@ a confident match is found.
 Dataset B (Kaunas building geometry) in any of the four sources checked**,
 confirmed with real schema evidence at each one, plus one official RC
 data-need request stating the same gap exists between Dataset A and the
-newly-found `unikalus_nr` dataset too. Two narrow sub-checks (source 1's
-full bulk GDB schema, source 3's live network traffic, and two Spinta
-model contents in source 4) were not fully verified due to tooling/size
-constraints — flagged individually above rather than folded into the
-overall negative conclusion.
+newly-found `unikalus_nr` dataset too. Three narrow sub-checks (source 1's
+full bulk GDB schema, source 3's live network traffic, and one Spinta
+namespace plus one model in source 4 — `ntr_naudojimo_budai` and
+`NtrIdTipas`, both confirmed unreachable rather than checked) were not
+fully verified due to tooling/size/server-availability constraints —
+flagged individually above rather than folded into the overall negative
+conclusion. A follow-up pass (2026-08-16) closed two of source 4's other
+open threads: the single-object-by-`dirbt_id` fetch is now a confirmed
+dead end (wrong ID type), and two more `ntr_*` sub-namespaces
+(`ntr_atributai`, `ntr_inzineriniai_statiniai`) were checked live and
+ruled out.
 
 Per-building detail without RC's paid data extract would require either:
 (a) RC acting on the open data-need request and publishing `unikalus_nr`
