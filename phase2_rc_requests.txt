@@ -1,0 +1,5472 @@
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+
+ Lietuvos atvirų duomenų portalas | Gauti poreikiai duomenų rinkiniams 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
+
+ 
+
+ 
+ 
+
+
+
+
+
+ 
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ data.gov.lt 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Į pagrindinį turinį
+ 
+ 
+
+ 
+ 
+
+
+
+
+ 
+ Duomenų ištekliai 
+ 
+
+ 
+ Poreikiai ir pasiūlymai 
+ 
+
+ 
+ 
+ Pagalba atvėrėjams 
+ 
+ 
+ Atvirų duomenų saugykla 
+ 
+ Duomenų atvėrimo vadovas 
+ 
+ Duomenų struktūros aprašas 
+ 
+ Įrankiai duomenų atvėrimui 
+ 
+ Mokymo medžiaga 
+ 
+ Dažnai užduodami klausimai 
+ 
+ Koordinatoriaus ir tvarkytojo registravimas 
+ 
+ Duomenų atvėrimo principai 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ Daugiau 
+ 
+ 
+ Reglamentacija 
+ 
+ Panaudojimo atvejai 
+ 
+ Nuorodos 
+ 
+ Apie 
+ 
+ Kontaktai 
+ 
+ Kiti AD portalai 
+ 
+ SPARQL paieška 
+ 
+ API 
+ 
+ Programinės įrangos atnaujinimai 
+ 
+ 
+ 
+ 
+
+ 
+ Naujienos 
+ 
+
+ 
+ Sveikatos duomenys 
+ 
+
+ 
+ 
+ 
+ 
+ Prisijungti 
+ 
+ 
+ 
+ 
+ 
+ 
+ LT
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ LT
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ EN
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+
+
+
+
+
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Pradžia 
+ 
+ 
+ 
+
+ 
+ Gauti poreikiai duomenų rinkiniams
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ Poreikio paieška 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ Nerandate norimo duomenų rinkinio, o gal esamam duomenų rinkinui turite pastabų? Tuomet peržiūrėkite jau registruotus poreikius duomenų rinkiniams. Jeigu sąraše nerasite atitinkančio poreikio - registruokite naują. 
+ 
+ Teikti poreikį
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Poreikio būsena
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Vertinamas
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (6) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Pateiktas
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (118) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Įvertintas
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (34) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Atsakytas
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (17) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Atmestas
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (103) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Suplanuotas
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (8) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Įvykdytas
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (126) 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Duomenų rinkinio būsena
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Atverti duomenys
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (122) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Nepriskirta
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (1) 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Organizacija
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Filtro paieška
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Valstybės duomenų agentūra
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (95) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Valstybės įmonė Registrų centras
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (83) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Valstybinė mokesčių inspekcija prie Finansų ministerijos
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (36) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Nacionalinė švietimo agentūra
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (22) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Lietuvos Respublikos aplinkos ministerija
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (11) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Viešoji įstaiga Statybos sektoriaus vystymo agentūra
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (9) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ AB „Energijos skirstymo operatorius“
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (9) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Aplinkos apsaugos agentūra
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (9) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Via Lietuva
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (8) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Nepriskirta
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (7) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Akcinė bendrovė „REGITRA“
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (7) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Valstybės skaitmeninių sprendimų agentūra
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (7) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Valstybinio socialinio draudimo fondo valdyba prie Socialinės apsaugos ir darbo ministerijos
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (7) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Higienos institutas
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (6) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Lietuvos Respublikos švietimo, mokslo ir sporto ministerija
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (6) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Užimtumo tarnyba prie Lietuvos Respublikos socialinės apsaugos ir darbo ministerijos
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (6) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Valstybinė maisto ir veterinarijos tarnyba
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (6) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Lietuvos Respublikos valstybinė darbo inspekcija prie Socialinės apsaugos ir darbo ministerijos
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (6) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Lietuvos Respublikos finansų ministerija
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (6) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Lietuvos Respublikos energetikos ministerija
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (6) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Viešųjų pirkimų tarnyba
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (5) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ VĮ Žemės ūkio duomenų centras
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (5) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Audito, apskaitos, turto vertinimo ir nemokumo valdymo tarnyba prie Lietuvos Respublikos finansų ministerijos
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (5) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Lietuvos hidrometeorologijos tarnyba prie Aplinkos ministerijos
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (5) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Informatikos ir ryšių departamentas prie Lietuvos Respublikos vidaus reikalų ministerijos
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (4) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Lietuvių kalbos institutas
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (4) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Lietuvos transporto saugos administracija
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (4) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Valstybinė energetikos reguliavimo taryba
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (4) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Muitinės departamentas prie Lietuvos Respublikos finansų ministerijos
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (4) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Valstybinė vaistų kontrolės tarnyba
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (4) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Nacionalinė teismų administracija
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (4) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Valstybinė miškų tarnyba
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (4) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Lietuvos Respublikos aplinkos ministerijos Aplinkos projektų valdymo agentūra
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (3) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Lietuvos Respublikos ekonomikos ir inovacijų ministerija
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (3) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Lietuvos bankas
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (3) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Nacionalinis visuomenės sveikatos centras prie Sveikatos apsaugos ministerijos
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (2) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Valstybinė ligonių kasa prie Sveikatos apsaugos ministerijos
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (2) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Lietuvos Respublikos Seimo kanceliarija
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (2) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ UAB &quot;Investicijų ir verslo garantijos&quot;
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (2) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Migracijos departamentas prie Lietuvos Respublikos vidaus reikalų ministerijos
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (2) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Nacionalinė mokėjimo agentūra prie Žemės ūkio ministerijos
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (2) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Kultūros paveldo departamentas prie Kultūros ministerijos
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (2) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Valstybinė teritorijų planavimo ir statybos inspekcija prie Aplinkos ministerijos
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (2) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Nacionalinė žemės tarnyba prie Aplinkos ministerijos
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (2) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Vyriausioji rinkimų komisija
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (2) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ VšĮ Būsto energijos taupymo agentūra
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (2) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Lietuvos Respublikos susisiekimo ministerija
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (2) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Klaipėdos miesto savivaldybės administracija
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (1) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Valstybinė lietuvių kalbos komisija
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (1) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Nacionalinis vėžio institutas
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (1) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ VŠĮ Respublikinė Panevėžio ligoninė
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (1) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Lietuvos kalėjimų tarnyba
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (1) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Vytauto Didžiojo universitetas
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (1) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Lietuvos Respublikos socialinės apsaugos ir darbo ministerija
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (1) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ VšĮ Respublikinė Vilniaus universitetinė ligoninė
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (1) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Lietuvos šilumos tiekėjų asociacija
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (1) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Lietuvos Respublikos teisingumo ministerija
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (1) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ AB Lietuvos paštas
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (1) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ UAB „LTG Link“
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (1) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ AB „Litgrid“
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (1) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Nacionalinė sporto agentūra prie Lietuvos Respublikos švietimo, mokslo ir sporto ministerijos
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (1) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Nacionalinis bendrųjų funkcijų centras
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (1) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Nacionalinis transplantacijos biuras prie Sveikatos apsaugos ministerijos
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (1) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ UAB ID Vilnius
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (1) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Policijos departamentas prie Vidaus reikalų ministerijos
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (1) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Lietuvos vyriausiojo archyvaro tarnyba
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (1) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Ryšių reguliavimo tarnyba
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (1) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Lietuvos Respublikos valstybinis patentų biuras
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (1) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Lošimų priežiūros tarnyba prie Finansų ministerijos
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (1) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Viešojo valdymo agentūra
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (1) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Viešoji įstaiga Lietuvos energetikos agentūra
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (1) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Lietuvos standartizacijos departamentas
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (1) 
+ 
+ 
+ 
+ 
+ 
+ Išskleisti 
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Valdymo sritis
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Filtro paieška
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Vyriausybei atsakingos institucijos
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (103) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Lietuvos Respublikos ekonomikos ir inovacijų ministerija
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (93) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Lietuvos Respublikos finansų ministerija
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (51) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Lietuvos Respublikos aplinkos ministerija
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (38) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Lietuvos Respublikos švietimo, mokslo ir sporto ministerija
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (33) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Nepriskirta
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (20) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Lietuvos Respublikos energetikos ministerija
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (20) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Lietuvos Respublikos socialinės apsaugos ir darbo ministerija
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (20) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Lietuvos Respublikos sveikatos apsaugos ministerija
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (17) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Lietuvos Respublikos vidaus reikalų ministerija
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (15) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Lietuvos Respublikos susisiekimo ministerija
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (15) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Lietuvos Respublikos žemės ūkio ministerija
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (7) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Verslas
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (4) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Lietuvos Respublikos teisingumo ministerija
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (3) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Lietuvos Respublikos kultūros ministerija
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (3) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Savivaldybės
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (2) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Seimui atsakingos institucijos
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (2) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Veikianti nepriklausomai
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (1) 
+ 
+ 
+ 
+ 
+ 
+ Išskleisti 
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Pateikimo data
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 2020
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (16) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 2021
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (31) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 2022
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (128) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 2023
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (53) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 2024
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (74) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 2025
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (80) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 2026
+ 
+ 
+ 
+ 
+ 
+
+ 
+ (30) 
+ 
+ 
+ 
+ 
+ 
+
+
+
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+ Šioje portalo skiltyje yra publikuojami atvirų duomenų naudotojų pateikti poreikiai dėl atvirų duomenų rinkinių. Tai yra svarbu, nes atveriant duomenis yra siekiama duomenų atvėrimą vykdyti maksimaliai, atsižvelgiant į atvirų duomenų naudotojų poreikį (angl. demand driven approach) ir įvertinant jų teigiamą poveikį visuomeninio intereso tenkinimui, viešumui ir verslo plėtrai. 
+ 
+ 
+ 
+ 
+ Paieškos rezultatai: 
+ 412 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ NTR pastatų erdvinių, registrinių ir plotų duomenų susiejimas
+ 
+ 
+ 
+
+ 
+ 
+ Būsena:
+ Pateiktas
+ 
+ 
+ 
+ 
+ 
+ Viešoji įstaiga Statybos sektoriaus vystymo agentūra
+ 
+ 
+ , 
+ 
+ 
+ 
+ 
+ 
+ Valstybės duomenų agentūra
+ 
+ 
+ , 
+ 
+ 
+ 
+ 
+ 
+ Valstybės įmonė Registrų centras
+ 
+ 
+ , 
+ 
+ 
+ 
+ 
+ 
+ UAB ID Vilnius
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ Registravimo data:
+ 2026-08-04
+ 
+ 
+ 
+ 
+ Atnaujinimo data:
+ 2026-08-04
+ 
+ 
+ 
+
+ 
+ 
+ Reikalinga galimybė objekto lygmeniu patikimai ir automatizuotai susieti viešai skelbiamus Nekilnojamojo turto registro pastatų erdvinius ir atributinius duomenis.
+
+
+
+Šiuo metu „Pastatų erdviniuose duomenyse“ pateikiamas pastato unikalus numeris ir geografinė padėtis, o „NTR įregistruotų pastatų duomenyse pagal savivaldybes“ pateikiami pastato atributai ir plotai, tačiau skelbiamas tik dirbtinis identifikatorius „dirbt_id“.
+
+
+
+Dėl bendro jungties rakto nebuvimo neįmanoma patikimai nustatyti, kuri atributinio rinkinio eilutė priklauso konkrečiam erdvinio rinkinio pastatui. Susiejimas pagal plotą, paskirtį, aukštų skaičių ar statybos metus nėra vienareikšmis ir gali sukelti klaidingus rezultatus.
+
+
+
+PAGRINDINIAI BŪTINI DUOMENYS
+
+
+
+Svarbiausias poreikis – paskelbti vieną integruotą pastatų duomenų rinkinį, kuriame viena eilutė atitiktų vieną konkretų NTR pastatą, arba suteikti patikimą jungtį tarp dabar skelbiamų erdvinių ir atributinių rinkinių.
+
+
+
+1. Bendras pastato identifikatorius
+
+
+
+Būtina pateikti bent vieną iš šių sprendimų:
+
+
+
+- atributiniame rinkinyje paskelbti tą patį pastato unikalų NTR numerį „unikalus_nr“, kuris pateikiamas erdviniame rinkinyje;
+
+- paskelbti atskirą susiejimo lentelę tarp „dirbt_id“ ir „unikalus_nr“;
+
+- pateikti kitą stabilų, dokumentuotą ir abiem rinkiniams bendrą objekto identifikatorių.
+
+
+
+Taip pat būtina nurodyti, ar „dirbt_id“ išlieka stabilus tarp skirtingų rinkinio atnaujinimų.
+
+
+
+2. Pagrindiniai pastato plotai
+
+
+
+Kiekvienam pastatui pirmiausia reikalingi šie plotai:
+
+
+
+- užstatytas plotas;
+
+- bendrasis plotas;
+
+- rūsio plotas;
+
+- pusrūsio plotas, jeigu jis registruojamas atskirai;
+
+- kitų požeminių patalpų ar požeminių aukštų plotas;
+
+- bendras visų požeminių patalpų plotas;
+
+- antžeminės pastato dalies bendrasis plotas arba duomenys, iš kurių jį galima vienareikšmiškai apskaičiuoti.
+
+
+
+Jeigu atskiras antžeminės dalies bendrasis plotas nėra tvarkomas, turi būti aiškiai nurodyta, ar jį galima apskaičiuoti pagal formulę:
+
+
+
+bendrasis plotas – bendras visų požeminių patalpų plotas.
+
+
+
+3. Plotų laukų reikšmių išaiškinimas
+
+
+
+Būtina pateikti aiškius laukų aprašymus:
+
+
+
+- ar „bendras_plotas“ apima rūsį, pusrūsį ir kitas požemines patalpas;
+
+- ar „rusiu_plotas“ apima tik rūsį, ar taip pat pusrūsį ir kitas požemines patalpas;
+
+- ar skirtingi požeminių plotų laukai tarpusavyje persidengia;
+
+- ar mansardos, techninės patalpos, garažai ir bendrojo naudojimo patalpos įtraukiamos į bendrąjį plotą;
+
+- kaip atskiriama nežinoma reikšmė, nulis ir objektui netaikomas laukas;
+
+- kokiais matavimo vienetais ir tikslumu pateikiami plotai.
+
+
+
+4. Aktuali pastato registrinė būsena
+
+
+
+Kiekvienam objektui būtina pateikti:
+
+
+
+- ar pastatas aktualiai įregistruotas;
+
+- registrinės būsenos kodą ir suprantamą pavadinimą;
+
+- registrinės būsenos nustatymo arba pakeitimo datą;
+
+- ar objektas išregistruotas, nugriautas, žuvęs, sunykęs, pakeistas arba performuotas;
+
+- objekto paskutinio atnaujinimo datą.
+
+
+
+Vien pastato nebuvimas naujesnėje erdvinių duomenų rinkinio versijoje neturėtų būti vienintelis būdas spręsti apie jo išregistravimą.
+
+
+
+5. Aktuali pastato geometrija
+
+
+
+Kiekvienam registriniam pastatui reikalinga:
+
+
+
+- aktuali pastato poligono geometrija;
+
+- unikalus NTR numeris, tiesiogiai susietas su ta geometrija;
+
+- geometrijos formavimo arba paskutinio koregavimo data.
+
+
+
+Vien pastato centro ar kitas apytikslis taškas nėra pakankamas, nes pagal jį negalima patikimai nustatyti pastato kontūro ir ryšio su žemės sklypu.
+
+
+
+6. Pagrindiniai identifikavimo ir klasifikavimo atributai
+
+
+
+Viename įraše taip pat būtina pateikti:
+
+
+
+- pastato adresą arba Adresų registro objekto identifikatorių;
+
+- žemės sklypo kadastro numerį arba kitą patikimą pastato ir sklypo ryšį;
+
+- objekto tipą;
+
+- pastato paskirtį;
+
+- statinio kategoriją;
+
+- antžeminių aukštų skaičių;
+
+- požeminių aukštų skaičių;
+
+- duomenų formavimo datą;
+
+- konkretaus objekto paskutinio pakeitimo datą.
+
+
+
+Jeigu laukas „aukstu_skaicius“ jau skelbiamas, būtina paaiškinti, ar į jį įtraukiami rūsiai, pusrūsiai, mansardos ir techniniai aukštai.
+
+
+
+MINIMALUS PAKANKAMAS REZULTATAS
+
+
+
+Jeigu visų prašomų duomenų pateikti iš karto negalima, pirmuoju etapu pakaktų:
+
+
+
+- paskelbti patikimą „dirbt_id“ ir „unikalus_nr“ susiejimą;
+
+- prie kiekvieno pastato pateikti aktualią poligono geometriją;
+
+- pateikti užstatytą, bendrąjį ir bendrą požeminį plotą;
+
+- aiškiai dokumentuoti, kas įtraukiama į bendrąjį ir požeminį plotą;
+
+- pateikti aktualią registrinę objekto būseną ir jos datą;
+
+- pateikti adresą, sklypo kadastro numerį, paskirtį ir aukštų skaičių.
+
+
+
+Šių duomenų pakaktų pagrindinėms objektų susiejimo ir plotų interpretavimo problemoms išspręsti.
+
+
+
+VĖLESNI PAPILDOMI DUOMENYS
+
+
+
+Vėlesniu etapu būtų naudinga papildomai pateikti:
+
+
+
+- naudingąjį plotą;
+
+- gyvenamąjį plotą;
+
+- verslo plotą;
+
+- pagalbinį ir pagalbinį nenaudingą plotą;
+
+- garažų plotą;
+
+- patalpų skaičių pagal paskirtį;
+
+- statybos pradžios ir užbaigimo metus;
+
+- rekonstravimo ir modernizavimo metus;
+
+- statinio baigtumo procentą;
+
+- energetinę klasę;
+
+- pagrindinių konstrukcijų medžiagas;
+
+- klasifikatorių kodus, jų pavadinimus ir taikytą klasifikatorių versiją.
+
+
+
+OBJEKTŲ PAKEITIMŲ ISTORIJA
+
+
+
+Papildomai būtų naudinga pateikti ryšius tarp objektų, kai pastatas:
+
+
+
+- išregistruojamas;
+
+- nugriaunamas, žūva ar sunyksta;
+
+- pakeičiamas nauju pastatu;
+
+- padalijamas, sujungiamas arba performuojamas;
+
+- gauna naują unikalų numerį.
+
+
+
+Tokiu atveju reikėtų pateikti ankstesnio ir naujo objekto unikaliuosius numerius, pakeitimo datą, pakeitimo tipą ir, jei galima, priežastį.
+
+
+
+DUOMENŲ ATNAUJINIMAS
+
+
+
+Erdviniai ir atributiniai rinkiniai turėtų būti formuojami tai pačiai atskaitos datai.
+
+
+
+Jeigu tai neįmanoma, kiekviename rinkinyje turi būti aiškiai pateikta:
+
+
+
+- viso rinkinio atskaitos data;
+
+- konkretaus objekto paskutinio pakeitimo data;
+
+- atnaujinimo periodiškumas;
+
+- informacija, ar išregistruoti objektai pašalinami, ar paliekami su atskira būsena.
+
+
+
+Pageidautina rinkinius atnaujinti sinchroniškai bent kas mėnesį arba skelbti nuo ankstesnės versijos pasikeitusių, naujai įregistruotų ir išregistruotų objektų pokyčių rinkinį.
+
+
+
+Savininkų, naudotojų, sandorių ar kitų asmens duomenų nereikia. Prašomi tik techniniai pastatų identifikavimo, registrinės būsenos, geometrijos, klasifikavimo ir plotų duomenys, reikalingi patikimam viešų NTR duomenų susiejimui ir kokybės patikrai.
+ 
+ 
+
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Prašymas dėl APVA finansavimo gavėjų duomenų rinkinio
+ 
+ 
+ 
+
+ 
+ 
+ Būsena:
+ Atmestas
+ 
+ 
+ 
+ 
+ 
+ Lietuvos Respublikos aplinkos ministerijos Aplinkos projektų valdymo agentūra
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ Registravimo data:
+ 2026-07-30
+ 
+ 
+ 
+ 
+ Atnaujinimo data:
+ 2026-08-06
+ 
+ 
+ 
+
+ 
+ 
+ Sveiki,
+
+
+
+Kreipiuosi dėl duomenų apie juridiniams asmenims skirtą finansavimą pagal APVA administruojamas priemones.
+
+
+
+APVA, atsakydama į mano užklausą, informavo, kad dėl individualaus duomenų atvėrimo poreikio turėčiau kreiptis į Valstybės duomenų agentūrą per šią sistemą.
+
+
+
+Mane domina šie duomenys:
+
+
+
+juridinio asmens pavadinimas;
+
+juridinio asmens kodas;
+
+projekto pavadinimas ir (arba) projekto kodas;
+
+finansavimo priemonė;
+
+sprendimo skirti finansavimą data;
+
+skirta finansavimo suma.
+
+
+
+APVA savo atsakyme nurodė, kad šie duomenys yra kaupiami APVIS sistemos duomenų bazėje, tačiau šiuo metu nėra paskelbti kaip atvirų duomenų rinkinys Lietuvos atvirų duomenų portale.
+
+
+
+Prašau įvertinti, ar yra galimybė šiuos duomenis paskelbti Lietuvos atvirų duomenų portale. Jeigu šis duomenų rinkinys negali būti paskelbtas kaip atviri duomenys, prašau informuoti, ar yra kita galimybė šiuos duomenis gauti individualaus prašymo pagrindu.
+ 
+ 
+
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ current data on economic activity sectors for companies have not published
+ 
+ 
+ 
+
+ 
+ 
+ Būsena:
+ Pateiktas
+ 
+ 
+ 
+ 
+ 
+ Valstybės duomenų agentūra
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ Registravimo data:
+ 2026-07-28
+ 
+ 
+ 
+ 
+ Atnaujinimo data:
+ 2026-07-28
+ 
+ 
+ 
+
+ 
+ 
+ Hello! When might the most current data on economic activity sectors for companies be published?
+ 
+ 
+
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Prieiga prie Valstybinio socialinio draudimo fondo duomenų mokslinių tyrimų tikslais
+ 
+ 
+ 
+
+ 
+ 
+ Būsena:
+ Pateiktas
+ 
+ 
+ 
+ 
+ 
+ Valstybės duomenų agentūra
+ 
+ 
+ , 
+ 
+ 
+ 
+ 
+ 
+ Valstybinio socialinio draudimo fondo valdyba prie Socialinės apsaugos ir darbo ministerijos
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ Registravimo data:
+ 2026-06-30
+ 
+ 
+ 
+ 
+ Atnaujinimo data:
+ 2026-07-13
+ 
+ 
+ 
+
+ 
+ 
+ Kreipiuosi norėdama pasiteirauti dėl prieigos prie Valstybinio socialinio draudimo fondo duomenų mokslinių tyrimų tikslais.
+
+
+
+Esu ekonomikos doktorantė ir norėčiau pasiteirauti, ar būtų galimybė gauti prieigą prie Sodros panelinių duomenų apie Lietuvos darbuotojus ir darbdavius (darbuotojų arba kitų privalomuoju draudimu apdraustų gyventojų mėnesiniai atlyginimai, amžius, užimamos pareigos, darbovietė, sutuoktinio ID, vaikų skaičius ir t.t.). Taip pat, ar būtų galimybė šiuos duomenis sukombinuoti su darbuotojo išsilavinimu, kadangi, mano žiniomis (kurios gali būti netikslios) ši informacija neregistruojama Sodroje.
+
+
+
+Savo doktorantūros tyrimuose planuoju nagrinėti darbo užmokesčio nelygybę Lietuvos darbo rinkoje, ypatingą dėmesį skiriant veiksniams, darantiems įtaką jaunų žmonių atlyginimų augimui - kiek jį lemia darbdavio charakteristikos ir vidaus darbo rinkos dinamika, o kiek paties darbuotojo sprendimai, tokie kaip emigracija, šeimos kūrimas ar darbo vietos pasirinkimas. Nors ši tema gana plačiai nagrinėjama kitų šalių kontekste, apie Lietuvą vis dar žinoma palyginti nedaug.
+ 
+ 
+
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Prašome suteikti prieigą prie VĮ Registrų centro Juridinių asmenų registro duomenų per Atvirų duomenų saugyklos API (get.data.gov.lt).
+ 
+ 
+ 
+
+ 
+ 
+ Būsena:
+ Pateiktas
+ 
+ 
+ 
+ 
+ 
+ Valstybės įmonė Registrų centras
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ Registravimo data:
+ 2026-06-25
+ 
+ 
+ 
+ 
+ Atnaujinimo data:
+ 2026-06-25
+ 
+ 
+ 
+
+ 
+ 
+ Reikalinga duomenų erdvė / namespace:
+
+
+
+datasets/gov/rc/jar/n17_isplestinis_israsas_aktualus_duomenys
+
+
+
+(jei dalis laukų prieinama atvirame datasets/gov/rc/jar/iregistruoti modelyje — prieiga prie jo taip pat tiktų)
+
+Pageidaujami laukai (tik juridinių asmenų duomenys, ne fizinių asmenų):
+
+
+
+Juridinio asmens kodas
+
+Pavadinimas
+
+Teisinė forma
+
+Teisinis statusas (veikiantis / likviduojamas / išregistruotas ir pan.)
+
+Registracijos (buveinės) adresas — pageidautina struktūrizuotas, su atskirtais laukais (savivaldybė, seniūnija, gyvenvietė, gatvė, namo Nr., pašto kodas), nes atvirų duomenų faile adresas pateikiamas viena nestruktūrizuota eilute be skiriamųjų kablelių, kas apsunkina automatinį naudojimą.
+
+
+
+Naudojimo tikslas:
+
+
+
+Įmonės vidinėje ERP sistemoje automatiškai užpildyti ir periodiškai atnaujinti klientų rekvizitus (pavadinimą, įmonės kodą, registracijos adresą, statusą) sąskaitų ir sutarčių rengimui. Šiuo metu šie duomenys vedami ir tikrinami rankiniu būdu; siekiame pereiti prie oficialaus, automatizuoto ir patikimo šaltinio, vietoje duomenų rinkimo iš trečiųjų šalių svetainių.
+
+Reikalingi prieigos leidimai (tik skaitymas / read-only):
+
+
+
+getone, getall, search, changes — periodinei pakeitimų sinchronizacijai.
+
+Sinchronizacijos periodiškumas:
+
+
+
+Pagal rinkinio nurodytą atnaujinimo dažnumą (planuojame naudoti :changes keitimų žurnalą inkrementiniam atnaujinimui).
+
+Pareiškėjas:
+
+
+
+Optimalūs Projektai, UAB — į.k. 135647062 — Domantas Vaičiulis — domantas@tsm.lt — +37062804609
+ 
+ 
+
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Įmonių rekvizitų API
+ 
+ 
+ 
+
+ 
+ 
+ Būsena:
+ Pateiktas
+ 
+ 
+ 
+ 
+ 
+ Valstybės įmonė Registrų centras
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ Registravimo data:
+ 2026-06-19
+ 
+ 
+ 
+ 
+ Atnaujinimo data:
+ 2026-06-30
+ 
+ 
+ 
+
+ 
+ 
+ Prašome sudaryti galimybę per Lietuvos atvirų duomenų portalą gauti struktūrizuotus, reguliariai atnaujinamus juridinių asmenų rekvizitų duomenis, tinkamus automatizuotai integracijai su verslo valdymo / ERP sistemomis.
+
+
+
+Mūsų organizacijoje ERP sistema naudojama klientų, tiekėjų ir kitų juridinių asmenų apskaitai, sutarčių administravimui, sąskaitų išrašymui, pirkimų, pardavimų ir atitikties procesams. Šiuo metu juridinių asmenų rekvizitai dažnai turi būti tikrinami ir atnaujinami rankiniu būdu arba naudojant necentralizuotus šaltinius, todėl didėja administracinė našta, klaidų tikimybė ir duomenų neatitikimų rizika.
+
+
+
+Prašomi duomenys:
+
+
+
+Juridinio asmens kodas; juridinio asmens pavadinimas; teisinė forma; teisinis statusas; registracijos data; išregistravimo data, jei taikoma; buveinės adresas; savivaldybė; veiklos apribojimo, likvidavimo, bankroto ar reorganizavimo požymiai, jei tokie duomenys gali būti teikiami kaip atviri duomenys; duomenų paskutinio atnaujinimo data.
+
+
+
+Poreikio tikslas:
+
+
+
+Automatizuoti juridinių asmenų rekvizitų patikrą ir atnaujinimą ERP sistemoje; mažinti rankinį duomenų įvedimą; užtikrinti, kad apskaitos, sutarčių ir sąskaitų išrašymo procesuose būtų naudojami aktualūs juridinių asmenų duomenys; gerinti duomenų kokybę ir sumažinti klaidų tikimybę; sudaryti sąlygas verslui naudoti vieningą, patikimą ir oficialų duomenų šaltinį.
+
+
+
+Pageidaujamas duomenų pateikimo būdas:
+
+
+
+Pageidautina, kad duomenys būtų prieinami per API, taip pat CSV / JSON formatais. Aktualu, kad duomenų struktūra būtų stabili, turėtų aiškius laukų aprašymus, atnaujinimo datą ir būtų palaikomas reguliarus atnaujinimas, geriausia kasdien arba kitu aiškiai nurodytu periodiškumu. ERP integracijai svarbi galimybė filtruoti arba ieškoti pagal juridinio asmens kodą ir gauti tik pasikeitusius įrašus nuo konkrečios datos.
+
+
+
+Nauda:
+
+
+
+Tokio duomenų rinkinio prieinamumas suteiktų praktinę naudą verslui, viešajam sektoriui ir IT paslaugų teikėjams. Tai padėtų sumažinti administracinę naštą, pagerintų juridinių asmenų duomenų kokybę informacinėse sistemose ir paskatintų oficialių atvirų duomenų naudojimą verslo procesuose. Centralizuota ir technologiškai patogi prieiga taip pat sumažintų poreikį naudoti neoficialius ar komercinius tarpininkų šaltinius baziniams juridinių asmenų rekvizitams gauti.
+
+
+
+Prašome įvertinti galimybę atverti arba papildyti esamus juridinių asmenų duomenų rinkinius taip, kad jie būtų tinkami automatizuotam naudojimui ERP sistemose, įskaitant API prieigą, aiškią duomenų schemą ir reguliarų atnaujinimą.
+ 
+ 
+
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ OPEN DATA ACCESS
+ 
+ 
+ 
+
+ 
+ 
+ Būsena:
+ Pateiktas
+ 
+ 
+ 
+ 
+ 
+ Akcinė bendrovė „REGITRA“
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ Registravimo data:
+ 2026-05-31
+ 
+ 
+ 
+ 
+ Atnaujinimo data:
+ 2026-05-31
+ 
+ 
+ 
+
+ 
+ 
+ Dear Sir or Madam,
+
+
+
+On behalf of ARB Technology and Trade Consulting OÜ (registered in Estonia, req code: 14960471), I request access to the Open Data Warehouse API and the issuance of an API key/token.
+
+
+
+We are building an AI-based B2B platform that helps non-EU exporters find business partners and customers inside EU, to increase legitimate import/export trade. The open data is essential to this service.
+
+
+
+Could you advise how a foreign entity can register for the Data Warehouse and obtain an API token?
+
+
+
+We will comply with the Data Warehouse terms and the GDPR.
+
+
+
+Kind regards,
+
+
+
+ALI RIZA BABAOGLAN
+
+
+
+ARB Technology and Trade Consulting OÜ (Estonia), reg. no. 14960471
+ 
+ 
+
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Prieiga prie Juridinių asmenų registro išplėstinio išrašo per Saugyklos API
+ 
+ 
+ 
+
+ 
+ 
+ Būsena:
+ Pateiktas
+ 
+ 
+ 
+ 
+ 
+ Valstybės įmonė Registrų centras
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ Registravimo data:
+ 2026-05-27
+ 
+ 
+ 
+ 
+ Atnaujinimo data:
+ 2026-06-30
+ 
+ 
+ 
+
+ 
+ 
+ Prašau suteikti prieigą prie Valstybės įmonės Registrų centro Juridinių asmenų registro duomenų rinkinio:
+
+
+
+JA išplėstinis išrašas (aktualūs duomenys), XML formatu
+
+https://data.gov.lt/datasets/4034/
+
+
+
+Reikalinga prieiga prie Saugyklos API / duomenų erdvės:
+
+datasets/gov/rc/jar/n17_isplestinis_israsas_aktualus_duomenys
+
+
+
+Naudojimo tikslas:
+
+Analitinis projektas, kuriuo kuriama struktūrizuota Europos juridinių asmenų duomenų bazė. Reikalingi tik juridinių asmenų duomenys, ne fizinių asmenų duomenys.
+
+
+
+Pageidaujami duomenys:
+
+LegalEntity, LegalEntityName, LegalEntityStatus, LegalEntityAddress, LegalEntityAddressRegistration, LegalEntityActivity, LegalEntityIdentifier, Branch, LegalEntityType.
+
+
+
+Pageidaujamas formatas:
+ 
+ 
+
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Periodiskumo islaikymas.
+ 
+ 
+ 
+
+ 
+ 
+ Būsena:
+ Pateiktas
+ 
+ 
+ 
+ 
+ 
+ Valstybės duomenų agentūra
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ Registravimo data:
+ 2026-05-27
+ 
+ 
+ 
+ 
+ Atnaujinimo data:
+ 2026-05-27
+ 
+ 
+ 
+
+ 
+ 
+ sveiki - gal jau galima suformuoti sumoketus mokescius 2026-04 men
+ 
+ 
+
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Iš VLK sistemų į Visuomenės sveikatos saugos informacinę sistemą teikiamų duomenų papildymas
+ 
+ 
+ 
+
+ 
+ 
+ Būsena:
+ Pateiktas
+ 
+ 
+ 
+ 
+ 
+ Valstybės duomenų agentūra
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ Registravimo data:
+ 2026-05-20
+ 
+ 
+ 
+ 
+ Atnaujinimo data:
+ 2026-05-20
+ 
+ 
+ 
+
+ 
+ 
+ Reikalinga gauti iš atvirojo duomenų portalo VLK teikiamų sistemų duomenys apie pirminės sveikatos priežiūros įstaigos, filialo, kuriam pateikiami duomenys, SVEIDRA ID ir adresų registro adreso unikalus identifikatorius (AOB kodas).
+ 
+ 
+
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Patikrinti vežėjo turimą licenciją
+ 
+ 
+ 
+
+ 
+ 
+ Būsena:
+ Pateiktas
+ 
+ 
+ 
+ 
+ 
+ Lietuvos transporto saugos administracija
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ Registravimo data:
+ 2026-05-13
+ 
+ 
+ 
+ 
+ Atnaujinimo data:
+ 2026-07-17
+ 
+ 
+ 
+
+ 
+ 
+ Patikrinti vežėjo turimą licenciją
+ 
+ 
+
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Duomenų masyvas &quot;Apdraustųjų pajamų analizė&quot;
+ 
+ 
+ 
+
+ 
+ 
+ Būsena:
+ Pateiktas
+ 
+ 
+ 
+ 
+ 
+ Valstybinio socialinio draudimo fondo valdyba prie Socialinės apsaugos ir darbo ministerijos
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ Registravimo data:
+ 2026-05-06
+ 
+ 
+ 
+ 
+ Atnaujinimo data:
+ 2026-06-30
+ 
+ 
+ 
+
+ 
+ 
+ LR aplinkos ministerijos užsakymu Smart Continent Management Institute rengia Būsto prieinamumo didinimo galimybių Lietuvoje vertinimą. Prieinamumo vertinimui reikalingos medianinių gyventojų pajamų savivaldybių lygiu vertės. Lietuvos atvirų duomenų portale viešinamas duomenų masyvas (https://data.gov.lt/datasets/1510/versions/861/resource/9420) turi reikiamas vertes apskaičiuoti medianinėms pajamoms, tačiau ten pateikiamos tik 2026 m. vertės. Siekiant palyginti medianinių pajamų rodiklį su kitais, ar sudaryti išvestinius rodiklius, reikalingos 2024 ir 2025 m. vertės. Tokių duomenų portale neradau, todėl norėtume gauti tokio pačio pobūdžio duomenų masyvus, kaip įkeltoje nuorodoje, tik su 2024 m. ir 2025 m. reikšmėmis.
+ 
+ 
+
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Atviras LR teisės aktų Git archyvas (TAR rinkinio Nr. 2613 panaudojimas)
+ 
+ 
+ 
+
+ 
+ 
+ Būsena:
+ Pateiktas
+ 
+ 
+ 
+ 
+ 
+ Valstybės įmonė Registrų centras
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ Registravimo data:
+ 2026-04-22
+ 
+ 
+ 
+ 
+ Atnaujinimo data:
+ 2026-06-30
+ 
+ 
+ 
+
+ 
+ 
+ Kuriamas nekomercinis atviro kodo projektas, kuris Teisės aktų registro duomenis (rinkinys Nr. 2613) saugo kaip Markdown failus Git versijų kontrolės sistemoje (GitHub). Tikslas — suteikti visuomenei funkcionalumą, kurio neturi oficialus e-tar.lt portalas:
+
+
+
+ matyti kiekvieno akto redakcijų istoriją kaip atskirų Git įrašų (commit) seką;
+
+ palyginti dviejų datų redakcijas vienu git diff veiksmu;
+
+ ieškoti teksto visuose aktuose vienu git grep;
+
+ atsisiųsti visą korpusą vienu git clone ir analizuoti savo įrankiais.
+
+
+
+ Tikslinė auditorija: teisininkai, advokatai, žurnalistai, mokslininkai, pilietinės technologijos bendruomenė.
+ 
+ 
+
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Reikšmių paaiškinimas
+ 
+ 
+ 
+
+ 
+ 
+ Būsena:
+ Pateiktas
+ 
+ 
+ 
+ 
+ 
+ Higienos institutas
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ Registravimo data:
+ 2026-04-15
+ 
+ 
+ 
+ 
+ Atnaujinimo data:
+ 2026-04-15
+ 
+ 
+ 
+
+ 
+ 
+ Duomenys turi reikšmes null, 1, 2 ir 3. Reikšmių sąraše aprašoma tik 1=Taip, 2=Ne. Kokios yra Null ir 3 reikšmės ?
+ 
+ 
+
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Duomenų poreikis: Vilniaus butų sandorių kainos (Registrų centras)
+ 
+ 
+ 
+
+ 
+ 
+ Būsena:
+ Pateiktas
+ 
+ 
+ 
+ 
+ 
+ Valstybės įmonė Registrų centras
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ Registravimo data:
+ 2026-03-31
+ 
+ 
+ 
+ 
+ Atnaujinimo data:
+ 2026-03-31
+ 
+ 
+ 
+
+ 
+ 
+ Laba diena,
+
+
+
+Norėčiau pateikti poreikį atverti nekilnojamojo turto sandorių kainų
+
+duomenis iš VĮ Registrų centro Nekilnojamojo turto registro.
+
+
+
+Kontekstas:
+
+Kuriu atvirąjį mašininio mokymosi modelį Vilniaus butų kainų
+
+prognozavimui. Šiuo metu modelis treniruojamas tik iš skelbimų duomenų
+
+(prašomų kainų), tačiau tikrosios sandorių kainos žymiai pagerintu
+
+modelio tikslumą ir naudą visuomenei — padidintų NT rinkos skaidrumą.
+
+
+
+Prašomi duomenys:
+
+- Šaltinis: VĮ Registrų centras, Nekilnojamojo turto registras
+
+- Objektas: gyvenamųjų patalpų (butų) pirkimo-pardavimo sandoriai
+
+- Geografija: Vilniaus miestas
+
+- Laikotarpis: 2020–2025 m.
+
+- Laukai: sandorio data, adresas (bent savivaldybė/seniūnija), plotas
+
+m², kambarių skaičius, sandorio kaina EUR, pastato tipas, statybos
+
+metai, energinio naudingumo klasė (jei turima) ir kitos specifikacijos
+
+apie nekilnojama turta.
+
+
+
+Pastaba:
+
+Panašų poreikį jau yra pateikę Lietuvos turto vertintojų asociacijos
+
+(žr. data.gov.lt). Šis prašymas papildo tą poreikį iš individualaus
+
+tyrėjo/kūrėjo perspektyvos.
+
+
+
+Tokie duomenys būtų naudingi:
+
+- NT rinkos skaidrumo didinimui
+
+- Nepriklausomam kainų vertinimui (alternatyva komerciniams įrankiams)
+
+- Akademiniams / moksliniams tyrimams
+
+
+
+Ar galėtumėte informuoti apie šio poreikio registravimo eigą ir galimybes?
+
+
+
+Ačiū,
+
+Matas Jonaitis
+
+matasjon33@gmail.com
+ 
+ 
+
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Vykdome atvirų duomenų produktų sukūrimo projektą
+ 
+ 
+ 
+
+ 
+ 
+ Būsena:
+ Pateiktas
+ 
+ 
+ 
+ 
+ 
+ Valstybės įmonė Registrų centras
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ Registravimo data:
+ 2026-03-24
+ 
+ 
+ 
+ 
+ Atnaujinimo data:
+ 2026-03-30
+ 
+ 
+ 
+
+ 
+ 
+ Sveiki, 
+
+
+
+šiuo metu vykdome projektą pagal priemonę 02-045-K ATVIRŲJŲ DUOMENŲ PANAUDOJIMAS. Mūsų kuriamam produktui labai reikėtų pridėti &quot;NT verčių zonos, vertės ir apleistos žemės&quot; duomenis. Nuoroda: https://data.gov.lt/requests/49/#info
+
+
+
+Kaip galėtume gauti šiuos duomenis? Labai laukčiau Jūsų atsakymo...
+
+
+
+Pagarbiai,
+
+Giedrius
+ 
+ 
+
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Prašome skubiai paaiškinti kodėl esminiai pasikeitė duomenys?
+ 
+ 
+ 
+
+ 
+ 
+ Būsena:
+ Vertinamas
+ 
+ 
+ 
+ 
+ 
+ Valstybinė mokesčių inspekcija prie Finansų ministerijos
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ Registravimo data:
+ 2026-03-18
+ 
+ 
+ 
+ 
+ Atnaujinimo data:
+ 2026-03-18
+ 
+ 
+ 
+
+ 
+ 
+ Duomenis importuojame kasdien ir naudojam juos įmonių vertinimui. Bet akivaizdu, kad pastarąją savaitę kažkas duomenų teikime esminiai pasikeitė. Standartinis pokytis faile per dieną būdavo pora tūkstančių įrašų ir keliasdešimt milijonų skirtumas bendrose sumose. Pvz.
+
+03. 09 34423 342 605 343.65
+
+03. 10 32670 310 168 913.59
+
+Tuo tarpu 03 13 iš failo dingo ~6000įmonių ir suma sumažėjo daugiau nei per pusę
+
+03. 13 26348 128 434 739.53
+
+O 03 14 failas sumažėjo dar ~6000 įrašų ir bendra suma teliko 8 mln., kai seniau ji gana reguliariai svyravo kažkur tarp 280 mln. ir 350 mln.
+
+03. 14 20408 7 917 872.77
+
+Ar čia klaidos, ar galite tuos pokyčius kažkaip paaiškinti? Jeigu tai klaidos, prašome kuo greičiau ištaisyti ir teikti tik tikslius duomenis apie įmones, nes netikslūs duomenys gali turėti esminės įtakos įmonių kreditingumo nustatymui su visomis iš to plaukiančiomis pasekmėmis..
+ 
+ 
+
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Duomenų poreikis tvarios reklamos gamybos ir atliekų tvarkymo analizei (MB Cropmarks)
+ 
+ 
+ 
+
+ 
+ 
+ Būsena:
+ Įvertintas
+ 
+ 
+ 
+ 
+ 
+ Aplinkos apsaugos agentūra
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ Registravimo data:
+ 2026-03-16
+ 
+ 
+ 
+ 
+ Atnaujinimo data:
+ 2026-03-24
+ 
+ 
+ 
+
+ 
+ 
+ MB „Cropmarks“ (https://www.cropmarks.lt) vykdo veiklą vizualinės reklamos gamybos srityje (specializacija: lipnios etiketės, parodų stendai, nuorodų sistemos). Siekiant diegti tvarius gamybos sprendimus ir optimizuoti žaliavų naudojimą, mums reikalingi susisteminti atviri duomenys apie reklamos gamyboje naudojamų specifinių medžiagų (plastiko, PVC, kompozito) antrinį perdirbimą ir šių atliekų tvarkymo statistiką Lietuvoje. Šie duomenys yra būtini įmonės plėtros strategijai, žiedinės ekonomikos principų diegimui ir poveikio aplinkai vertinimui.
+ 
+ 
+
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Vizualinės reklamos gamybos medžiagų tendencijų apžvalga (2025–2026 m.)
+ 
+ 
+ 
+
+ 
+ 
+ Būsena:
+ Pateiktas
+ 
+ 
+ 
+
+ 
+ 
+ 
+ Registravimo data:
+ 2026-03-15
+ 
+ 
+ 
+ 
+ Atnaujinimo data:
+ 2026-03-30
+ 
+ 
+ 
+
+ 
+ 
+ Šiame duomenų rinkinyje pateikiama statistika apie vizualinės reklamos gamyboje naudojamas medžiagas (PVC tentus, lipdukus, aliuminio kompozitą) ir jų populiarumo pokyčius Lietuvoje. Duomenų šaltinis ir informacija apie gamybos technologijas bei medžiagų specifikacijas: https://www.cropmarks.lt
+ 
+ 
+
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Periodiskumo islaikymas
+ 
+ 
+ 
+
+ 
+ 
+ Būsena:
+ Įvykdytas
+ 
+ 
+ 
+ 
+ 
+ Valstybinė mokesčių inspekcija prie Finansų ministerijos
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ Registravimo data:
+ 2026-03-03
+ 
+ 
+ 
+ 
+ Atnaujinimo data:
+ 2026-03-18
+ 
+ 
+ 
+
+ 
+ 
+ Sveiki, labai laukiame 2026 sausio duomenu /jau kovas - ne paukštis/
+ 
+ 
+
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+
+ 
+ 
+ 
+
+ 
+ 
+ Puslapis 1 iš 21.
+ 
+ 
+
+ 
+ Pirmyn 
+ Paskutinis &raquo; 
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ VSSA Valstybės skaitmeninių sprendimų agentūra, Konstitucijos pr. 15-89, Vilnius 
+ 
+ el. p. atviriduomenys@vssa.lt 
+ 
+ 
+ Užsiprenumeruokite mūsų naujienlaiškį 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Užsakyti
+ 
+ 
+ 
+ 
+ Susisiekite su mumis:: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+ 
+
+ 
+
+
+ 
+ 

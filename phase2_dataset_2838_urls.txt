@@ -1,0 +1,12 @@
+https://cdn.jsdelivr.net/npm/chart.js@4.3.0/dist/chart.umd.min.js
+https://creativecommons.org/licenses/by/4.0/deed.lt
+https://duomenys.stat.gov.lt/sveikatos-duomenys/
+https://schema.org/
+https://twitter.com/share?text=Pastat%C5%B3%20erdviniai%20duomenys&url=https://data.gov.lt/datasets/2838/
+https://vssa.lrv.lt/lt/
+https://www.facebook.com/VSSAgentura/
+https://www.facebook.com/sharer/sharer.php?u=https://data.gov.lt/datasets/2838/
+https://www.googletagmanager.com/gtag/js?id=G-L13MZ6XWWP
+https://www.linkedin.com/sharing/share-offsite/?title=Pastat%C5%B3%20erdviniai%20duomenys&url=https://data.gov.lt/datasets/2838/
+https://www.registrucentras.lt/
+https://www.registrucentras.lt/

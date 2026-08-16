@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><xsd:schema xmlns:bu="https://inspire.ec.europa.eu/schemas/bu-core2d/4.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:wfs="http://www.opengis.net/wfs/2.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="https://inspire.ec.europa.eu/schemas/bu-core2d/4.0">
+  <xsd:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="https://www.inspire-geoportal.lt/geoserver/schemas/gml/3.2.1/gml.xsd"/>
+  <xsd:complexType name="BU.Building_polygonType">
+    <xsd:complexContent>
+      <xsd:extension base="gml:AbstractFeatureType">
+        <xsd:sequence>
+          <xsd:element maxOccurs="1" minOccurs="1" name="ogc_fid" nillable="false" type="xsd:int"/>
+          <xsd:element maxOccurs="1" minOccurs="1" name="gml_id" nillable="false" type="xsd:string"/>
+          <xsd:element maxOccurs="1" minOccurs="0" name="beginlifespanversion" nillable="true" type="xsd:dateTime"/>
+          <xsd:element maxOccurs="1" minOccurs="0" name="localid" nillable="true" type="xsd:string"/>
+          <xsd:element maxOccurs="1" minOccurs="0" name="namespace" nillable="true" type="xsd:string"/>
+          <xsd:element maxOccurs="1" minOccurs="0" name="versionid" nillable="true" type="xsd:date"/>
+          <xsd:element maxOccurs="1" minOccurs="0" name="currentuse_title" nillable="true" type="xsd:string"/>
+          <xsd:element maxOccurs="1" minOccurs="0" name="currentuse_href" nillable="true" type="xsd:string"/>
+          <xsd:element maxOccurs="1" minOccurs="0" name="percentage" nillable="true" type="xsd:string"/>
+          <xsd:element maxOccurs="1" minOccurs="0" name="referencegeometry" nillable="true" type="xsd:boolean"/>
+          <xsd:element maxOccurs="1" minOccurs="0" name="horizontalgeometryreference_title" nillable="true" type="xsd:string"/>
+          <xsd:element maxOccurs="1" minOccurs="0" name="horizontalgeometryreference_href" nillable="true" type="xsd:string"/>
+          <xsd:element maxOccurs="1" minOccurs="0" name="numberofdwellings" nillable="true" type="xsd:int"/>
+          <xsd:element maxOccurs="1" minOccurs="0" name="conditionofconstruction_href" nillable="true" type="xsd:string"/>
+          <xsd:element maxOccurs="1" minOccurs="0" name="geometry" nillable="true" type="gml:MultiSurfacePropertyType"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  <xsd:element name="BU.Building_polygon" substitutionGroup="gml:AbstractFeature" type="bu:BU.Building_polygonType"/>
+</xsd:schema>

@@ -1,0 +1,122 @@
+t">
+        
+        <span class="icon">
+          <i class="fas fa-chart-bar fa-lg"></i>
+        </span>
+        
+        <span class="has-text-weight-bold" id="filter_title">
+          Prieigos teisės
+        </span>
+      </span>
+    </p>
+  
+  </a>
+    
+  
+
+  
+      <div class="columns is-gapless m-0 mt-1 ">
+      <div class="column is-10">
+            <a href="?selected_facets=organization_exact%3A9&amp;selected_facets=access_rights_exact%3APUBLIC&amp;q=pastat%C5%B3+erdviniai"
+               class="category-panel-block
+                
+                has-text-dark
+                "
+               id="PUBLIC_id"
+               title="PUBLIC"
+               aria-label="PUBLIC">
+                  <div class="columns is-gapless is-vcentered m-0">
+                  <div class="column is-1">
+                      
+                      <span class="icon">
+                        <i class="far fa-square"></i>
+                      </span>
+                      
+                  </div>
+                  <div class="column is-11">
+                      
+                      Vieši
+                    
+                  </div>
+                  </div>
+              </a>
+      </div>
+      <div class="column is-2 has-text-right">
+        <span class="is-size-6">(1)</span>
+      </div>
+      </div>
+  
+    
+</nav>
+
+<nav class="category-panel mb-5" id="filter_id">
+  
+    <a href="/datasets/stats/tag/?selected_facets=organization_exact%3A9&amp;q=pastat%C5%B3+erdviniai
+             "
+       id="dataset-tags-stats"
+    >
+  
+    <p class="tags-panel-heading">
+        <span class="icon-text">
+        
+        <span class="icon">
+          <i class="fas fa-chart-bar fa-lg"></i>
+        </span>
+        
+        <span class="has-text-weight-bold" id="filter_title">
+          Žymė
+        </span>
+      </span>
+    </p>
+  
+  </a>
+    
+        <input
+            class="input"
+            id="tags-filter-input"
+            placeholder="Rezultatai ribojami, įveskite 3 simbolius..."
+            title="Rezultatai ribojami, įveskite 3 simbolius"
+            aria-labelledby="filter_title">
+        
+          <div class ="tag_filter_items_body">
+  
+  
+</div>
+        
+    
+  
+
+  
+      <div class="columns is-gapless m-0 mt-1 ">
+      <div class="column is-10">
+            <a href="?selected_facets=organization_exact%3A9&amp;selected_facets=tags_exact%3A1131&amp;q=pastat%C5%B3+erdviniai"
+               class="category-panel-block
+                
+                has-text-dark
+                "
+               id="1131_id"
+               title="1131"
+               aria-label="1131">
+                  <div class="columns is-gapless is-vcentered m-0">
+                  <div class="column is-1">
+                      
+                      <span class="icon">
+                        <i class="far fa-square"></i>
+                      </span>
+                      
+                  </div>
+                  <div class="column is-11">
+                      
+                      Pastatai
+                    
+                  </div>
+                  </div>
+              </a>
+      </div>
+      <div class="column is-2 has-text-right">
+        <span class="is-size-6">(1)</span>
+      </div>
+      </div>
+  
+      <div class="columns is-gapless m-0 mt-1 ">
+      <div class="co

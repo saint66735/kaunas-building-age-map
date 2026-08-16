@@ -1,0 +1,80 @@
+        
+            </span></td>
+            <td class="has-fixed-width-130">
+                <a href="/datasets/2838/resource/16042" class="has-text-info-dark">
+                
+                    Kauno miesto savivaldybė
+                
+                </a>
+            </td>
+            <td>
+                
+                    -
+                
+            </td>
+            <td class="has-text-centered">
+                URL
+            </td>
+            <td>2024-11-18</td>
+            
+                <td>2025-12-18</td>
+            
+
+            
+                <td>
+                    <a class="button is-primary is-small is-pulled-right"
+                       href="/datasets/2838/distribution/16042/download/"
+                       target="_blank">Atidaryti</a>
+                </td>
+            
+
+            
+        </tr>
+    
+        <tr>
+            <td><span class="icon icon-is-small">
+                
+                    <i class="fas fa-lg fa-file-export"></i>
+                
+            </span></td>
+            <td class="has-fixed-width-130">
+                <a href="/datasets/2838/resource/16044" class="has-text-info-dark">
+                
+                    Kauno rajono savivaldybė
+                
+                </a>
+            </td>
+            <td>
+                
+                    -
+                
+            </td>
+            <td class="has-text-centered">
+                URL
+            </td>
+            <td>2024-11-18</td>
+            
+                <td>2025-12-18</td>
+            
+
+            
+                <td>
+                    <a class="button is-primary is-small is-pulled-right"
+                       href="/datasets/2838/distribution/16044/download/"
+                       target="_blank">Atidaryti</a>
+                </td>
+            
+
+            
+        </tr>
+    
+        <tr>
+            <td><span class="icon icon-is-small">
+                
+                    <i class="fas fa-lg fa-file-export"></i>
+                
+            </span></td>
+            <td class="has-fixed-width-130">
+                <a href="/datasets/2838/resource/16045" class="has-text-info-dark">
+                
+                    

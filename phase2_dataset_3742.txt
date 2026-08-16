@@ -1,0 +1,135 @@
+
+ Lietuvos atvirų duomenų portalas| Rengiamų teritorijų planavimo dokumentų sprendiniai (ArcGIS peržiūros paslauga) 
+ data.gov.lt 
+ Į pagrindinį turinį
+ Duomenų ištekliai 
+ Poreikiai ir pasiūlymai 
+ Pagalba atvėrėjams 
+ Atvirų duomenų saugykla 
+ Duomenų atvėrimo vadovas 
+ Duomenų struktūros aprašas 
+ Įrankiai duomenų atvėrimui 
+ Mokymo medžiaga 
+ Dažnai užduodami klausimai 
+ Koordinatoriaus ir tvarkytojo registravimas 
+ Duomenų atvėrimo principai 
+ Daugiau 
+ Reglamentacija 
+ Panaudojimo atvejai 
+ Nuorodos 
+ Apie 
+ Kontaktai 
+ Kiti AD portalai 
+ SPARQL paieška 
+ API 
+ Programinės įrangos atnaujinimai 
+ Naujienos 
+ Sveikatos duomenys 
+ Prisijungti 
+ LT
+ LT
+ EN
+ Pradžia 
+ Viešoji įstaiga Statybos sektoriaus vystymo agentūra 
+ Rengiamų teritorijų planavimo dokumentų sprendiniai (ArcGIS peržiūros paslauga) 
+ Rengiamų teritorijų planavimo dokumentų sprendiniai (ArcGIS peržiūros paslauga) 
+ Duomenų paslauga 
+ Duomenų skelbėjas: 
+ Viešoji įstaiga Statybos sektoriaus vystymo agentūra 
+ Informacinė sistema: 
+ Lietuvos erdvinės informacijos portalas 
+ Informacija
+ Ištekliai
+ Struktūra
+ Panaudojimo atvejai
+ Planas
+ Tvarkytojai
+ Istorija
+ Poreikiai
+ Duomenų ištekliaus peržiūros:
+ 36 
+ Atsisiųsti 
+ RDF 
+ Rengiamų teritorijų planavimo dokumentų sprendinių erdviniai duomenys vaizduojami grupuojant sluoksnius pagal planavimo porūšį. Duomenų struktūrą reglamentuoja teritorijų planavimo erdvinių duomenų specifikacija (Nr. D1-1009) Duomenys naujinami realiu laiku. 
+ apskrities teritorijos bendrasis (generalinis) planas 
+ area management/restriction/regulation zones and reporting units 
+ aukštybinių pastatų išdėstymo planai 
+ Bendrasis Planas 
+ bendrieji planai 
+ bendri_objektai-ntk-tpdr 
+ bendri_objektai-tpdr-kvr 
+ bendri_objektai-tpdr-mvk 
+ bendri_objektai-tpdr-ntk 
+ bendri_objektai-tpdr-rc_adresai 
+ bendri_objektai-tpdr-stk 
+ bendri_objektai-tpdr-uetk 
+ data for surveyors and land managers 
+ duomenys matininkams ir žemėtvarkininkams 
+ infomapaccessservice 
+ kaimo plėtros žemėtvarkos projektai 
+ kraštovaizdžio tvarkymo planai 
+ miškų tvarkymo schemos 
+ Ribos 
+ savivaldybės planas 
+ spatial planning data 
+ specialusis planas 
+ teritorijų planavimas 
+ teritorijų planavimo duomenys 
+ Tpd 
+ Tpdris 
+ turizmo ir rekreacijos schemos ir planai 
+ valstybės teritorijos bendrasis (generalinis) planas 
+ vandentvarkos schemos ir planai 
+ žemės gelmių naudojimo planai 
+ žemėtvarkos schemos 
+ Patinka
+ 0
+ Brandos lygis
+ - 
+ Atnaujinama
+ Nuolat atnaujinama
+ Kategorijos
+ Būsena
+ Atvertas
+ Duomenų išteklius viešinamas
+ Taip
+ Prieigos teisės 
+ Vieši 
+ Katalogas
+ API adresas
+ https://www.geoportal.lt/mapproxy/rest/services/v… 
+ API formatas
+ JSON 
+ API specifikacija
+ API specifikacijos formatas
+ Atitinka
+ Peržiūrėti papildomą informaciją + 
+ Duomenų ištekliaus sukūrimo data
+ 2025-03-04 13:48 
+ Paskutinio atnaujinimo data
+ 2026-08-09 02:01 
+ Teisės - Aprašymas
+ Duomenų skelbėjas
+ Viešoji įstaiga Statybos sektoriaus vystymo agentūra 
+ datasets/gov/ssva/
+ https://ssva.lt
+ agentura@ssva.lt
+ +370-700-15100
+ Dalintis socialiniuose tinkluose 
+ Prenumeruoja: 0 
+ Priklauso duomenų katalogui 
+ Duomenų rinkinys 
+ Lietuvos erdvinės informacijos portalas 
+ Lietuvos erdvinės informacijos portalas 
+ Priskirtos organizacijos 
+ Priskyrimo rūšis 
+ Organizacija 
+ Duomenų rengėjas 
+ Viešoji įstaiga Statybos sektoriaus vystymo agentūra 
+ Komentarai 
+ Komentuoti gali tik prisijungę naudotojai 
+ VSSA Valstybės skaitmeninių sprendimų agentūra, Konstitucijos pr. 15-89, Vilnius 
+ el. p. atviriduomenys@vssa.lt 
+ Užsiprenumeruokite mūsų naujienlaiškį 
+ Užsakyti
+ Susisiekite su mumis:: 

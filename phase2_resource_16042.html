@@ -1,0 +1,609 @@
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+    <meta charset="utf-8">
+
+    <title>Lietuvos atvirų duomenų portalas</title>
+    <meta name="description"
+          content="Atvirų duomenų portalas - tai vieningas prieigos taškas prie visų Lietuvoje atvertų duomenų rinkinių ir suteikiantis technologines priemones atvirų duomenų teikėjams parengti ir publikuoti atvertų duomenų rinkinių metaduomenis.">
+    <meta name="keywords"
+          content="atviri duomenys, duomenų rinkiniai, atvirų duomenų portalas">
+    <meta name="author" content="Valstybės skaitmeninių sprendimų agentūra">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:title" content="Lietuvos atvirų duomenų portalas"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:description"
+          content="Atvirų duomenų portalas - tai vieningas prieigos taškas prie visų Lietuvoje atvertų duomenų rinkinių ir suteikiantis technologines priemones atvirų duomenų teikėjams parengti ir publikuoti atvertų duomenų rinkinių metaduomenis."/>
+
+    <link type="text/css" href="/static/css/bundle.css" rel="stylesheet" media="screen">
+    <link rel="preload" href="/static/img/landing/ladp.svg" as="image">
+    <link rel="preload" href="/static/img/landing/bg.webp" as="image">
+    <link href="/static/fontawesomefree/css/all.min.css" rel="stylesheet" type="text/css">
+    <script defer src="/static/js/bundle.js"></script>
+    <script src="/static/js/jquery.js"></script>
+    <script type="text/javascript">
+        $ = window.jquery.$;
+        jQuery = window.jquery.$;
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.3.0/dist/chart.umd.min.js"
+            integrity="sha384-YAshAm4KKjf8V01c4sdNbPYiwU0D0Q82fjMHhKw8VvP0ecY4fxXsZAHxC4r4Ei+T"
+            crossorigin="anonymous"></script>
+    <script src="/jsi18n/"></script>
+    
+        <script async
+                src="https://www.googletagmanager.com/gtag/js?id=G-L13MZ6XWWP"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+
+            gtag('js', new Date());
+
+            gtag('config', 'G-L13MZ6XWWP', {
+                cookie_flags: 'max-age=7200;secure;samesite=none'
+            });
+        </script>
+    
+    
+<link rel="apple-touch-icon" sizes="180x180" href="/static/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/static/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/static/favicon/favicon-16x16.png">
+<link rel="manifest" href="/static/favicon/site.webmanifest">
+<link rel="mask-icon" href="/static/favicon/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="/static/favicon/favicon.ico">
+<meta name="apple-mobile-web-app-title" content="data.gov.lt">
+<meta name="application-name" content="data.gov.lt">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-config" content="/static/favicon/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+    
+    
+
+    
+    
+
+    
+</head>
+<body >
+
+    
+
+
+    
+
+<header>
+    
+
+
+
+
+
+    
+
+
+
+
+<nav class="navbar is-link" role="navigation" aria-label="main navigation">
+<div class="container">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="/">
+                <img src="/static/img/logo.webp" alt="herbas" height="36">
+                &nbsp;&nbsp;
+                <b><span class="navbar-title is-uppercase">data.gov.lt</span></b>
+            </a>
+            <a
+                    role="button"
+                    class="navbar-burger burger"
+                    aria-label="menu"
+                    aria-expanded="false"
+                    data-target="navbarBasic"
+                    onClick="openMenu()"
+            >
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        
+        <div id="navbarBasic" class="navbar-menu">
+            <div class="navbar-start">
+                <a class="navbar-item" href="#main-content">
+                    Į pagrindinį turinį
+                </a>
+            </div>
+
+            <div class="navbar-end">
+                
+
+
+
+
+    
+        <a href="/datasets/"
+           class="navbar-item ">Duomenų ištekliai</a>
+    
+
+    
+        <a href="/requests/submitted/"
+           class="navbar-item ">Poreikiai ir pasiūlymai</a>
+    
+
+    
+        <div class="navbar-item has-dropdown is-hoverable ">
+            <a href="/opening-tips/"
+               class="navbar-link">Pagalba atvėrėjams</a>
+            <div class="navbar-dropdown">
+                
+                    <a href="/opening-tips/saugykla/"
+                       class="navbar-item">Atvirų duomenų saugykla</a>
+                
+                    <a href="/opening-tips/vadovas/"
+                       class="navbar-item">Duomenų atvėrimo vadovas</a>
+                
+                    <a href="/opening-tips/aprasas/"
+                       class="navbar-item">Duomenų struktūros aprašas</a>
+                
+                    <a href="/opening-tips/data-opening-tools/"
+                       class="navbar-item">Įrankiai duomenų atvėrimui</a>
+                
+                    <a href="/opening-tips/opening/learningmaterial/"
+                       class="navbar-item">Mokymo medžiaga</a>
+                
+                    <a href="/opening-tips/opening_faq/"
+                       class="navbar-item">Dažnai užduodami klausimai</a>
+                
+                    <a href="/opening-tips/koordinatoriaus-ir-tvarkytojo-registravimas/"
+                       class="navbar-item">Koordinatoriaus ir tvarkytojo registravimas</a>
+                
+                    <a href="/opening-tips/duomenu-atverimo-principai/"
+                       class="navbar-item">Duomenų atvėrimo principai</a>
+                
+            </div>
+        </div>
+    
+
+    
+        <div class="navbar-item has-dropdown is-hoverable ">
+            <a href="/more/"
+               class="navbar-link">Daugiau</a>
+            <div class="navbar-dropdown">
+                
+                    <a href="/more/regulation/"
+                       class="navbar-item">Reglamentacija</a>
+                
+                    <a href="/projects/"
+                       class="navbar-item">Panaudojimo atvejai</a>
+                
+                    <a href="/more/nuorodos/"
+                       class="navbar-item">Nuorodos</a>
+                
+                    <a href="/more/about/"
+                       class="navbar-item">Apie</a>
+                
+                    <a href="/more/contacts/"
+                       class="navbar-item">Kontaktai</a>
+                
+                    <a href="/more/other/"
+                       class="navbar-item">Kiti AD portalai</a>
+                
+                    <a href="/sparql/"
+                       class="navbar-item">SPARQL paieška</a>
+                
+                    <a href="/partner/api/1/"
+                       class="navbar-item">API</a>
+                
+                    <a href="/more/programines-irangos-atnaujinimai/"
+                       class="navbar-item">Programinės įrangos atnaujinimai</a>
+                
+            </div>
+        </div>
+    
+
+    
+        <a href="/blog/"
+           class="navbar-item ">Naujienos</a>
+    
+
+    
+        <a href="https://duomenys.stat.gov.lt/sveikatos-duomenys/"
+           class="navbar-item ">Sveikatos duomenys</a>
+    
+
+                
+                <div class="navbar-item">
+                    
+                        <div class="buttons">
+                            <a href="/login/?next=/datasets/2838/resource/16042" class="button">Prisijungti</a>
+                        </div>
+                    
+                </div>
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a href="#" rel="nofollow" class="navbar-link">
+                            
+                            LT
+                        </a>
+
+                        <div class="navbar-dropdown">
+                            
+                            
+                            
+                                <form action="/i18n/setlang/" method="post" id="languageChangelt">
+                                    <input type="hidden" name="csrfmiddlewaretoken" value="3IPqOw7vNA8cYpwJMXemmFWkyO8Y2jzv4o900DDFddXLlwNARF2rmPE0pdn3ftSN">
+                                    <input name="language" type="hidden" value="lt">
+                                </form>
+                                <a href="#" rel="nofollow" class="navbar-item" onclick="document.getElementById('languageChangelt').submit();">
+                                    LT
+                                </a>
+                            
+                                <form action="/i18n/setlang/" method="post" id="languageChangeen">
+                                    <input type="hidden" name="csrfmiddlewaretoken" value="3IPqOw7vNA8cYpwJMXemmFWkyO8Y2jzv4o900DDFddXLlwNARF2rmPE0pdn3ftSN">
+                                    <input name="language" type="hidden" value="en">
+                                </form>
+                                <a href="#" rel="nofollow" class="navbar-item" onclick="document.getElementById('languageChangeen').submit();">
+                                    EN
+                                </a>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+</nav>
+
+</header>
+
+
+
+
+
+
+
+    <section class="section">
+        <div class="container">
+
+            
+                <nav class="breadcrumb has-arrow-separator is-selectable" aria-label="breadcrumbs">
+                    <div class="container needs-padding">
+                        
+    <ul class="p-t-sm">
+        <li><a href="/"><span>Pradžia</span></a></li>
+        <li><a href="/datasets/"><span>Duomenų ištekliai</span></a></li>
+        <li><a href="/datasets/2838/"><span>Pastatų erdviniai duomenys</span></a></li>
+        <li><a href="/datasets/2838/#resources"><span>Duomenų pateiktys</span></a></li>
+    </ul>
+
+                        <h1 class="breadcrumbs-current is-size-5-mobile mt-5">
+                            Kauno miesto savivaldybė
+                        </h1>
+                        
+                    </div>
+                </nav>
+            
+
+            <div id="main-content">
+
+	
+
+<div class="tabs">
+    <ul>
+        
+        <li class="">
+            <a href="/datasets/2838/#info" id="detail_tab" aria-label="Informacija">
+                Informacija
+            </a>
+        </li>
+        
+        
+        <li class="">
+            <a href="/datasets/2838/child-resources/" id="child_resources_tab">
+                Ištekliai
+            </a>
+        </li>
+        
+        
+        <li class="">
+            <a href="/datasets/2838/models/" id="structure_tab">
+                Struktūra
+            </a>
+        </li>
+        
+        
+        
+        <li class="">
+            <a href="/datasets/2838/projects/">
+                Panaudojimo atvejai
+            </a>
+        </li>
+        
+        
+            <li class="">
+                
+                    <a href="/datasets/2838/members/">
+                
+                    Tvarkytojai
+                </a>
+            </li>
+        
+        
+            <li class="">
+                <a href="/datasets/2838/history/" id="history-tab">
+                    Istorija
+                </a>
+            </li>
+        
+        <li class="">
+            <a href="/datasets/2838/requests/" id="requests-tab">
+                Poreikiai
+            </a>
+        </li>
+    </ul>
+</div>
+
+
+    <div class="columns no-margin-bottom">
+         <div class="column is-full">
+            
+
+            <div class="content">
+                <div class="mb-3">
+                    <span class="is-size-6">
+                        
+                            <i class="fas fa-lg fa-file-export"></i>
+                        
+                    </span>
+
+                    
+                        <a href="/datasets/2838/distribution/16042/download/" target="_blank">
+                            Atidaryti pateiktį
+                        </a>
+                    
+                </div>
+
+                
+                <div class="columns">
+                    <div class="column is-three-quarters">
+                        <p class="no-margin-bottom"><p>Pastatų erdviniai duomenys</p></p>
+                    </div>
+                </div>
+                
+
+                <div class="columns">
+                    <div class="column is-three-quarters">
+                        <table class="table is-fullwidth has-border-bottom th-40 no-margin-bottom custom-table-padding">
+                            <tbody>
+                                <tr>
+                                    <th>Teritorija</th>
+                                    <td>Kauno miesto savivaldybė</td>
+                                </tr>
+                                <tr>
+                                    <th>Periodo pradžia</th>
+                                    <td>1998-01-01</td>
+                                </tr>
+                                <tr>
+                                    <th>Periodo pabaiga</th>
+                                    <td>2024-11-18</td>
+                                </tr>
+                                <tr>
+                                    <th>Dydis</th>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th>Formatas</th>
+                                    <td>URL</td>
+                                </tr>
+
+                                
+
+                                
+                                
+                                <tr>
+                                    <th>Statusas</th>
+                                    <td>
+                                        Kuriamas
+                                    </td>
+                                </tr>
+                                
+
+                                
+                                
+                                <tr>
+                                    <th>Publikuota</th>
+                                    <td>2024-11-18</td>
+                                </tr>
+                                <tr>
+                                    <th>Atnaujinta</th>
+                                    
+                                        <td>2025-12-18</td>
+                                    
+                                </tr>
+                                <tr>
+                                    <th>Publikuojamas saugykloje</th>
+                                    <td>
+                                        
+                                        Ne
+                                        
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <th>
+                                        Licencija
+                                        <span class="icon info-icon has-tooltip-multiline is-middle"
+                                              data-tooltip="Ši savybė nurodo licenciją, pagal kurią platinama duomenų paslauga">
+                                            <i class="fas fa-info-circle"></i>
+                                        </span>
+                                    </th>
+                                    <td>
+                                        <a href="https://creativecommons.org/licenses/by/4.0/deed.lt" target="_blank"
+                                           title="Priskyrimas 4.0 Tarptautinė (CC BY 4.0)">Creative Commons Attribution 4.0</a>
+                                    </td>
+                                </tr>
+                                
+                                
+                                    <tr>
+                                        <th>
+                                            Teisės - Aprašymas
+                                            <span class="icon info-icon has-tooltip-multiline is-middle"
+                                                  data-tooltip="Laisvu tekstu pateikiamas teisių deklaracijos aprašymas. Atitinka dct:rights.">
+                                              <i class="fas fa-info-circle"></i>
+                                            </span>
+                                        </th>
+                                        <td><p>CC BY 4.0.</p></td>
+                                    </tr>
+                                
+                                
+                                
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+             
+
+             <div>
+                 <h4 class="custom-title is-size-4-mobile">Modeliai</h4>
+                 <div class="mb-5">
+                     
+                        <p>Modelių nėra.</p>
+                     
+                 </div>
+                 
+             </div>
+
+             <div class="columns">
+                <div class="column is-three-quarters">
+                    
+
+
+
+<h2 id="comments" class="custom-title is-size-4-mobile">Komentarai</h2>
+
+
+
+    <article class="message is-warning">
+        <div class="message-body">
+            <strong>Komentuoti gali tik prisijungę naudotojai</strong>
+        </div>
+    </article>
+
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.media-content').submit(function () {
+            $(this).find(":submit").attr('disabled', 'disabled');
+        });
+
+        $('.comment-button').click( function () {
+            const form = $(this).closest('.media-content');
+            const status_field = form.find('[id^="id_is_public"]')[0] || form.find('#id_status')[0];
+            const body_field = form.find('[id^="id_body"]')[0];
+
+            if (!body_field.value && (!status_field || !status_field.value || status_field.value == "REJECTED")) {
+                body_field.setCustomValidity("Šis laukas privalomas");
+                body_field.reportValidity();
+            }
+            else {
+                form.trigger('submit');
+            }
+        });
+
+        $('input#id_register_request').click( function () {
+            $("#div_id_increase_frequency").toggle(this.checked);
+        });
+        $("#div_id_increase_frequency").toggle(false);
+    });
+</script>
+<script src="/static/vitrina/datasets/js/comments.js"></script>
+
+                </div>
+             </div>
+        </div>
+	</div>
+</div>
+        </div>
+    </section>
+
+
+
+
+<footer class="footer">
+    <div class="container">
+        <div class="columns">
+            <div class="column is-2">
+                <a href="https://vssa.lrv.lt/lt/">
+                    <img src="/static/img/vssa-logo.png" alt="VSSA logo">
+                </a>
+            </div>
+            <div class="column is-4">
+                <p>VSSA Valstybės skaitmeninių sprendimų agentūra, Konstitucijos pr. 15-89, Vilnius</p>
+                <br/>
+                <p>el. p. <a href="mailto:atviriduomenys@vssa.lt"><span class="has-text-dark">atviriduomenys@vssa.lt</span></a></p>
+            </div>
+            <div class="column is-6">
+                <p id="newsletter_search_title">Užsiprenumeruokite mūsų naujienlaiškį</p>
+                <form class="field has-addons media-content" action="/newsletter/subscribe/" method="post">
+                    <input type="hidden" name="csrfmiddlewaretoken" value="3IPqOw7vNA8cYpwJMXemmFWkyO8Y2jzv4o900DDFddXLlwNARF2rmPE0pdn3ftSN">
+                    <p class="control is-expanded">
+                        <input class="input newsletter-input" type="email" id="newsletter-input-email" required="required"
+                               placeholder="Įveskite el. pašto adresą..."
+                               name="email" title="El. paštas"
+                               aria-labelledby="newsletter_search_title"
+                        >
+                    </p>
+                    <p class="control">
+                        <button class="button is-primary" type="submit">
+                            Užsakyti
+                        </button>
+                    </p>
+                </form>
+                <br/>
+                <p>Susisiekite su mumis::</p>
+                <div class="footer-icons">
+                    <a class="footer-link is-inline-block" href="https://www.facebook.com/VSSAgentura/" target="_blank" title="Facebook" aria-label="Facebook">
+                        <img class="image is-32x32" alt="Facebook" src="/static/img/facebook-icon.svg"/>
+                    </a>
+                    <a class="footer-link is-inline-block" href="mailto:atviriduomenys@vssa.lt" title="El. paštas" aria-label="El. paštas">
+                        <img class="image is-32x32" alt="El. paštas" src="/static/img/email-icon.svg"/>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript">
+    function openMenu() {
+        var burger = document.querySelector('.burger');
+        var nav = document.querySelector('#navbarBasic');
+        burger.classList.toggle('is-active');
+        nav.classList.toggle('is-active');
+    }
+
+    function HideMessage(counter) {
+        var notificationBar = document.getElementById('message-list-' + counter);
+        notificationBar.classList.add('is-hidden');
+    }
+</script>
+
+
+</body>
+</html>

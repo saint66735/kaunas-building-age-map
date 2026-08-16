@@ -1,0 +1,481 @@
+Lietuvos atvirų duomenų portalas| Pastatų erdviniai duomenys
+&nbsp;&nbsp;
+data.gov.lt
+Į pagrindinį turinį
+Duomenų ištekliai
+Poreikiai ir pasiūlymai
+Pagalba atvėrėjams
+Atvirų duomenų saugykla
+Duomenų atvėrimo vadovas
+Duomenų struktūros aprašas
+Įrankiai duomenų atvėrimui
+Mokymo medžiaga
+Dažnai užduodami klausimai
+Koordinatoriaus ir tvarkytojo registravimas
+Duomenų atvėrimo principai
+Daugiau
+Reglamentacija
+Panaudojimo atvejai
+Nuorodos
+Apie
+Kontaktai
+Kiti AD portalai
+SPARQL paieška
+API
+Programinės įrangos atnaujinimai
+Naujienos
+Sveikatos duomenys
+Prisijungti
+LT
+LT
+EN
+Pradžia
+Valstybės įmonė Registrų centras
+Pastatų erdviniai duomenys
+Pastatų erdviniai duomenys
+Duomenų rinkinys
+Duomenų skelbėjas:
+Valstybės įmonė Registrų centras
+Informacija
+Ištekliai
+Struktūra
+Panaudojimo atvejai
+Planas
+Tvarkytojai
+Istorija
+Poreikiai
+Duomenų ištekliaus peržiūros:
+657
+Atsisiųsti
+RDF
+Lietuvos Nekilnojamojo turto registre įregistruotų pastatų ribos ir kiti erdviniai duomenys. Duomenų rinkmenos pateikiamos savivaldybės teritorijos imties aprėptimi, Bendra duomenų imtis - visa Lietuvos teritorija. Duomenų formatas JSON, supakuotas ZIP formatu.
+Duomenys atverti pagal tarptautinę Creative Commons Attribution 4.0 licenciją su naudojimo ir platinimo sąlygomis, kurių ženklinimo simbolis CC BY 4.0. Duomenis galima naudoti ir dalintis neribotai, tačiau privaloma nurodyti atvertų duomenų autorystę, įdėti nuorodą į licenciją bei nurodyti, ar buvo padaryta pakeitimų.
+Erdviniai Duomenys
+Pastatai
+pastatų erdviniai duomenys
+Rc
+Patinka
+0
+Brandos lygis
+-
+Atnaujinama
+Kas mėnesį
+Kategorijos
+Aplinka
+Pastatai ir statiniai
+Regionai ir miestai
+Geoerdviniai duomenys
+Turtiniai ir teisiniai santykiai
+Nekilnojamojo turto nuosavybė
+Nekilnojamasis turtas
+Grupės
+Didelės vertės rinkiniai
+Būsena
+Atvertas
+Duomenų išteklius viešinamas
+Taip
+Prieigos teisės
+Vieši
+Licencija
+Creative Commons Attribution 4.0
+Katalogas
+ADP
+Laikotarpis
+1998 m. sausio 1 d. - 2024 m. lapkričio 18 d.
+Peržiūrėti papildomą informaciją +
+Duomenų ištekliaus sukūrimo data
+2024-10-28 22:06
+Paskutinio atnaujinimo data
+2026-01-05 10:21
+Teisės - Aprašymas
+Duomenų skelbėjas
+Valstybės įmonė Registrų centras
+datasets/gov/rc/
+https://www.registrucentras.lt/
+atviriduomenys@registrucentras.lt
++370 698 31517
+Dalintis socialiniuose tinkluose
+Prenumeruoja:
+1
+Duomenų pateiktys
+Versija: Juodraštis
+Juodraštis
+Pavadinimas
+Dydis
+Formatas
+Publikuota
+Atnaujinta
+Akmenės rajono savivaldybė
+-
+URL
+2024-10-29
+2025-12-18
+Atidaryti
+Šakių rajono savivaldybė
+-
+URL
+2024-11-18
+2025-12-18
+Atidaryti
+Klaipėdos rajono savivaldybė
+-
+URL
+2024-11-18
+2025-12-18
+Atidaryti
+Jurbarko rajono savivaldybė
+-
+URL
+2024-11-18
+2025-12-18
+Atidaryti
+Kaišiadorių rajono savivaldybė
+-
+URL
+2024-11-18
+2025-12-18
+Atidaryti
+Kalvarijos savivaldybė
+-
+URL
+2024-11-18
+2025-12-18
+Atidaryti
+Kauno miesto savivaldybė
+-
+URL
+2024-11-18
+2025-12-18
+Atidaryti
+Kauno rajono savivaldybė
+-
+URL
+2024-11-18
+2025-12-18
+Atidaryti
+Kazlų Rūdos savivaldybė
+-
+URL
+2024-11-18
+2025-12-18
+Atidaryti
+Kėdainių rajono savivaldybė
+-
+URL
+2024-11-18
+2025-12-18
+Atidaryti
+Kelmės rajono savivaldybė
+-
+URL
+2024-11-18
+2025-12-18
+Atidaryti
+Klaipėdos miesto savivaldybė
+-
+URL
+2024-11-18
+2025-12-18
+Atidaryti
+Kretingos rajono savivaldybė
+-
+URL
+2024-11-18
+2025-12-18
+Atidaryti
+Kupiškio rajono savivaldybė
+-
+URL
+2024-11-18
+2025-12-18
+Atidaryti
+Lazdijų rajono savivaldybė
+-
+URL
+2024-11-18
+2025-12-18
+Atidaryti
+Marijampolės savivaldybė
+-
+URL
+2024-11-18
+2025-12-18
+Atidaryti
+Mažeikių rajono savivaldybė
+-
+URL
+2024-11-18
+2025-12-18
+Atidaryti
+Molėtų rajono savivaldybė
+-
+URL
+2024-11-18
+2025-12-18
+Atidaryti
+Neringos savivaldybė
+-
+URL
+2024-11-18
+2025-12-18
+Atidaryti
+Pagėgių savivaldybė
+-
+URL
+2024-11-18
+2025-12-18
+Atidaryti
+Pakruojo rajono savivaldybė
+-
+URL
+2024-11-18
+2025-12-18
+Atidaryti
+Palangos miesto savivaldybė
+-
+URL
+2024-11-18
+2025-12-18
+Atidaryti
+Panevėžio miesto savivaldybė
+-
+URL
+2024-11-18
+2025-12-18
+Atidaryti
+Panevėžio rajono savivaldybė
+-
+URL
+2024-11-18
+2025-12-18
+Atidaryti
+Plungės rajono savivaldybė
+-
+URL
+2024-11-18
+2025-12-18
+Atidaryti
+Pasvalio rajono savivaldybė
+-
+URL
+2024-11-18
+2025-12-18
+Atidaryti
+Prienų rajono savivaldybė
+-
+URL
+2024-11-18
+2025-12-18
+Atidaryti
+Radviliškio rajono savivaldybė
+-
+URL
+2024-11-18
+2025-12-18
+Atidaryti
+Raseinių rajono savivaldybė
+-
+URL
+2024-11-18
+2025-12-18
+Atidaryti
+Rietavo savivaldybė
+-
+URL
+2024-11-18
+2025-12-18
+Atidaryti
+Alytaus miesto savivaldybė
+-
+URL
+2024-11-18
+2025-12-18
+Atidaryti
+Rokiškio rajono savivaldybė
+-
+URL
+2024-11-18
+2025-12-18
+Atidaryti
+Skuodo rajono savivaldybė
+-
+URL
+2024-11-18
+2025-12-18
+Atidaryti
+Šiaulių miesto savivaldybė
+-
+URL
+2024-11-18
+2025-12-18
+Atidaryti
+Šiaulių rajono savivaldybė
+-
+URL
+2024-11-18
+2025-12-18
+Atidaryti
+Šilalės rajono savivaldybė
+-
+URL
+2024-11-18
+2025-12-18
+Atidaryti
+Šilutės rajono savivaldybė
+-
+URL
+2024-11-18
+2025-12-18
+Atidaryti
+Širvintų rajono savivaldybė
+-
+URL
+2024-11-18
+2025-12-18
+Atidaryti
+Švenčionių rajono savivaldybė
+-
+URL
+2024-11-18
+2025-12-18
+Atidaryti
+Tauragės rajono savivaldybė
+-
+URL
+2024-11-18
+2025-12-18
+Atidaryti
+Telšių rajono savivaldybė
+-
+URL
+2024-11-18
+2025-12-18
+Atidaryti
+Ukmergės rajono savivaldybė
+-
+URL
+2024-11-18
+2025-12-18
+Atidaryti
+Trakų rajono savivaldybė
+-
+URL
+2024-11-18
+2025-12-18
+Atidaryti
+Utenos rajono savivaldybė
+-
+URL
+2024-11-18
+2025-12-18
+Atidaryti
+Varėnos rajono savivaldybė
+-
+URL
+2024-11-18
+2025-12-18
+Atidaryti
+Vilkaviškio rajono savivaldybė
+-
+URL
+2024-11-18
+2025-12-18
+Atidaryti
+Vilniaus miesto savivaldybė
+-
+URL
+2024-11-18
+2025-12-18
+Atidaryti
+Vilniaus rajono savivaldybė
+-
+URL
+2024-11-18
+2025-12-18
+Atidaryti
+Visagino savivaldybė
+-
+URL
+2024-11-18
+2025-12-18
+Atidaryti
+Zarasų rajono savivaldybė
+-
+URL
+2024-11-18
+2025-12-18
+Atidaryti
+Alytaus rajono savivaldybė
+-
+URL
+2024-11-18
+2025-12-18
+Atidaryti
+Anykščių rajono savivaldybė
+-
+URL
+2024-11-18
+2025-12-18
+Atidaryti
+Šalčininkų rajono savivaldybė
+-
+URL
+2024-11-18
+2025-12-18
+Atidaryti
+Biržų rajono savivaldybė
+-
+URL
+2024-11-18
+2025-12-18
+Atidaryti
+Druskininkų savivaldybė
+-
+URL
+2024-11-18
+2025-12-18
+Atidaryti
+Elektrėnų savivaldybė
+-
+URL
+2024-11-18
+2025-12-18
+Atidaryti
+Ignalinos rajono savivaldybė
+-
+URL
+2024-11-18
+2025-12-18
+Atidaryti
+Jonavos rajono savivaldybė
+-
+URL
+2024-11-18
+2025-12-18
+Atidaryti
+Joniškio rajono savivaldybė
+-
+URL
+2024-11-18
+2025-12-18
+Atidaryti
+Birštono savivaldybė
+-
+URL
+2024-11-18
+2025-12-18
+Atidaryti
+Peržiūrėti
+Priskirtos organizacijos
+Priskyrimo rūšis
+Organizacija
+Duomenų rengėjas
+Valstybės įmonė Registrų centras
+Komentarai
+Komentuoti gali tik prisijungę naudotojai
+VSSA Valstybės skaitmeninių sprendimų agentūra, Konstitucijos pr. 15-89, Vilnius
+el. p.
+atviriduomenys@vssa.lt
+Užsiprenumeruokite mūsų naujienlaiškį
+Užsakyti
+Susisiekite su mumis::

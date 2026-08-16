@@ -1,0 +1,14 @@
+https://cdn.jsdelivr.net/npm/chart.js@4.3.0/dist/chart.umd.min.js
+https://duomenys.stat.gov.lt/sveikatos-duomenys/
+https://schema.org/
+https://ssva.lt
+https://ssva.lt
+
+https://twitter.com/share?text=Rengiam%C5%B3%20teritorij%C5%B3%20planavimo%20dokument%C5%B3%20sprendiniai%20%28ArcGIS%20per%C5%BEi%C5%ABros%20paslauga%29&url=https://data.gov.lt/datasets/3742/
+https://vssa.lrv.lt/lt/
+https://www.facebook.com/VSSAgentura/
+https://www.facebook.com/sharer/sharer.php?u=https://data.gov.lt/datasets/3742/
+https://www.geoportal.lt/mapproxy/rest/services/vtpsi_tpdris_sprendiniai/MapServer
+https://www.geoportal.lt/mapproxy/rest/services/v…
+https://www.googletagmanager.com/gtag/js?id=G-L13MZ6XWWP
+https://www.linkedin.com/sharing/share-offsite/?title=Rengiam%C5%B3%20teritorij%C5%B3%20planavimo%20dokument%C5%B3%20sprendiniai%20%28ArcGIS%20per%C5%BEi%C5%ABros%20paslauga%29&url=https://data.gov.lt/datasets/3742/

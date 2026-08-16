@@ -1,0 +1,1269 @@
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+    <meta charset="utf-8">
+
+    <title>Lietuvos atvirų duomenų portalas| Rengiamų teritorijų planavimo dokumentų sprendiniai (ArcGIS peržiūros paslauga)</title>
+    <meta name="description"
+          content="Rengiamų teritorijų planavimo dokumentų sprendinių erdviniai duomenys vaizduojami grupuojant sluoksnius pagal planavimo porūšį. Duomenų struktūrą reglamentuoja teritorijų planavimo erdvinių duomenų specifikacija (Nr. D1-1009) Duomenys naujinami realiu laiku.">
+    <meta name="keywords"
+          content="atviri duomenys, duomenų rinkiniai, atvirų duomenų portalas">
+    <meta name="author" content="Viešoji įstaiga Statybos sektoriaus vystymo agentūra">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:title" content="Lietuvos atvirų duomenų portalas| Rengiamų teritorijų planavimo dokumentų sprendiniai (ArcGIS peržiūros paslauga)"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:description"
+          content="Rengiamų teritorijų planavimo dokumentų sprendinių erdviniai duomenys vaizduojami grupuojant sluoksnius pagal planavimo porūšį. Duomenų struktūrą reglamentuoja teritorijų planavimo erdvinių duomenų specifikacija (Nr. D1-1009) Duomenys naujinami realiu laiku."/>
+
+    <link type="text/css" href="/static/css/bundle.css" rel="stylesheet" media="screen">
+    <link rel="preload" href="/static/img/landing/ladp.svg" as="image">
+    <link rel="preload" href="/static/img/landing/bg.webp" as="image">
+    <link href="/static/fontawesomefree/css/all.min.css" rel="stylesheet" type="text/css">
+    <script defer src="/static/js/bundle.js"></script>
+    <script src="/static/js/jquery.js"></script>
+    <script type="text/javascript">
+        $ = window.jquery.$;
+        jQuery = window.jquery.$;
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.3.0/dist/chart.umd.min.js"
+            integrity="sha384-YAshAm4KKjf8V01c4sdNbPYiwU0D0Q82fjMHhKw8VvP0ecY4fxXsZAHxC4r4Ei+T"
+            crossorigin="anonymous"></script>
+    <script src="/jsi18n/"></script>
+    
+        <script async
+                src="https://www.googletagmanager.com/gtag/js?id=G-L13MZ6XWWP"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+
+            gtag('js', new Date());
+
+            gtag('config', 'G-L13MZ6XWWP', {
+                cookie_flags: 'max-age=7200;secure;samesite=none'
+            });
+        </script>
+    
+    
+<link rel="apple-touch-icon" sizes="180x180" href="/static/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/static/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/static/favicon/favicon-16x16.png">
+<link rel="manifest" href="/static/favicon/site.webmanifest">
+<link rel="mask-icon" href="/static/favicon/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="/static/favicon/favicon.ico">
+<meta name="apple-mobile-web-app-title" content="data.gov.lt">
+<meta name="application-name" content="data.gov.lt">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-config" content="/static/favicon/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+    
+    <style>
+        .max-128x128 {
+		  	max-width: 128px;
+		  	max-height: 128px;
+		  	height: auto;
+		  	width: auto;
+		}
+        .comment-entry {
+            margin-bottom: 1.5rem;
+        }
+        .media.mb-3 {
+            margin-bottom: 1rem;
+        }
+    </style>
+
+    
+
+    
+    
+
+    
+</head>
+<body >
+
+    
+
+
+    
+
+<header>
+    
+
+
+
+
+
+    
+
+
+
+
+<nav class="navbar is-link" role="navigation" aria-label="main navigation">
+<div class="container">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="/">
+                <img src="/static/img/logo.webp" alt="herbas" height="36">
+                &nbsp;&nbsp;
+                <b><span class="navbar-title is-uppercase">data.gov.lt</span></b>
+            </a>
+            <a
+                    role="button"
+                    class="navbar-burger burger"
+                    aria-label="menu"
+                    aria-expanded="false"
+                    data-target="navbarBasic"
+                    onClick="openMenu()"
+            >
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        
+        <div id="navbarBasic" class="navbar-menu">
+            <div class="navbar-start">
+                <a class="navbar-item" href="#main-content">
+                    Į pagrindinį turinį
+                </a>
+            </div>
+
+            <div class="navbar-end">
+                
+
+
+
+
+    
+        <a href="/datasets/"
+           class="navbar-item ">Duomenų ištekliai</a>
+    
+
+    
+        <a href="/requests/submitted/"
+           class="navbar-item ">Poreikiai ir pasiūlymai</a>
+    
+
+    
+        <div class="navbar-item has-dropdown is-hoverable ">
+            <a href="/opening-tips/"
+               class="navbar-link">Pagalba atvėrėjams</a>
+            <div class="navbar-dropdown">
+                
+                    <a href="/opening-tips/saugykla/"
+                       class="navbar-item">Atvirų duomenų saugykla</a>
+                
+                    <a href="/opening-tips/vadovas/"
+                       class="navbar-item">Duomenų atvėrimo vadovas</a>
+                
+                    <a href="/opening-tips/aprasas/"
+                       class="navbar-item">Duomenų struktūros aprašas</a>
+                
+                    <a href="/opening-tips/data-opening-tools/"
+                       class="navbar-item">Įrankiai duomenų atvėrimui</a>
+                
+                    <a href="/opening-tips/opening/learningmaterial/"
+                       class="navbar-item">Mokymo medžiaga</a>
+                
+                    <a href="/opening-tips/opening_faq/"
+                       class="navbar-item">Dažnai užduodami klausimai</a>
+                
+                    <a href="/opening-tips/koordinatoriaus-ir-tvarkytojo-registravimas/"
+                       class="navbar-item">Koordinatoriaus ir tvarkytojo registravimas</a>
+                
+                    <a href="/opening-tips/duomenu-atverimo-principai/"
+                       class="navbar-item">Duomenų atvėrimo principai</a>
+                
+            </div>
+        </div>
+    
+
+    
+        <div class="navbar-item has-dropdown is-hoverable ">
+            <a href="/more/"
+               class="navbar-link">Daugiau</a>
+            <div class="navbar-dropdown">
+                
+                    <a href="/more/regulation/"
+                       class="navbar-item">Reglamentacija</a>
+                
+                    <a href="/projects/"
+                       class="navbar-item">Panaudojimo atvejai</a>
+                
+                    <a href="/more/nuorodos/"
+                       class="navbar-item">Nuorodos</a>
+                
+                    <a href="/more/about/"
+                       class="navbar-item">Apie</a>
+                
+                    <a href="/more/contacts/"
+                       class="navbar-item">Kontaktai</a>
+                
+                    <a href="/more/other/"
+                       class="navbar-item">Kiti AD portalai</a>
+                
+                    <a href="/sparql/"
+                       class="navbar-item">SPARQL paieška</a>
+                
+                    <a href="/partner/api/1/"
+                       class="navbar-item">API</a>
+                
+                    <a href="/more/programines-irangos-atnaujinimai/"
+                       class="navbar-item">Programinės įrangos atnaujinimai</a>
+                
+            </div>
+        </div>
+    
+
+    
+        <a href="/blog/"
+           class="navbar-item ">Naujienos</a>
+    
+
+    
+        <a href="https://duomenys.stat.gov.lt/sveikatos-duomenys/"
+           class="navbar-item ">Sveikatos duomenys</a>
+    
+
+                
+                <div class="navbar-item">
+                    
+                        <div class="buttons">
+                            <a href="/login/?next=/datasets/3742/" class="button">Prisijungti</a>
+                        </div>
+                    
+                </div>
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a href="#" rel="nofollow" class="navbar-link">
+                            
+                            LT
+                        </a>
+
+                        <div class="navbar-dropdown">
+                            
+                            
+                            
+                                <form action="/i18n/setlang/" method="post" id="languageChangelt">
+                                    <input type="hidden" name="csrfmiddlewaretoken" value="ndJ8O4MxaNDMXjjaXWgugU86Guif86qYL1Zybx84hsKHM7FFC5bxxEXBkffbYr3J">
+                                    <input name="language" type="hidden" value="lt">
+                                </form>
+                                <a href="#" rel="nofollow" class="navbar-item" onclick="document.getElementById('languageChangelt').submit();">
+                                    LT
+                                </a>
+                            
+                                <form action="/i18n/setlang/" method="post" id="languageChangeen">
+                                    <input type="hidden" name="csrfmiddlewaretoken" value="ndJ8O4MxaNDMXjjaXWgugU86Guif86qYL1Zybx84hsKHM7FFC5bxxEXBkffbYr3J">
+                                    <input name="language" type="hidden" value="en">
+                                </form>
+                                <a href="#" rel="nofollow" class="navbar-item" onclick="document.getElementById('languageChangeen').submit();">
+                                    EN
+                                </a>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+</nav>
+
+</header>
+
+
+
+
+
+
+
+    <section class="section">
+        <div class="container">
+
+            
+                <nav class="breadcrumb has-arrow-separator is-selectable" aria-label="breadcrumbs">
+                    <div class="container needs-padding">
+                        
+    
+<style>
+    ul.p-t-sm li {
+        flex-basis: auto;
+        min-width: 0;
+    }
+
+    ul.p-t-sm li span {
+        word-break: break-word;
+        white-space: normal !important;
+        display: block;
+    }
+
+    ul.p-t-sm li a {
+        word-break: break-word;
+        white-space: normal !important;
+    }
+</style>
+
+    <ul class="p-t-sm is-flex is-flex-wrap-wrap">
+        
+            <li>
+                
+                    <a href="/">
+                        <span class="icon"><i class="fas fa-home"></i></span>
+                        <span>Pradžia</span>
+                    </a>
+                
+            </li>
+        
+            <li>
+                
+                    <a href="/orgs/125/">
+                        
+                        <span>Viešoji įstaiga Statybos sektoriaus vystymo agentūra</span>
+                    </a>
+                
+            </li>
+        
+            <li>
+                
+                    <span class="pl-3">Rengiamų teritorijų planavimo dokumentų sprendiniai (ArcGIS peržiūros paslauga)</span>
+                
+            </li>
+        
+    </ul>
+
+
+
+                        <h1 class="breadcrumbs-current is-size-5-mobile mt-5">
+                            
+    
+<style>
+    .page-header {
+        width: 100%;
+        height: auto;
+        gap: 8px;
+        border-radius: 6px;
+        padding: 16px;
+        display: flex;
+    }
+    .content-wrapper {
+        width: 100%;
+        gap: 12px;
+        display: flex;
+        flex-direction: column;
+    }
+    .title-container {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 8px;
+        flex-wrap: wrap;
+    }
+    .main-title {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 23px;
+        color: #363636;
+        word-break: break-word;
+        flex: 1 1 auto;
+    }
+    .type-badge {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 4px 8px;
+        gap: 4px;
+        height: 23px;
+        background: rgba(2, 125, 177, 0.1);
+        border-radius: 4px;
+        white-space: nowrap;
+        flex-shrink: 0;
+    }
+    .type-text {
+        height: 14px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 14px;
+        text-transform: uppercase;
+        color: #027DB1;
+    }
+    .info-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 8px;
+        flex-wrap: wrap;
+    }
+    .info-text {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .info-label {
+        font-weight: 400;
+        color: #6B6B6B;
+    }
+    .info-value {
+        font-weight: 700;
+        color: #363636;
+    }
+    .separator {
+        width: 1px;
+        height: 12px;
+        background: #DBDBDB;
+    }
+</style>
+
+    <div class="page-header">
+        <div class="content-wrapper">
+            <div class="title-container">
+                <span class="main-title">Rengiamų teritorijų planavimo dokumentų sprendiniai (ArcGIS peržiūros paslauga)</span>
+                
+                    <div class="type-badge">
+                        <span class="type-text">Duomenų paslauga</span>
+                    </div>
+                
+            </div>
+            <div class="info-container">
+                
+                    <span class="info-text info-label">Duomenų skelbėjas:</span>
+                    <span class="info-text info-value">Viešoji įstaiga Statybos sektoriaus vystymo agentūra</span>
+                
+                <div class="separator"></div>
+                
+                    <span class="info-text info-label">Informacinė sistema:</span>
+                    <span class="info-text info-value">Lietuvos erdvinės informacijos portalas</span>
+                
+            </div>
+        </div>
+    </div>
+
+
+
+                        </h1>
+                        
+                    </div>
+                </nav>
+            
+
+            <div id="main-content">
+    
+
+<div class="tabs">
+    <ul>
+        
+        <li class=" is-active ">
+            <a href="/datasets/3742/#info" id="detail_tab" aria-label="Informacija">
+                Informacija
+            </a>
+        </li>
+        
+        
+        <li class="">
+            <a href="/datasets/3742/child-resources/" id="child_resources_tab">
+                Ištekliai
+            </a>
+        </li>
+        
+        
+        <li class="">
+            <a href="/datasets/3742/models/" id="structure_tab">
+                Struktūra
+            </a>
+        </li>
+        
+        
+        
+        <li class="">
+            <a href="/datasets/3742/projects/">
+                Panaudojimo atvejai
+            </a>
+        </li>
+        
+            <li class="">
+                <a href="/datasets/3742/plans/">
+                    Planas
+                </a>
+            </li>
+        
+        
+            <li class="">
+                
+                    <a href="/datasets/3742/members/">
+                
+                    Tvarkytojai
+                </a>
+            </li>
+        
+        
+            <li class="">
+                <a href="/datasets/3742/history/" id="history-tab">
+                    Istorija
+                </a>
+            </li>
+        
+        <li class="">
+            <a href="/datasets/3742/requests/" id="requests-tab">
+                Poreikiai
+            </a>
+        </li>
+    </ul>
+</div>
+
+    <div class="columns no-margin-bottom">
+        <div class="column">
+            <p>
+                Duomenų ištekliaus peržiūros:
+                
+                <b id="total_hits">36</b>
+            </p>
+            
+            <div class="field has-addons has-addons-right">
+                <p class="control">
+                    <a href="/datasets/3742/dcat-ap.rdf"
+                       class="button is-primary is-normal m-t-md is-size-6-mobile"
+                       id="downlaod_dataset_rdf">Atsisiųsti</a>
+                </p>
+                <p class="control">
+                    <span class="select">
+                        <select aria-label="Atsisiuntimo formatas">
+                            <option value="RDF">RDF</option>
+                        </select>
+                    </span>
+                </p>
+            </div>
+            <div class="content dataset-description">
+                <p class="no-margin-bottom">
+                    
+                    <p>Rengiamų teritorijų planavimo dokumentų sprendinių erdviniai duomenys vaizduojami grupuojant sluoksnius pagal planavimo porūšį. Duomenų struktūrą reglamentuoja teritorijų planavimo erdvinių duomenų specifikacija (Nr. D1-1009) Duomenys naujinami realiu laiku.</p>
+                
+            </p>
+            
+            
+    <div class="tags m-t-md no-margin-bottom">
+        
+            <a href='/datasets/?q=&selected_facets=tags_exact:9836' class="tag">apskrities teritorijos bendrasis (generalinis) planas</a>
+        
+            <a href='/datasets/?q=&selected_facets=tags_exact:7751' class="tag">area management/restriction/regulation zones and reporting units</a>
+        
+            <a href='/datasets/?q=&selected_facets=tags_exact:9837' class="tag">aukštybinių pastatų išdėstymo planai</a>
+        
+            <a href='/datasets/?q=&selected_facets=tags_exact:432' class="tag">Bendrasis Planas</a>
+        
+            <a href='/datasets/?q=&selected_facets=tags_exact:9838' class="tag">bendrieji planai</a>
+        
+            <a href='/datasets/?q=&selected_facets=tags_exact:9828' class="tag">bendri_objektai-ntk-tpdr</a>
+        
+            <a href='/datasets/?q=&selected_facets=tags_exact:7772' class="tag">bendri_objektai-tpdr-kvr</a>
+        
+            <a href='/datasets/?q=&selected_facets=tags_exact:9829' class="tag">bendri_objektai-tpdr-mvk</a>
+        
+            <a href='/datasets/?q=&selected_facets=tags_exact:9830' class="tag">bendri_objektai-tpdr-ntk</a>
+        
+            <a href='/datasets/?q=&selected_facets=tags_exact:9831' class="tag">bendri_objektai-tpdr-rc_adresai</a>
+        
+            <a href='/datasets/?q=&selected_facets=tags_exact:8330' class="tag">bendri_objektai-tpdr-stk</a>
+        
+            <a href='/datasets/?q=&selected_facets=tags_exact:9365' class="tag">bendri_objektai-tpdr-uetk</a>
+        
+            <a href='/datasets/?q=&selected_facets=tags_exact:8076' class="tag">data for surveyors and land managers</a>
+        
+            <a href='/datasets/?q=&selected_facets=tags_exact:8077' class="tag">duomenys matininkams ir žemėtvarkininkams</a>
+        
+            <a href='/datasets/?q=&selected_facets=tags_exact:7774' class="tag">infomapaccessservice</a>
+        
+            <a href='/datasets/?q=&selected_facets=tags_exact:8927' class="tag">kaimo plėtros žemėtvarkos projektai</a>
+        
+            <a href='/datasets/?q=&selected_facets=tags_exact:9839' class="tag">kraštovaizdžio tvarkymo planai</a>
+        
+            <a href='/datasets/?q=&selected_facets=tags_exact:9840' class="tag">miškų tvarkymo schemos</a>
+        
+            <a href='/datasets/?q=&selected_facets=tags_exact:767' class="tag">Ribos</a>
+        
+            <a href='/datasets/?q=&selected_facets=tags_exact:9841' class="tag">savivaldybės planas</a>
+        
+            <a href='/datasets/?q=&selected_facets=tags_exact:7764' class="tag">spatial planning data</a>
+        
+            <a href='/datasets/?q=&selected_facets=tags_exact:8399' class="tag">specialusis planas</a>
+        
+            <a href='/datasets/?q=&selected_facets=tags_exact:9843' class="tag">teritorijų planavimas</a>
+        
+            <a href='/datasets/?q=&selected_facets=tags_exact:7765' class="tag">teritorijų planavimo duomenys</a>
+        
+            <a href='/datasets/?q=&selected_facets=tags_exact:1202' class="tag">Tpd</a>
+        
+            <a href='/datasets/?q=&selected_facets=tags_exact:1255' class="tag">Tpdris</a>
+        
+            <a href='/datasets/?q=&selected_facets=tags_exact:9844' class="tag">turizmo ir rekreacijos schemos ir planai</a>
+        
+            <a href='/datasets/?q=&selected_facets=tags_exact:9845' class="tag">valstybės teritorijos bendrasis (generalinis) planas</a>
+        
+            <a href='/datasets/?q=&selected_facets=tags_exact:9846' class="tag">vandentvarkos schemos ir planai</a>
+        
+            <a href='/datasets/?q=&selected_facets=tags_exact:9847' class="tag">žemės gelmių naudojimo planai</a>
+        
+            <a href='/datasets/?q=&selected_facets=tags_exact:9848' class="tag">žemėtvarkos schemos</a>
+        
+    </div>
+
+            
+            
+
+
+<table class="table is-fullwidth has-border-bottom th-40 no-margin-bottom custom-table-padding">
+    <tbody>
+    <tr>
+        <th>
+            Patinka
+            <span class="icon info-icon has-tooltip-multiline is-middle"
+                  data-tooltip="Teigiamų įvertinimų kiekis duomenų ištekliui">
+                <i class="fas fa-info-circle"></i>
+            </span>
+        </th>
+        <td id="dataset_likes">
+            0
+
+        </td>
+    </tr>
+    <tr>
+        <th>
+            Brandos lygis
+            <span class="icon info-icon has-tooltip-multiline is-middle"
+                  data-tooltip="T. y. atvirų duomenų ištekliaus formatas, kuriuo atverti atvirų duomenų ištekliaus duomenys ir kuris įvertintas pagal Tim Berners-Lee penkių žvaigždučių modelį">
+                <i class="fas fa-info-circle"></i>
+            </span>
+        </th>
+        
+        <td>-</td>
+        
+    </tr>
+    
+    <tr>
+        <th>
+            Atnaujinama
+            <span class="icon info-icon has-tooltip-multiline is-middle"
+                  data-tooltip="Nurodoma, kokiu dažnumu duomenys yra atnaujinami (pvz.: kas mėnesį, kasmet)">
+                <i class="fas fa-info-circle"></i>
+            </span>
+        </th>
+        <td>
+            
+                Nuolat atnaujinama
+            
+        </td>
+    </tr>
+    <tr>
+        <th>
+            Kategorijos
+            <span class="icon info-icon has-tooltip-multiline is-middle"
+                data-tooltip="Temos ar sritys, kurioms priskiriamas duomenų išteklius (pvz.: Sveikata, Švietimas)">
+                <i class="fas fa-info-circle"></i>
+            </span>
+        </th>
+        <td>
+            <ul class="mt-0 ml-4">
+                
+            </ul>
+            
+        </td>
+    
+    
+
+    
+        <tr>
+            <th>
+                Būsena
+                <span class="icon info-icon has-tooltip-multiline is-middle"
+                      data-tooltip="Duomenų ištekliaus atvėrimo būsena: inventorintas, atvertas, planuojamas atverti"><i
+                            class="fas fa-info-circle"></i></span>
+            </th>
+            <td>
+                Atvertas
+            </td>
+        </tr>
+    
+    
+        <tr>
+            <th>
+                Duomenų išteklius viešinamas
+                <span class="icon info-icon has-tooltip-multiline is-middle"
+                      data-tooltip="Duomenų ištekliaus viešumo būsena"><i
+                            class="fas fa-info-circle"></i></span>
+            </th>
+            <td>
+              
+              Taip
+              
+            </td>
+        </tr>
+    
+    
+    
+        <tr>
+            <th>Prieigos teisės</th>
+            <td>Vieši</td>
+        </tr>
+    
+    
+    
+    
+    
+    
+    <tr>
+        <th>
+            Katalogas
+            <span class="icon info-icon has-tooltip-multiline is-middle"
+                  data-tooltip="Nurodoma konkreti informacinė sistema - valstybės informacinė sistema ar registras, kurio apimtyje yra tvarkomi duomenų ištekliai">
+                <i class="fas fa-info-circle"></i>
+            </span>
+        </th>
+        <td>
+            
+        </td>
+    </tr>
+    
+
+    
+
+
+    
+    
+        <tr>
+            <th>
+                API adresas
+                <span class="icon info-icon has-tooltip-multiline is-middle"
+                      data-tooltip="Pagrindinis API paslaugos adresas, kuriuo galima pasiekti duomenis">
+                    <i class="fas fa-info-circle"></i>
+                </span>
+            </th>
+            <td>
+                
+                    
+                    <a href="https://www.geoportal.lt/mapproxy/rest/services/vtpsi_tpdris_sprendiniai/MapServer">https://www.geoportal.lt/mapproxy/rest/services/v…</a><br>
+                
+            </td>
+        </tr>
+        <tr>
+            <th>
+                API formatas
+                <span class="icon info-icon has-tooltip-multiline is-middle"
+                      data-tooltip="Techninis formatas (pvz., REST, SOAP)">
+                    <i class="fas fa-info-circle"></i>
+                </span>
+            </th>
+            <td>JSON</td>
+        </tr>
+        <tr>
+            <th>
+                API specifikacija
+                <span class="icon info-icon has-tooltip-multiline is-middle"
+                      data-tooltip="Nuoroda į API dokumentaciją (pvz., OpenAPI, Swagger)">
+                    <i class="fas fa-info-circle"></i>
+                </span>
+            </th>
+            <td>
+                <a href=""></a>
+            </td>
+        </tr>
+        <tr>
+            <th>
+                API specifikacijos formatas
+                <span class="icon info-icon has-tooltip-multiline is-middle"
+                      data-tooltip="API dokumentacijos formatas (pvz., JSON, YAML)">
+                    <i class="fas fa-info-circle"></i>
+                </span>
+            </th>
+            <td></td>
+        </tr>
+        <tr>
+            <th>
+                Atitinka
+                <span class="icon info-icon has-tooltip-multiline is-middle"
+                      data-tooltip="Nurodo kokį standartą atitinka paslauga. (pvz., UDTS)">
+                    <i class="fas fa-info-circle"></i>
+                </span>
+            </th>
+            <td></td>
+        </tr>
+    
+    
+    
+    
+    </tbody>
+</table>
+
+<div class="is-pulled-right m-t-sm m-b-sm">
+    <p class="dataset-extra-meta-button">Peržiūrėti papildomą informaciją +</p>
+</div>
+
+<table class="table is-fullwidth is-hidden has-border-top has-border-bottom th-40 custom-table-padding"
+       id="extra-table">
+    <tbody>
+    
+        
+    
+    <tr>
+        <th>
+            Duomenų ištekliaus sukūrimo data
+            <span class="icon info-icon has-tooltip-multiline is-middle"
+                  data-tooltip="Kada buvo sukurtas duomenų išteklius (metai, mėnuo, diena)">
+                <i class="fas fa-info-circle"></i>
+            </span>
+        </th>
+        <td>2025-03-04 13:48</td>
+    </tr>
+    
+        <tr>
+            <th>
+                Paskutinio atnaujinimo data
+                <span class="icon info-icon has-tooltip-multiline is-middle"
+                      data-tooltip="Kada paskutinį kartą buvo atnaujinti duomenys">
+                    <i class="fas fa-info-circle"></i>
+                </span>
+            </th>
+            <td>2026-08-09 02:01</td>
+        </tr>
+    
+    <tr>
+        <th>
+            Teisės - Aprašymas
+            <span class="icon info-icon has-tooltip-multiline is-middle"
+                  data-tooltip="Laisvu tekstu pateikiamas teisių deklaracijos aprašymas. Atitinka dct:rights.">
+                <i class="fas fa-info-circle"></i>
+            </span>
+        </th>
+        <td>
+            
+        </td>
+    </tr>
+    
+    </tbody>
+</table>
+
+        </div>
+    </div>
+    <div class="column is-one-third">
+        <div>
+            
+                
+                
+<div class="card" style="box-shadow: none;">
+    <header class="card-header" style="box-shadow: none;">
+        <p class="card-header-title">
+            Duomenų skelbėjas
+        </p>
+    </header>
+    <div class="card-content" style="padding-left:1rem; padding-right:1rem;">
+        <div class="media">
+            
+            
+            <div class="media-left">
+                <figure class="image is-48x48">
+                    <img src="/media/filer_public/b4/54/b4545530-179f-42bc-9a87-4d53a82dd2a0/logossva_2025.png" alt="datasets/gov/ssva/" style="border-radius:4px; border:1px solid  #F1F1F1;">
+                </figure>
+            </div>
+            
+            <div class="media-content">
+                
+                <p class="title is-6">Viešoji įstaiga Statybos sektoriaus vystymo agentūra</p>
+                
+                <p class="subtitle is-6">
+                    <a href="/orgs/125/" rel="noopener" style="text-decoration: underline;">
+                    datasets/gov/ssva/
+                    </a>
+                </p>
+                
+                <p class="is-flex is-align-items-center">
+                    <span class="icon is-small has-text-primary mr-1"><i class="fas fa-globe"></i></span>
+                    <a href="https://ssva.lt" target="_blank" rel="noopener" class="has-text-weight-bold">
+                    https://ssva.lt
+                    </a>
+                </p>
+                
+                
+                <p class="is-flex is-align-items-center">
+                    <span class="icon is-small has-text-primary mr-1">
+                    <i class="fas fa-envelope"></i>
+                    </span>
+                    <a href="mailto:agentura@ssva.lt" class="has-text-weight-bold">
+                    agentura@ssva.lt
+                    </a>
+                </p>
+                
+                
+                <p class="is-flex is-align-items-center">
+                    <span class="icon is-small has-text-primary mr-1">
+                    <i class="fas fa-phone"></i>
+                    </span>
+                    <a href="tel:+370-700-15100" class="has-text-weight-bold">
+                    +370-700-15100
+                    </a>
+                </p>
+                
+            </div>
+            
+        </div>
+    </div>
+</div>
+                
+            
+            
+            <hr class="custom-line-margin">
+            <p class="has-text-dark m-b-md">Dalintis socialiniuose tinkluose</p>
+            <p class="social-icons m-t-md">
+                <a target="_blank"
+                   href="https://www.facebook.com/sharer/sharer.php?u=https://data.gov.lt/datasets/3742/"
+                   title="Facebook"
+                   aria-label="Facebook"
+                   class="is-inline-block">
+                    <img class="image is-32x32"
+                         height="32"
+                         width="32"
+                         alt="Facebook"
+                         src="/static/img/facebook-icon.svg" />
+                </a>
+                <a target="_blank"
+                   href="https://www.linkedin.com/sharing/share-offsite/?title=Rengiam%C5%B3%20teritorij%C5%B3%20planavimo%20dokument%C5%B3%20sprendiniai%20%28ArcGIS%20per%C5%BEi%C5%ABros%20paslauga%29&url=https://data.gov.lt/datasets/3742/"
+                   class="is-inline-block"
+                   title="LinkedIn"
+                   aria-label="LinkedIn">
+                    <img class="image is-32x32"
+                         height="32"
+                         width="32"
+                         alt="LinkedIn"
+                         src="/static/img/linkedin-icon.svg" />
+                </a>
+                <a target="_blank"
+                   href="https://twitter.com/share?text=Rengiam%C5%B3%20teritorij%C5%B3%20planavimo%20dokument%C5%B3%20sprendiniai%20%28ArcGIS%20per%C5%BEi%C5%ABros%20paslauga%29&url=https://data.gov.lt/datasets/3742/"
+                   class="is-inline-block"
+                   title="Twitter"
+                   aria-label="Twitter">
+                    <img class="image is-32x32"
+                         height="32"
+                         width="32"
+                         alt="Twitter"
+                         src="/static/img/twitter-icon.svg" />
+                </a>
+            </p>
+            <div class="has-text-dark" id="dataset_subscription">
+                
+                
+<p class="has-text-dark">Prenumeruoja: <strong id="number-of-subscribers">0</strong></p>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+    <div class="mb-6">
+        
+            <div class="columns">
+                <div class="column is-full">
+                    <h4 class="custom-title is-size-4-mobile no-margin-bottom">Priklauso duomenų katalogui</h4>
+                    <table class="table is-striped is-hoverable is-fullwidth no-margin-bottom table-smaller-padding"
+                           id="resource-table">
+                        <thead>
+                            <tr>
+                                <th>Duomenų rinkinys</th>
+                                <td></td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            
+                                <tr>
+                                    <td>
+                                        <a href="/datasets/3820/">Lietuvos erdvinės informacijos portalas</a>
+                                    </td>
+                                    <td>
+                                        
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td>
+                                        <a href="/datasets/4678/">Lietuvos erdvinės informacijos portalas</a>
+                                    </td>
+                                    <td>
+                                        
+                                    </td>
+                                </tr>
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        
+    </div>
+
+
+<div class="columns mt-6">
+    <div class="column is-full">
+        <h2 class="custom-title is-size-4-mobile no-margin-bottom">Priskirtos organizacijos</h2>
+        
+            <table class="table is-striped is-hoverable is-fullwidth no-margin-bottom table-smaller-padding"
+                   id="resource-table">
+                <thead>
+                    <tr>
+                        <th>Priskyrimo rūšis</th>
+                        <th>Organizacija</th>
+                        <td></td>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                        <tr>
+                            <td>Duomenų rengėjas</td>
+                            <td>
+                                
+                                    <a href="/orgs/125/">Viešoji įstaiga Statybos sektoriaus vystymo agentūra</a>
+                                
+                            </td>
+                            <td>
+                                
+                            </td>
+                        </tr>
+                    
+                </tbody>
+            </table>
+        
+        
+    </div>
+</div>
+<div class="columns no-margin-bottom">
+    <div class="column is-three-quarters">
+
+
+
+<h2 id="comments" class="custom-title is-size-4-mobile">Komentarai</h2>
+
+    
+
+    
+
+
+
+    <article class="message is-warning">
+        <div class="message-body">
+            <strong>Komentuoti gali tik prisijungę naudotojai</strong>
+        </div>
+    </article>
+
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.media-content').submit(function () {
+            $(this).find(":submit").attr('disabled', 'disabled');
+        });
+
+        $('.comment-button').click( function () {
+            const form = $(this).closest('.media-content');
+            const status_field = form.find('[id^="id_is_public"]')[0] || form.find('#id_status')[0];
+            const body_field = form.find('[id^="id_body"]')[0];
+
+            if (!body_field.value && (!status_field || !status_field.value || status_field.value == "REJECTED")) {
+                body_field.setCustomValidity("Šis laukas privalomas");
+                body_field.reportValidity();
+            }
+            else {
+                form.trigger('submit');
+            }
+        });
+
+        $('input#id_register_request').click( function () {
+            $("#div_id_increase_frequency").toggle(this.checked);
+        });
+        $("#div_id_increase_frequency").toggle(false);
+    });
+</script>
+<script src="/static/vitrina/datasets/js/comments.js"></script>
+</div>
+</div>
+</div>
+        </div>
+    </section>
+
+
+
+
+<footer class="footer">
+    <div class="container">
+        <div class="columns">
+            <div class="column is-2">
+                <a href="https://vssa.lrv.lt/lt/">
+                    <img src="/static/img/vssa-logo.png" alt="VSSA logo">
+                </a>
+            </div>
+            <div class="column is-4">
+                <p>VSSA Valstybės skaitmeninių sprendimų agentūra, Konstitucijos pr. 15-89, Vilnius</p>
+                <br/>
+                <p>el. p. <a href="mailto:atviriduomenys@vssa.lt"><span class="has-text-dark">atviriduomenys@vssa.lt</span></a></p>
+            </div>
+            <div class="column is-6">
+                <p id="newsletter_search_title">Užsiprenumeruokite mūsų naujienlaiškį</p>
+                <form class="field has-addons media-content" action="/newsletter/subscribe/" method="post">
+                    <input type="hidden" name="csrfmiddlewaretoken" value="ndJ8O4MxaNDMXjjaXWgugU86Guif86qYL1Zybx84hsKHM7FFC5bxxEXBkffbYr3J">
+                    <p class="control is-expanded">
+                        <input class="input newsletter-input" type="email" id="newsletter-input-email" required="required"
+                               placeholder="Įveskite el. pašto adresą..."
+                               name="email" title="El. paštas"
+                               aria-labelledby="newsletter_search_title"
+                        >
+                    </p>
+                    <p class="control">
+                        <button class="button is-primary" type="submit">
+                            Užsakyti
+                        </button>
+                    </p>
+                </form>
+                <br/>
+                <p>Susisiekite su mumis::</p>
+                <div class="footer-icons">
+                    <a class="footer-link is-inline-block" href="https://www.facebook.com/VSSAgentura/" target="_blank" title="Facebook" aria-label="Facebook">
+                        <img class="image is-32x32" alt="Facebook" src="/static/img/facebook-icon.svg"/>
+                    </a>
+                    <a class="footer-link is-inline-block" href="mailto:atviriduomenys@vssa.lt" title="El. paštas" aria-label="El. paštas">
+                        <img class="image is-32x32" alt="El. paštas" src="/static/img/email-icon.svg"/>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript">
+    function openMenu() {
+        var burger = document.querySelector('.burger');
+        var nav = document.querySelector('#navbarBasic');
+        burger.classList.toggle('is-active');
+        nav.classList.toggle('is-active');
+    }
+
+    function HideMessage(counter) {
+        var notificationBar = document.getElementById('message-list-' + counter);
+        notificationBar.classList.add('is-hidden');
+    }
+</script>
+
+    
+    
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $.postCSRF("/hitcount/hit/ajax/", { hitcountPK : "3175" });
+
+            $('.dataset-extra-meta-button').click(function () {
+                $(this).text($(this).text() === "Peržiūrėti papildomą informaciją +"
+                    ? "Uždaryti papildomą informaciją -"
+                    : "Peržiūrėti papildomą informaciją +");
+                $('#extra-table').toggleClass('is-hidden');
+            });
+
+            $('.preview-button').click(function () {
+                $('#preview-modal').toggleClass('is-active');
+                $('html').toggleClass('is-clipped');
+                $.getJSON('/datasets/3742/preview/' + $(this).attr('id'), function (json_data) {
+                    var table_obj = document.getElementById('info-table-body');
+                    $("#info-table-body").empty();
+                    $.each(json_data.data, function (index, item) {
+                        var newRow = table_obj.insertRow(index);
+                        newRow.classList.add("preview-tr", index === 0 ? "has-text-weight-bold" : "");
+                        $.each(item, function (i, j) {
+                            var newCell = newRow.insertCell(i);
+                            newCell.innerHTML = j;
+                            newCell.className = "preview-td";
+                        });
+                    });
+                });
+            });
+
+            $('.new-preview-button').click(function () {
+                $('#preview-modal').toggleClass('is-active');
+                $('html').toggleClass('is-clipped');
+                $.getJSON('/dataset/3742/previewStructure', function (json_data) {
+                    var table_obj = document.getElementById('info-table-body');
+                    $.each(json_data, function (index, item) {
+                        var newRow = table_obj.insertRow(index);
+                        newRow.classList.add("preview-tr", index === 0 ? "is-bold" : "");
+                        $.each(item, function (i, j) {
+                            var newCell = newRow.insertCell(i);
+                            newCell.innerHTML = j;
+                            newCell.className = "preview-td";
+                        });
+                    });
+                });
+            });
+
+            $('.modal-button-close').click(function () {
+                $('#preview-modal').toggleClass('is-active');
+                $('html').toggleClass('is-clipped');
+                $("#info-table-body").empty();
+            });
+        });
+
+        // Scroll position for pagination
+        document.addEventListener("DOMContentLoaded", function() {
+            if (sessionStorage.getItem("scrollPosition")) {
+                window.scrollTo(0, sessionStorage.getItem("scrollPosition"));
+                sessionStorage.removeItem("scrollPosition");
+            }
+            document.querySelectorAll(".pagination a").forEach(link => {
+                link.addEventListener("click", () => {
+                    sessionStorage.setItem("scrollPosition", window.scrollY);
+                });
+            });
+
+            const checkbox = document.getElementById('register_request');
+            const requestTitleDiv = document.getElementById('div_request_title');
+            if (requestTitleDiv && checkbox) {
+                const toggleRequestTitleField = () => {
+                    requestTitleDiv.style.display = checkbox.checked ? 'block' : 'none';
+
+                    const label = requestTitleDiv.querySelector('label[for="request_title"]');
+                    if (label) {
+                        label.innerHTML = label.innerHTML.replace(/ <span class="asteriskField">\*<\/span>/g, '');
+                        if (checkbox.checked && !label.innerHTML.includes('asteriskField')) {
+                            label.innerHTML = label.innerHTML.trim() + ' <span class="asteriskField">*</span>';
+                        }
+                    }
+
+                    const requestTitleField = document.getElementById('request_title');
+                    if (requestTitleField) {
+                        requestTitleField.required = checkbox.checked;
+                    }
+                };
+
+                checkbox.addEventListener('change', toggleRequestTitleField);
+                toggleRequestTitleField();
+            }
+        });
+    </script>
+    
+        <script type="application/ld+json" async>{"@context": "https://schema.org/", "@type": "Dataset", "name": "Rengiamų teritorijų planavimo dokumentų sprendiniai (ArcGIS peržiūros paslauga)", "description": "Rengiamų teritorijų planavimo dokumentų sprendinių erdviniai duomenys vaizduojami grupuojant sluoksnius pagal planavimo porūšį. Duomenų struktūrą reglamentuoja teritorijų planavimo erdvinių duomenų specifikacija (Nr. D1-1009) Duomenys naujinami realiu laiku.", "url": "/datasets/3742/", "creator": {"@type": "Organization", "name": "Viešoji įstaiga Statybos sektoriaus vystymo agentūra"}, "keywords": ["apskrities teritorijos bendrasis (generalinis) planas", "area management/restriction/regulation zones and reporting units", "aukštybinių pastatų išdėstymo planai", "Bendrasis Planas", "bendrieji planai", "bendri_objektai-ntk-tpdr", "bendri_objektai-tpdr-kvr", "bendri_objektai-tpdr-mvk", "bendri_objektai-tpdr-ntk", "bendri_objektai-tpdr-rc_adresai", "bendri_objektai-tpdr-stk", "bendri_objektai-tpdr-uetk", "data for surveyors and land managers", "duomenys matininkams ir žemėtvarkininkams", "infomapaccessservice", "kaimo plėtros žemėtvarkos projektai", "kraštovaizdžio tvarkymo planai", "miškų tvarkymo schemos", "Ribos", "savivaldybės planas", "spatial planning data", "specialusis planas", "teritorijų planavimas", "teritorijų planavimo duomenys", "Tpd", "Tpdris", "turizmo ir rekreacijos schemos ir planai", "valstybės teritorijos bendrasis (generalinis) planas", "vandentvarkos schemos ir planai", "žemės gelmių naudojimo planai", "žemėtvarkos schemos"], "distribution": null, "datePublished": "2025-03-04 11:48:47+00:00", "isAccessibleForFree": true}</script>
+    
+
+
+</body>
+</html>

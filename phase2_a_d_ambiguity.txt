@@ -1,0 +1,8 @@
+dirbt_id=74267114641938553 obje=28 pask=240 floors=1 A_area=51 A_year=1989 -> D candidates with same (obje,pask,floors): 4080
+dirbt_id=74121505902056517 obje=22 pask=212 floors=1 A_area=146 A_year=2002 -> D candidates with same (obje,pask,floors): 524
+dirbt_id=74458909690887407 obje=28 pask=240 floors=1 A_area=22 A_year=1991 -> D candidates with same (obje,pask,floors): 4080
+dirbt_id=74424299090460971 obje=28 pask=240 floors=1 A_area=26 A_year=1970 -> D candidates with same (obje,pask,floors): 4080
+dirbt_id=74502496663490556 obje=28 pask=240 floors=1 A_area=25 A_year=1979 -> D candidates with same (obje,pask,floors): 4080
+dirbt_id=74300749231899318 obje=28 pask=240 floors=1 A_area=23 A_year=1930 -> D candidates with same (obje,pask,floors): 4080
+dirbt_id=74514046258669406 obje=28 pask=240 floors=1 A_area=34 A_year=1969 -> D candidates with same (obje,pask,floors): 4080
+dirbt_id=7568589576494715 obje=20 pask=110 floors=2 A_area=136 A_year=1926 -> D candidates with same (obje,pask,floors): 8385

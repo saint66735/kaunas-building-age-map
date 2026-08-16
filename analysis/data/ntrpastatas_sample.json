@@ -1,0 +1,292 @@
+{
+  "_data": [
+    {
+      "_type": "datasets/gov/rc/ntr/ntr_pastatai/NtrPastatas",
+      "_id": "6b7edfb3-2b4f-4dad-8130-7dc27d5ac817",
+      "_revision": "00bc4060-f1c9-416a-a41c-bc1ca42682cd",
+      "_base": null,
+      "id": 69022488622,
+      "savivaldybe": {
+        "_id": "3e9cb110-6c90-4c2a-bace-3e290a5b667b"
+      },
+      "seniunija": {
+        "_id": "2ff41606-a62b-4ec3-bb25-f8aaa3a3aa20"
+      },
+      "statinio_kategorija": null,
+      "obje_tipas": {
+        "_id": "8e75677b-0e8f-463f-a70e-5df73f07bd7c"
+      },
+      "pask_tipas": {
+        "_id": "d9db6328-24c8-421b-9089-80c0e9ae5080"
+      },
+      "atr_uzstatytas_plotas": 36.0,
+      "bendras_plotas": 0.0,
+      "naudingas_plotas": null,
+      "gyv_plotas": 0.0,
+      "verslo_plotas": null,
+      "pagalb_nenaud_plotas": null,
+      "pagalb_naud_plotas": null,
+      "rusiu_plotas": null,
+      "garazu_plotas": null,
+      "patalpu_kaip_atsir_nt_skaicius": null,
+      "gyv_pask_patalpu_sk": null,
+      "pastato_energ_naud_klase": null,
+      "aukstu_skaicius": 1,
+      "stat_pradzios_metai": null,
+      "stat_pabaigos_metai": 1955,
+      "modern_pradzios_metai": null,
+      "modern_pabaigos_metai": null,
+      "sildymas": null,
+      "vandentiekis": null,
+      "nuoteku_salinimas": null,
+      "dujos": null,
+      "karstas_vanduo": null,
+      "elektra": 1,
+      "virykle": null,
+      "vonios_kambarys": null,
+      "vedin_kondicionav": null,
+      "pamatai": 4,
+      "sienos": 30,
+      "stogo_konstrukcija": 2,
+      "stogo_danga": 28,
+      "perdanga": 3,
+      "isores_apdaila": 0,
+      "vidaus_apdaila": null,
+      "pertvaros": 0,
+      "grindys": 0,
+      "langai": 0,
+      "durys": 1
+    },
+    {
+      "_type": "datasets/gov/rc/ntr/ntr_pastatai/NtrPastatas",
+      "_id": "9dcba67f-cc0e-4923-a68a-eba294987062",
+      "_revision": "013bced5-c475-47e8-ac6f-f65fa8fefb31",
+      "_base": null,
+      "id": 690249333987,
+      "savivaldybe": {
+        "_id": "3e9cb110-6c90-4c2a-bace-3e290a5b667b"
+      },
+      "seniunija": {
+        "_id": "1a0e3508-ae0d-4766-9453-b8f306084902"
+      },
+      "statinio_kategorija": "4",
+      "obje_tipas": {
+        "_id": "8e75677b-0e8f-463f-a70e-5df73f07bd7c"
+      },
+      "pask_tipas": {
+        "_id": "d9db6328-24c8-421b-9089-80c0e9ae5080"
+      },
+      "atr_uzstatytas_plotas": 70.0,
+      "bendras_plotas": 0.0,
+      "naudingas_plotas": null,
+      "gyv_plotas": 0.0,
+      "verslo_plotas": null,
+      "pagalb_nenaud_plotas": null,
+      "pagalb_naud_plotas": null,
+      "rusiu_plotas": null,
+      "garazu_plotas": null,
+      "patalpu_kaip_atsir_nt_skaicius": null,
+      "gyv_pask_patalpu_sk": null,
+      "pastato_energ_naud_klase": null,
+      "aukstu_skaicius": 1,
+      "stat_pradzios_metai": 1965,
+      "stat_pabaigos_metai": 1965,
+      "modern_pradzios_metai": null,
+      "modern_pabaigos_metai": null,
+      "sildymas": 0,
+      "vandentiekis": 0,
+      "nuoteku_salinimas": 0,
+      "dujos": 0,
+      "karstas_vanduo": null,
+      "elektra": 0,
+      "virykle": null,
+      "vonios_kambarys": null,
+      "vedin_kondicionav": null,
+      "pamatai": 3,
+      "sienos": 48,
+      "stogo_konstrukcija": 2,
+      "stogo_danga": 3,
+      "perdanga": 3,
+      "isores_apdaila": 0,
+      "vidaus_apdaila": null,
+      "pertvaros": 0,
+      "grindys": 0,
+      "langai": 0,
+      "durys": 1
+    },
+    {
+      "_type": "datasets/gov/rc/ntr/ntr_pastatai/NtrPastatas",
+      "_id": "afe1bbfe-4a75-4c4e-ad7f-84a83e2269bf",
+      "_revision": "245c9f6b-e0b5-42f2-bd76-2e1053c18f1e",
+      "_base": null,
+      "id": 6902864544199,
+      "savivaldybe": {
+        "_id": "3e9cb110-6c90-4c2a-bace-3e290a5b667b"
+      },
+      "seniunija": {
+        "_id": "1a0e3508-ae0d-4766-9453-b8f306084902"
+      },
+      "statinio_kategorija": "4",
+      "obje_tipas": {
+        "_id": "8e75677b-0e8f-463f-a70e-5df73f07bd7c"
+      },
+      "pask_tipas": {
+        "_id": "d9db6328-24c8-421b-9089-80c0e9ae5080"
+      },
+      "atr_uzstatytas_plotas": 71.0,
+      "bendras_plotas": 0.0,
+      "naudingas_plotas": null,
+      "gyv_plotas": 0.0,
+      "verslo_plotas": null,
+      "pagalb_nenaud_plotas": null,
+      "pagalb_naud_plotas": null,
+      "rusiu_plotas": null,
+      "garazu_plotas": null,
+      "patalpu_kaip_atsir_nt_skaicius": null,
+      "gyv_pask_patalpu_sk": null,
+      "pastato_energ_naud_klase": null,
+      "aukstu_skaicius": 1,
+      "stat_pradzios_metai": 1974,
+      "stat_pabaigos_metai": 1974,
+      "modern_pradzios_metai": null,
+      "modern_pabaigos_metai": null,
+      "sildymas": 4,
+      "vandentiekis": 0,
+      "nuoteku_salinimas": 0,
+      "dujos": 0,
+      "karstas_vanduo": null,
+      "elektra": 1,
+      "virykle": null,
+      "vonios_kambarys": null,
+      "vedin_kondicionav": null,
+      "pamatai": 12,
+      "sienos": 1,
+      "stogo_konstrukcija": 2,
+      "stogo_danga": 3,
+      "perdanga": 3,
+      "isores_apdaila": 0,
+      "vidaus_apdaila": null,
+      "pertvaros": 0,
+      "grindys": 15,
+      "langai": 1,
+      "durys": 1
+    },
+    {
+      "_type": "datasets/gov/rc/ntr/ntr_pastatai/NtrPastatas",
+      "_id": "ad5e9003-fb47-4672-8036-6a11f909a15d",
+      "_revision": "a8811125-9ada-490e-9c48-be1330457e90",
+      "_base": null,
+      "id": 6902873309601,
+      "savivaldybe": {
+        "_id": "3e9cb110-6c90-4c2a-bace-3e290a5b667b"
+      },
+      "seniunija": {
+        "_id": "fed2418e-592c-435a-8bb9-314d2d57e7c3"
+      },
+      "statinio_kategorija": null,
+      "obje_tipas": {
+        "_id": "8e75677b-0e8f-463f-a70e-5df73f07bd7c"
+      },
+      "pask_tipas": {
+        "_id": "d9db6328-24c8-421b-9089-80c0e9ae5080"
+      },
+      "atr_uzstatytas_plotas": 16.0,
+      "bendras_plotas": 0.0,
+      "naudingas_plotas": null,
+      "gyv_plotas": 0.0,
+      "verslo_plotas": null,
+      "pagalb_nenaud_plotas": null,
+      "pagalb_naud_plotas": null,
+      "rusiu_plotas": null,
+      "garazu_plotas": null,
+      "patalpu_kaip_atsir_nt_skaicius": null,
+      "gyv_pask_patalpu_sk": null,
+      "pastato_energ_naud_klase": null,
+      "aukstu_skaicius": 1,
+      "stat_pradzios_metai": null,
+      "stat_pabaigos_metai": 1958,
+      "modern_pradzios_metai": null,
+      "modern_pabaigos_metai": null,
+      "sildymas": 0,
+      "vandentiekis": 0,
+      "nuoteku_salinimas": 0,
+      "dujos": null,
+      "karstas_vanduo": null,
+      "elektra": 0,
+      "virykle": null,
+      "vonios_kambarys": null,
+      "vedin_kondicionav": null,
+      "pamatai": 4,
+      "sienos": 48,
+      "stogo_konstrukcija": 2,
+      "stogo_danga": 3,
+      "perdanga": 0,
+      "isores_apdaila": 0,
+      "vidaus_apdaila": null,
+      "pertvaros": 0,
+      "grindys": 0,
+      "langai": 0,
+      "durys": 1
+    },
+    {
+      "_type": "datasets/gov/rc/ntr/ntr_pastatai/NtrPastatas",
+      "_id": "4c68dfe2-98d8-4a0c-8ede-bc533d2bfec4",
+      "_revision": "d228fd9e-b8cc-4353-ada7-98d68d867c65",
+      "_base": null,
+      "id": 6903634534684,
+      "savivaldybe": {
+        "_id": "3e9cb110-6c90-4c2a-bace-3e290a5b667b"
+      },
+      "seniunija": {
+        "_id": "0127a223-2f2e-41be-9e02-d2303ef535da"
+      },
+      "statinio_kategorija": null,
+      "obje_tipas": {
+        "_id": "8e75677b-0e8f-463f-a70e-5df73f07bd7c"
+      },
+      "pask_tipas": {
+        "_id": "d9db6328-24c8-421b-9089-80c0e9ae5080"
+      },
+      "atr_uzstatytas_plotas": 125.74,
+      "bendras_plotas": 0.0,
+      "naudingas_plotas": null,
+      "gyv_plotas": 0.0,
+      "verslo_plotas": null,
+      "pagalb_nenaud_plotas": null,
+      "pagalb_naud_plotas": null,
+      "rusiu_plotas": null,
+      "garazu_plotas": null,
+      "patalpu_kaip_atsir_nt_skaicius": null,
+      "gyv_pask_patalpu_sk": null,
+      "pastato_energ_naud_klase": null,
+      "aukstu_skaicius": 1,
+      "stat_pradzios_metai": null,
+      "stat_pabaigos_metai": 1958,
+      "modern_pradzios_metai": null,
+      "modern_pabaigos_metai": null,
+      "sildymas": 0,
+      "vandentiekis": null,
+      "nuoteku_salinimas": null,
+      "dujos": null,
+      "karstas_vanduo": null,
+      "elektra": 1,
+      "virykle": null,
+      "vonios_kambarys": null,
+      "vedin_kondicionav": null,
+      "pamatai": 2,
+      "sienos": 48,
+      "stogo_konstrukcija": 2,
+      "stogo_danga": 3,
+      "perdanga": null,
+      "isores_apdaila": null,
+      "vidaus_apdaila": null,
+      "pertvaros": null,
+      "grindys": null,
+      "langai": null,
+      "durys": 1
+    }
+  ],
+  "_page": {
+    "next": "WzY5MDM2MzQ1MzQ2ODQsICI0YzY4ZGZlMi05OGQ4LTRhMGMtOGVkZS1iYzUzM2QyYmZlYzQiXQ=="
+  }
+}

@@ -1,0 +1,1868 @@
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+    <meta charset="utf-8">
+
+    <title>Lietuvos atvirų duomenų portalas
+    | Duomenų ištekliai
+</title>
+    <meta name="description"
+          content="Atvirų duomenų portalas - tai vieningas prieigos taškas prie visų Lietuvoje atvertų duomenų rinkinių ir suteikiantis technologines priemones atvirų duomenų teikėjams parengti ir publikuoti atvertų duomenų rinkinių metaduomenis.">
+    <meta name="keywords"
+          content="atviri duomenys, duomenų rinkiniai, atvirų duomenų portalas">
+    <meta name="author" content="Valstybės skaitmeninių sprendimų agentūra">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:title" content="Lietuvos atvirų duomenų portalas
+    | Duomenų ištekliai
+"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:description"
+          content="Atvirų duomenų portalas - tai vieningas prieigos taškas prie visų Lietuvoje atvertų duomenų rinkinių ir suteikiantis technologines priemones atvirų duomenų teikėjams parengti ir publikuoti atvertų duomenų rinkinių metaduomenis."/>
+
+    <link type="text/css" href="/static/css/bundle.css" rel="stylesheet" media="screen">
+    <link rel="preload" href="/static/img/landing/ladp.svg" as="image">
+    <link rel="preload" href="/static/img/landing/bg.webp" as="image">
+    <link href="/static/fontawesomefree/css/all.min.css" rel="stylesheet" type="text/css">
+    <script defer src="/static/js/bundle.js"></script>
+    <script src="/static/js/jquery.js"></script>
+    <script type="text/javascript">
+        $ = window.jquery.$;
+        jQuery = window.jquery.$;
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.3.0/dist/chart.umd.min.js"
+            integrity="sha384-YAshAm4KKjf8V01c4sdNbPYiwU0D0Q82fjMHhKw8VvP0ecY4fxXsZAHxC4r4Ei+T"
+            crossorigin="anonymous"></script>
+    <script src="/jsi18n/"></script>
+    
+        <script async
+                src="https://www.googletagmanager.com/gtag/js?id=G-L13MZ6XWWP"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+
+            gtag('js', new Date());
+
+            gtag('config', 'G-L13MZ6XWWP', {
+                cookie_flags: 'max-age=7200;secure;samesite=none'
+            });
+        </script>
+    
+    
+<link rel="apple-touch-icon" sizes="180x180" href="/static/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/static/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/static/favicon/favicon-16x16.png">
+<link rel="manifest" href="/static/favicon/site.webmanifest">
+<link rel="mask-icon" href="/static/favicon/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="/static/favicon/favicon.ico">
+<meta name="apple-mobile-web-app-title" content="data.gov.lt">
+<meta name="application-name" content="data.gov.lt">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-config" content="/static/favicon/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+    
+    <style>
+        .autocomplete {
+            /*the container must be positioned relative:*/
+            position: relative;
+            display: inline-block;
+        }
+
+        .autocomplete-items {
+            position: absolute;
+            border: 1px solid #d4d4d4;
+            border-bottom: none;
+            border-top: none;
+            z-index: 99;
+            /*position the autocomplete items to be the same width as the container:*/
+            top: 100%;
+            left: 0;
+            right: 0;
+            color: #4a4a4a;
+        }
+
+        .autocomplete-items div {
+            padding: 10px;
+            cursor: pointer;
+            background-color: #fff;
+            border-bottom: 1px solid #d4d4d4;
+        }
+
+        .autocomplete-items div:hover {
+            /*when hovering an item:*/
+            background-color: #e9e9e9;
+        }
+
+        .autocomplete-active {
+            /*when navigating through the items using the arrow keys:*/
+            background-color: #007db2 !important;
+            color: #ffffff;
+        }
+        .divider-right {
+            border-right: 1px solid #dcdcdc;
+            height: 100%;
+        }
+        .dataset-list-description {
+            word-break: break-all;
+            overflow-wrap: break-word;
+        }
+        .dataset-list-group-tag {
+            background-color: Gainsboro;
+            color: black;
+        }
+    </style>
+
+    
+
+    
+    
+
+    
+</head>
+<body >
+
+    
+
+
+    
+
+<header>
+    
+
+
+
+
+
+    
+
+
+
+
+<nav class="navbar is-link" role="navigation" aria-label="main navigation">
+<div class="container">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="/">
+                <img src="/static/img/logo.webp" alt="herbas" height="36">
+                &nbsp;&nbsp;
+                <b><span class="navbar-title is-uppercase">data.gov.lt</span></b>
+            </a>
+            <a
+                    role="button"
+                    class="navbar-burger burger"
+                    aria-label="menu"
+                    aria-expanded="false"
+                    data-target="navbarBasic"
+                    onClick="openMenu()"
+            >
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        
+        <div id="navbarBasic" class="navbar-menu">
+            <div class="navbar-start">
+                <a class="navbar-item" href="#main-content">
+                    Į pagrindinį turinį
+                </a>
+            </div>
+
+            <div class="navbar-end">
+                
+
+
+
+
+    
+        <a href="/datasets/"
+           class="navbar-item ">Duomenų ištekliai</a>
+    
+
+    
+        <a href="/requests/submitted/"
+           class="navbar-item ">Poreikiai ir pasiūlymai</a>
+    
+
+    
+        <div class="navbar-item has-dropdown is-hoverable ">
+            <a href="/opening-tips/"
+               class="navbar-link">Pagalba atvėrėjams</a>
+            <div class="navbar-dropdown">
+                
+                    <a href="/opening-tips/saugykla/"
+                       class="navbar-item">Atvirų duomenų saugykla</a>
+                
+                    <a href="/opening-tips/vadovas/"
+                       class="navbar-item">Duomenų atvėrimo vadovas</a>
+                
+                    <a href="/opening-tips/aprasas/"
+                       class="navbar-item">Duomenų struktūros aprašas</a>
+                
+                    <a href="/opening-tips/data-opening-tools/"
+                       class="navbar-item">Įrankiai duomenų atvėrimui</a>
+                
+                    <a href="/opening-tips/opening/learningmaterial/"
+                       class="navbar-item">Mokymo medžiaga</a>
+                
+                    <a href="/opening-tips/opening_faq/"
+                       class="navbar-item">Dažnai užduodami klausimai</a>
+                
+                    <a href="/opening-tips/koordinatoriaus-ir-tvarkytojo-registravimas/"
+                       class="navbar-item">Koordinatoriaus ir tvarkytojo registravimas</a>
+                
+                    <a href="/opening-tips/duomenu-atverimo-principai/"
+                       class="navbar-item">Duomenų atvėrimo principai</a>
+                
+            </div>
+        </div>
+    
+
+    
+        <div class="navbar-item has-dropdown is-hoverable ">
+            <a href="/more/"
+               class="navbar-link">Daugiau</a>
+            <div class="navbar-dropdown">
+                
+                    <a href="/more/regulation/"
+                       class="navbar-item">Reglamentacija</a>
+                
+                    <a href="/projects/"
+                       class="navbar-item">Panaudojimo atvejai</a>
+                
+                    <a href="/more/nuorodos/"
+                       class="navbar-item">Nuorodos</a>
+                
+                    <a href="/more/about/"
+                       class="navbar-item">Apie</a>
+                
+                    <a href="/more/contacts/"
+                       class="navbar-item">Kontaktai</a>
+                
+                    <a href="/more/other/"
+                       class="navbar-item">Kiti AD portalai</a>
+                
+                    <a href="/sparql/"
+                       class="navbar-item">SPARQL paieška</a>
+                
+                    <a href="/partner/api/1/"
+                       class="navbar-item">API</a>
+                
+                    <a href="/more/programines-irangos-atnaujinimai/"
+                       class="navbar-item">Programinės įrangos atnaujinimai</a>
+                
+            </div>
+        </div>
+    
+
+    
+        <a href="/blog/"
+           class="navbar-item ">Naujienos</a>
+    
+
+    
+        <a href="https://duomenys.stat.gov.lt/sveikatos-duomenys/"
+           class="navbar-item ">Sveikatos duomenys</a>
+    
+
+                
+                <div class="navbar-item">
+                    
+                        <div class="buttons">
+                            <a href="/login/?next=/datasets/" class="button">Prisijungti</a>
+                        </div>
+                    
+                </div>
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a href="#" rel="nofollow" class="navbar-link">
+                            
+                            LT
+                        </a>
+
+                        <div class="navbar-dropdown">
+                            
+                            
+                            
+                                <form action="/i18n/setlang/" method="post" id="languageChangelt">
+                                    <input type="hidden" name="csrfmiddlewaretoken" value="eKRJvoaoYVhn4Bl3O2gdXgPD51JBBmHFNAJaYvSYRIISIzdz3Y43fyolsKxKiRo6">
+                                    <input name="language" type="hidden" value="lt">
+                                </form>
+                                <a href="#" rel="nofollow" class="navbar-item" onclick="document.getElementById('languageChangelt').submit();">
+                                    LT
+                                </a>
+                            
+                                <form action="/i18n/setlang/" method="post" id="languageChangeen">
+                                    <input type="hidden" name="csrfmiddlewaretoken" value="eKRJvoaoYVhn4Bl3O2gdXgPD51JBBmHFNAJaYvSYRIISIzdz3Y43fyolsKxKiRo6">
+                                    <input name="language" type="hidden" value="en">
+                                </form>
+                                <a href="#" rel="nofollow" class="navbar-item" onclick="document.getElementById('languageChangeen').submit();">
+                                    EN
+                                </a>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+</nav>
+
+</header>
+
+
+
+
+
+
+
+    <section class="section">
+        <div class="container">
+
+            
+                <nav class="breadcrumb has-arrow-separator is-selectable" aria-label="breadcrumbs">
+                    <div class="container needs-padding">
+                        
+    
+<style>
+    ul.p-t-sm li {
+        flex-basis: auto;
+        min-width: 0;
+    }
+
+    ul.p-t-sm li span {
+        word-break: break-word;
+        white-space: normal !important;
+        display: block;
+    }
+
+    ul.p-t-sm li a {
+        word-break: break-word;
+        white-space: normal !important;
+    }
+</style>
+
+    <ul class="p-t-sm">
+        <li>
+            <a href="/">
+                <span class="icon">
+                    <i class="fas fa-home"></i>
+                </span>
+                <span>Pradžia</span>
+            </a>
+        </li>
+        
+    </ul>
+
+
+
+                        <h1 class="breadcrumbs-current is-size-5-mobile mt-5">
+                            
+    
+        Duomenų ištekliai
+    
+
+                        </h1>
+                        
+                    </div>
+                </nav>
+            
+
+            <div id="main-content">
+    
+    <div class="card mb-5">
+        <div class="card-content">
+            <form id="dataset-filter"
+                  class="field has-addons is-fullwidth"
+                  action="/datasets/"
+                  method="get">
+                <div class="control is-expanded">
+                    <label class="visually-hidden" for="search-input">Duomenų rinkinio paieška</label>
+                    <input class="input"
+                           id="search-input"
+                           type="text"
+                           name="q"
+                           placeholder="Ieškoti duomenų rinkinių"
+                           value="pastatų erdviniai"
+                           title="Paieška" />
+                    
+                        
+                            <input type="hidden" name="selected_facets" value="organization_exact:9" />
+                        
+                    
+                        
+                            
+                        
+                    
+                </div>
+                <p class="control">
+                    <button class="button is-primary"
+                            type="submit"
+                            title="Ieškoti"
+                            aria-label="Ieškoti">
+                        <span class="icon is-large">
+                            <i class="fa fa-search"></i>
+                        </span>
+                    </button>
+                </p>
+            </form>
+            <div class="buttons is-right">
+                
+                <div class="dropdown is-hoverable is-block is-right">
+                    <div class="dropdown-trigger">
+                        <button class="button" aria-haspopup="true" aria-controls="dropdown-menu4">
+                            
+                                
+                                    
+                                
+                                    
+                                
+                                    
+                                
+                                    
+                                        <span class="icon is-small">
+                                            <i class="fas fa-sort-amount-down-alt"></i>
+                                        </span>
+                                        <span>Tinkamiausi</span>
+                                    
+                                
+                            
+                            <span class="icon is-small">
+                                <i class="fas fa-angle-down" aria-hidden="true"></i>
+                            </span>
+                        </button>
+                    </div>
+                    <div class="dropdown-menu" id="dropdown-menu4" role="menu">
+                        <div class="dropdown-content">
+                            
+                                <a class="dropdown-item" href="/datasets/?selected_facets=organization_exact%3A9&amp;q=pastat%C5%B3+erdviniai&amp;sort=sort-by-date-newest" role="menuitem">
+                                    <span class="icon is-small">
+                                        <i class="fas fa-sort-amount-down-alt"></i>
+                                    </span>
+                                    <span>Naujausi</span>
+                                </a>
+                            
+                                <a class="dropdown-item" href="/datasets/?selected_facets=organization_exact%3A9&amp;q=pastat%C5%B3+erdviniai&amp;sort=sort-by-date-oldest" role="menuitem">
+                                    <span class="icon is-small">
+                                        <i class="fas fa-sort-amount-up-alt"></i>
+                                    </span>
+                                    <span>Seniausi</span>
+                                </a>
+                            
+                                <a class="dropdown-item" href="/datasets/?selected_facets=organization_exact%3A9&amp;q=pastat%C5%B3+erdviniai&amp;sort=sort-by-title" role="menuitem">
+                                    <span class="icon is-small">
+                                        <i class="fas fa-sort-amount-down-alt"></i>
+                                    </span>
+                                    <span>Pagal pavadinimą</span>
+                                </a>
+                            
+                                <a class="dropdown-item" href="/datasets/?selected_facets=organization_exact%3A9&amp;q=pastat%C5%B3+erdviniai&amp;sort=sort-by-relevance" role="menuitem">
+                                    <span class="icon is-small">
+                                        <i class="fas fa-sort-amount-down-alt"></i>
+                                    </span>
+                                    <span>Tinkamiausi</span>
+                                </a>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="columns">
+        <div class="column is-6 is-5-desktop is-4-widescreen is-hidden-mobile">
+            <div class="card">
+                <div class="card-content">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="category-panel mb-5" id="filter_id">
+  
+    <a href="/datasets/stats/status/?selected_facets=organization_exact%3A9&amp;q=pastat%C5%B3+erdviniai
+             "
+       id="dataset-status-stats"
+    >
+  
+    <p class="status-panel-heading">
+        <span class="icon-text">
+        
+        <span class="icon">
+          <i class="fas fa-chart-bar fa-lg"></i>
+        </span>
+        
+        <span class="has-text-weight-bold" id="filter_title">
+          Duomenų ištekliaus būsena
+        </span>
+      </span>
+    </p>
+  
+  </a>
+    
+  
+
+  
+      <div class="columns is-gapless m-0 mt-1 ">
+      <div class="column is-10">
+            <a href="?selected_facets=organization_exact%3A9&amp;selected_facets=status_exact%3AHAS_DATA&amp;q=pastat%C5%B3+erdviniai"
+               class="category-panel-block
+                
+                has-text-dark
+                "
+               id="HAS_DATA_id"
+               title="HAS_DATA"
+               aria-label="HAS_DATA">
+                  <div class="columns is-gapless is-vcentered m-0">
+                  <div class="column is-1">
+                      
+                      <span class="icon">
+                        <i class="far fa-square"></i>
+                      </span>
+                      
+                  </div>
+                  <div class="column is-11">
+                      
+                      Atverti duomenys
+                    
+                  </div>
+                  </div>
+              </a>
+      </div>
+      <div class="column is-2 has-text-right">
+        <span class="is-size-6">(1)</span>
+      </div>
+      </div>
+  
+    
+</nav>
+
+<nav class="category-panel mb-5" id="filter_id">
+  
+    <a href="/datasets/stats/level/?selected_facets=organization_exact%3A9&amp;q=pastat%C5%B3+erdviniai
+             "
+       id="dataset-level-stats"
+    >
+  
+    <p class="level-panel-heading">
+        <span class="icon-text">
+        
+        <span class="icon">
+          <i class="fas fa-chart-bar fa-lg"></i>
+        </span>
+        
+        <span class="has-text-weight-bold" id="filter_title">
+          Brandos lygis
+        </span>
+      </span>
+    </p>
+  
+  </a>
+    
+  
+
+  
+    
+</nav>
+
+<nav class="category-panel mb-5" id="filter_id">
+  
+    <a href="/datasets/stats/organization/?selected_facets=organization_exact%3A9&amp;q=pastat%C5%B3+erdviniai
+             "
+       id="dataset-organization-stats"
+    >
+  
+    <p class="organization-panel-heading">
+        <span class="icon-text">
+        
+        <span class="icon">
+          <i class="fas fa-chart-bar fa-lg"></i>
+        </span>
+        
+        <span class="has-text-weight-bold" id="filter_title">
+          Duomenų skelbėjas
+        </span>
+      </span>
+    </p>
+  
+  </a>
+    
+        <input
+            class="input"
+            id="organization-filter-input"
+            placeholder="Rezultatai ribojami, įveskite 3 simbolius..."
+            title="Rezultatai ribojami, įveskite 3 simbolius"
+            aria-labelledby="filter_title">
+        
+          <div class ="organization_filter_items_body">
+  
+  
+</div>
+        
+    
+  
+
+  
+      <div class="columns is-gapless m-0 mt-1 ">
+      <div class="column is-10">
+            <a href="?q=pastat%C5%B3+erdviniai"
+               class="category-panel-block
+                
+                has-text-weight-bold has-text-dark
+                "
+               id="9_id"
+               title="9"
+               aria-label="9">
+                  <div class="columns is-gapless is-vcentered m-0">
+                  <div class="column is-1">
+                      
+                      <span class="icon">
+                        <i class="far fa-check-square"></i>
+                      </span>
+                      
+                  </div>
+                  <div class="column is-11">
+                      
+                      Valstybės įmonė Registrų centras
+                    
+                  </div>
+                  </div>
+              </a>
+      </div>
+      <div class="column is-2 has-text-right">
+        <span class="is-size-6">(1)</span>
+      </div>
+      </div>
+  
+    
+</nav>
+
+<nav class="category-panel mb-5" id="filter_id">
+  
+    <a href="/datasets/stats/creator/?selected_facets=organization_exact%3A9&amp;q=pastat%C5%B3+erdviniai
+             "
+       id="dataset-creator-stats"
+    >
+  
+    <p class="creator-panel-heading">
+        <span class="icon-text">
+        
+        <span class="icon">
+          <i class="fas fa-chart-bar fa-lg"></i>
+        </span>
+        
+        <span class="has-text-weight-bold" id="filter_title">
+          Duomenų rengėjas
+        </span>
+      </span>
+    </p>
+  
+  </a>
+    
+  
+
+  
+      <div class="columns is-gapless m-0 mt-1 ">
+      <div class="column is-10">
+            <a href="?selected_facets=organization_exact%3A9&amp;selected_facets=creator_exact%3A9&amp;q=pastat%C5%B3+erdviniai"
+               class="category-panel-block
+                
+                has-text-dark
+                "
+               id="9_id"
+               title="9"
+               aria-label="9">
+                  <div class="columns is-gapless is-vcentered m-0">
+                  <div class="column is-1">
+                      
+                      <span class="icon">
+                        <i class="far fa-square"></i>
+                      </span>
+                      
+                  </div>
+                  <div class="column is-11">
+                      
+                      Valstybės įmonė Registrų centras
+                    
+                  </div>
+                  </div>
+              </a>
+      </div>
+      <div class="column is-2 has-text-right">
+        <span class="is-size-6">(1)</span>
+      </div>
+      </div>
+  
+    
+</nav>
+
+<nav class="category-panel mb-5" id="filter_id">
+  
+    <a href="/dataset/stats/jurisdiction/?selected_facets=organization_exact%3A9&amp;q=pastat%C5%B3+erdviniai
+             "
+       id="dataset-jurisdiction-stats"
+    >
+  
+    <p class="jurisdiction-panel-heading">
+        <span class="icon-text">
+        
+        <span class="icon">
+          <i class="fas fa-chart-bar fa-lg"></i>
+        </span>
+        
+        <span class="has-text-weight-bold" id="filter_title">
+          Valdymo sritis
+        </span>
+      </span>
+    </p>
+  
+  </a>
+    
+        <input
+            class="input"
+            id="jurisdiction-filter-input"
+            placeholder="Rezultatai ribojami, įveskite 3 simbolius..."
+            title="Rezultatai ribojami, įveskite 3 simbolius"
+            aria-labelledby="filter_title">
+        
+          <div class ="jurisdiction_filter_items_body">
+  
+  
+</div>
+        
+    
+  
+
+  
+      <div class="columns is-gapless m-0 mt-1 ">
+      <div class="column is-10">
+            <a href="?selected_facets=organization_exact%3A9&amp;selected_facets=jurisdiction_exact%3A2&amp;q=pastat%C5%B3+erdviniai"
+               class="category-panel-block
+                
+                has-text-dark
+                "
+               id="2_id"
+               title="2"
+               aria-label="2">
+                  <div class="columns is-gapless is-vcentered m-0">
+                  <div class="column is-1">
+                      
+                      <span class="icon">
+                        <i class="far fa-square"></i>
+                      </span>
+                      
+                  </div>
+                  <div class="column is-11">
+                      
+                      Lietuvos Respublikos ekonomikos ir inovacijų ministerija
+                    
+                  </div>
+                  </div>
+              </a>
+      </div>
+      <div class="column is-2 has-text-right">
+        <span class="is-size-6">(1)</span>
+      </div>
+      </div>
+  
+    
+</nav>
+
+<nav class="category-panel mb-5" id="filter_id">
+  
+    <a href="/datasets/stats/category/?selected_facets=organization_exact%3A9&amp;q=pastat%C5%B3+erdviniai
+             "
+       id="dataset-category-stats"
+    >
+  
+    <p class="category-panel-heading">
+        <span class="icon-text">
+        
+        <span class="icon">
+          <i class="fas fa-chart-bar fa-lg"></i>
+        </span>
+        
+        <span class="has-text-weight-bold" id="filter_title">
+          Kategorija
+        </span>
+      </span>
+    </p>
+  
+  </a>
+    
+        <input
+            class="input"
+            id="category-filter-input"
+            placeholder="Rezultatai ribojami, įveskite 3 simbolius..."
+            title="Rezultatai ribojami, įveskite 3 simbolius"
+            aria-labelledby="filter_title">
+        
+          <div class ="category_filter_items_body">
+  
+  
+</div>
+        
+    
+  
+
+  
+      <div class="columns is-gapless m-0 mt-1 ">
+      <div class="column is-10">
+            <a href="?selected_facets=organization_exact%3A9&amp;selected_facets=category_exact%3A1&amp;q=pastat%C5%B3+erdviniai"
+               class="category-panel-block
+                
+                has-text-dark
+                "
+               id="1_id"
+               title="1"
+               aria-label="1">
+                  <div class="columns is-gapless is-vcentered m-0">
+                  <div class="column is-1">
+                      
+                      <span class="icon">
+                        <i class="far fa-square"></i>
+                      </span>
+                      
+                  </div>
+                  <div class="column is-11">
+                      
+                      Aplinka
+                    
+                  </div>
+                  </div>
+              </a>
+      </div>
+      <div class="column is-2 has-text-right">
+        <span class="is-size-6">(1)</span>
+      </div>
+      </div>
+  
+      <div class="columns is-gapless m-0 mt-1 ">
+      <div class="column is-10">
+            <a href="?selected_facets=organization_exact%3A9&amp;selected_facets=category_exact%3A139&amp;q=pastat%C5%B3+erdviniai"
+               class="category-panel-block
+                
+                has-text-dark
+                "
+               id="139_id"
+               title="139"
+               aria-label="139">
+                  <div class="columns is-gapless is-vcentered m-0">
+                  <div class="column is-1">
+                      
+                      <span class="icon">
+                        <i class="far fa-square"></i>
+                      </span>
+                      
+                  </div>
+                  <div class="column is-11">
+                      
+                      Teisingumas, teisės sistema ir visuomenės sauga
+                    
+                  </div>
+                  </div>
+              </a>
+      </div>
+      <div class="column is-2 has-text-right">
+        <span class="is-size-6">(1)</span>
+      </div>
+      </div>
+  
+      <div class="columns is-gapless m-0 mt-1 ">
+      <div class="column is-10">
+            <a href="?selected_facets=organization_exact%3A9&amp;selected_facets=category_exact%3A181&amp;q=pastat%C5%B3+erdviniai"
+               class="category-panel-block
+                
+                has-text-dark
+                "
+               id="181_id"
+               title="181"
+               aria-label="181">
+                  <div class="columns is-gapless is-vcentered m-0">
+                  <div class="column is-1">
+                      
+                      <span class="icon">
+                        <i class="far fa-square"></i>
+                      </span>
+                      
+                  </div>
+                  <div class="column is-11">
+                      
+                      Ūkinė veikla ir verslas
+                    
+                  </div>
+                  </div>
+              </a>
+      </div>
+      <div class="column is-2 has-text-right">
+        <span class="is-size-6">(1)</span>
+      </div>
+      </div>
+  
+      <div class="columns is-gapless m-0 mt-1 ">
+      <div class="column is-10">
+            <a href="?selected_facets=organization_exact%3A9&amp;selected_facets=category_exact%3A244&amp;q=pastat%C5%B3+erdviniai"
+               class="category-panel-block
+                
+                has-text-dark
+                "
+               id="244_id"
+               title="244"
+               aria-label="244">
+                  <div class="columns is-gapless is-vcentered m-0">
+                  <div class="column is-1">
+                      
+                      <span class="icon">
+                        <i class="far fa-square"></i>
+                      </span>
+                      
+                  </div>
+                  <div class="column is-11">
+                      
+                      Regionai ir miestai
+                    
+                  </div>
+                  </div>
+              </a>
+      </div>
+      <div class="column is-2 has-text-right">
+        <span class="is-size-6">(1)</span>
+      </div>
+      </div>
+  
+    
+</nav>
+
+<nav class="category-panel mb-5" id="filter_id">
+  
+    <a href="/datasets/stats/group/?selected_facets=organization_exact%3A9&amp;q=pastat%C5%B3+erdviniai
+             "
+       id="dataset-groups-stats"
+    >
+  
+    <p class="groups-panel-heading">
+        <span class="icon-text">
+        
+        <span class="icon">
+          <i class="fas fa-chart-bar fa-lg"></i>
+        </span>
+        
+        <span class="has-text-weight-bold" id="filter_title">
+          Grupė
+        </span>
+      </span>
+    </p>
+  
+  </a>
+    
+  
+
+  
+      <div class="columns is-gapless m-0 mt-1 ">
+      <div class="column is-10">
+            <a href="?selected_facets=organization_exact%3A9&amp;selected_facets=groups_exact%3A1&amp;q=pastat%C5%B3+erdviniai"
+               class="category-panel-block
+                
+                has-text-dark
+                "
+               id="1_id"
+               title="1"
+               aria-label="1">
+                  <div class="columns is-gapless is-vcentered m-0">
+                  <div class="column is-1">
+                      
+                      <span class="icon">
+                        <i class="far fa-square"></i>
+                      </span>
+                      
+                  </div>
+                  <div class="column is-11">
+                      
+                      Didelės vertės rinkiniai
+                    
+                  </div>
+                  </div>
+              </a>
+      </div>
+      <div class="column is-2 has-text-right">
+        <span class="is-size-6">(1)</span>
+      </div>
+      </div>
+  
+    
+</nav>
+
+<nav class="category-panel mb-5" id="filter_id">
+  
+    <a href="/datasets/stats/access-rights/?selected_facets=organization_exact%3A9&amp;q=pastat%C5%B3+erdviniai
+             "
+       id="dataset-access_rights-stats"
+    >
+  
+    <p class="access_rights-panel-heading">
+        <span class="icon-text">
+        
+        <span class="icon">
+          <i class="fas fa-chart-bar fa-lg"></i>
+        </span>
+        
+        <span class="has-text-weight-bold" id="filter_title">
+          Prieigos teisės
+        </span>
+      </span>
+    </p>
+  
+  </a>
+    
+  
+
+  
+      <div class="columns is-gapless m-0 mt-1 ">
+      <div class="column is-10">
+            <a href="?selected_facets=organization_exact%3A9&amp;selected_facets=access_rights_exact%3APUBLIC&amp;q=pastat%C5%B3+erdviniai"
+               class="category-panel-block
+                
+                has-text-dark
+                "
+               id="PUBLIC_id"
+               title="PUBLIC"
+               aria-label="PUBLIC">
+                  <div class="columns is-gapless is-vcentered m-0">
+                  <div class="column is-1">
+                      
+                      <span class="icon">
+                        <i class="far fa-square"></i>
+                      </span>
+                      
+                  </div>
+                  <div class="column is-11">
+                      
+                      Vieši
+                    
+                  </div>
+                  </div>
+              </a>
+      </div>
+      <div class="column is-2 has-text-right">
+        <span class="is-size-6">(1)</span>
+      </div>
+      </div>
+  
+    
+</nav>
+
+<nav class="category-panel mb-5" id="filter_id">
+  
+    <a href="/datasets/stats/tag/?selected_facets=organization_exact%3A9&amp;q=pastat%C5%B3+erdviniai
+             "
+       id="dataset-tags-stats"
+    >
+  
+    <p class="tags-panel-heading">
+        <span class="icon-text">
+        
+        <span class="icon">
+          <i class="fas fa-chart-bar fa-lg"></i>
+        </span>
+        
+        <span class="has-text-weight-bold" id="filter_title">
+          Žymė
+        </span>
+      </span>
+    </p>
+  
+  </a>
+    
+        <input
+            class="input"
+            id="tags-filter-input"
+            placeholder="Rezultatai ribojami, įveskite 3 simbolius..."
+            title="Rezultatai ribojami, įveskite 3 simbolius"
+            aria-labelledby="filter_title">
+        
+          <div class ="tag_filter_items_body">
+  
+  
+</div>
+        
+    
+  
+
+  
+      <div class="columns is-gapless m-0 mt-1 ">
+      <div class="column is-10">
+            <a href="?selected_facets=organization_exact%3A9&amp;selected_facets=tags_exact%3A1131&amp;q=pastat%C5%B3+erdviniai"
+               class="category-panel-block
+                
+                has-text-dark
+                "
+               id="1131_id"
+               title="1131"
+               aria-label="1131">
+                  <div class="columns is-gapless is-vcentered m-0">
+                  <div class="column is-1">
+                      
+                      <span class="icon">
+                        <i class="far fa-square"></i>
+                      </span>
+                      
+                  </div>
+                  <div class="column is-11">
+                      
+                      Pastatai
+                    
+                  </div>
+                  </div>
+              </a>
+      </div>
+      <div class="column is-2 has-text-right">
+        <span class="is-size-6">(1)</span>
+      </div>
+      </div>
+  
+      <div class="columns is-gapless m-0 mt-1 ">
+      <div class="column is-10">
+            <a href="?selected_facets=organization_exact%3A9&amp;selected_facets=tags_exact%3A2078&amp;q=pastat%C5%B3+erdviniai"
+               class="category-panel-block
+                
+                has-text-dark
+                "
+               id="2078_id"
+               title="2078"
+               aria-label="2078">
+                  <div class="columns is-gapless is-vcentered m-0">
+                  <div class="column is-1">
+                      
+                      <span class="icon">
+                        <i class="far fa-square"></i>
+                      </span>
+                      
+                  </div>
+                  <div class="column is-11">
+                      
+                      Rc
+                    
+                  </div>
+                  </div>
+              </a>
+      </div>
+      <div class="column is-2 has-text-right">
+        <span class="is-size-6">(1)</span>
+      </div>
+      </div>
+  
+      <div class="columns is-gapless m-0 mt-1 ">
+      <div class="column is-10">
+            <a href="?selected_facets=organization_exact%3A9&amp;selected_facets=tags_exact%3A6114&amp;q=pastat%C5%B3+erdviniai"
+               class="category-panel-block
+                
+                has-text-dark
+                "
+               id="6114_id"
+               title="6114"
+               aria-label="6114">
+                  <div class="columns is-gapless is-vcentered m-0">
+                  <div class="column is-1">
+                      
+                      <span class="icon">
+                        <i class="far fa-square"></i>
+                      </span>
+                      
+                  </div>
+                  <div class="column is-11">
+                      
+                      pastatų erdviniai duomenys
+                    
+                  </div>
+                  </div>
+              </a>
+      </div>
+      <div class="column is-2 has-text-right">
+        <span class="is-size-6">(1)</span>
+      </div>
+      </div>
+  
+      <div class="columns is-gapless m-0 mt-1 ">
+      <div class="column is-10">
+            <a href="?selected_facets=organization_exact%3A9&amp;selected_facets=tags_exact%3A688&amp;q=pastat%C5%B3+erdviniai"
+               class="category-panel-block
+                
+                has-text-dark
+                "
+               id="688_id"
+               title="688"
+               aria-label="688">
+                  <div class="columns is-gapless is-vcentered m-0">
+                  <div class="column is-1">
+                      
+                      <span class="icon">
+                        <i class="far fa-square"></i>
+                      </span>
+                      
+                  </div>
+                  <div class="column is-11">
+                      
+                      Erdviniai Duomenys
+                    
+                  </div>
+                  </div>
+              </a>
+      </div>
+      <div class="column is-2 has-text-right">
+        <span class="is-size-6">(1)</span>
+      </div>
+      </div>
+  
+    
+</nav>
+
+<nav class="category-panel mb-5" id="filter_id">
+  
+    <a href="/datasets/stats/frequency/?selected_facets=organization_exact%3A9&amp;q=pastat%C5%B3+erdviniai
+             "
+       id="dataset-frequency-stats"
+    >
+  
+    <p class="frequency-panel-heading">
+        <span class="icon-text">
+        
+        <span class="icon">
+          <i class="fas fa-chart-bar fa-lg"></i>
+        </span>
+        
+        <span class="has-text-weight-bold" id="filter_title">
+          Atnaujinama
+        </span>
+      </span>
+    </p>
+  
+  </a>
+    
+  
+
+  
+      <div class="columns is-gapless m-0 mt-1 ">
+      <div class="column is-10">
+            <a href="?selected_facets=organization_exact%3A9&amp;selected_facets=frequency_exact%3A13&amp;q=pastat%C5%B3+erdviniai"
+               class="category-panel-block
+                
+                has-text-dark
+                "
+               id="13_id"
+               title="13"
+               aria-label="13">
+                  <div class="columns is-gapless is-vcentered m-0">
+                  <div class="column is-1">
+                      
+                      <span class="icon">
+                        <i class="far fa-square"></i>
+                      </span>
+                      
+                  </div>
+                  <div class="column is-11">
+                      
+                      Kas mėnesį
+                    
+                  </div>
+                  </div>
+              </a>
+      </div>
+      <div class="column is-2 has-text-right">
+        <span class="is-size-6">(1)</span>
+      </div>
+      </div>
+  
+    
+</nav>
+
+<nav class="category-panel mb-5" id="filter_id">
+  
+    <p class="subclass-panel-heading">
+        <span class="icon-text">
+        
+        <span class="has-text-weight-bold" id="filter_title">
+          Duomenų ištekliaus rūšis
+        </span>
+      </span>
+    </p>
+  
+  </a>
+    
+  
+
+  
+      <div class="columns is-gapless m-0 mt-1 ">
+      <div class="column is-10">
+            <a href="?selected_facets=organization_exact%3A9&amp;selected_facets=subclass_exact%3Adataset&amp;q=pastat%C5%B3+erdviniai"
+               class="category-panel-block
+                
+                has-text-dark
+                "
+               id="dataset_id"
+               title="dataset"
+               aria-label="dataset">
+                  <div class="columns is-gapless is-vcentered m-0">
+                  <div class="column is-1">
+                      
+                      <span class="icon">
+                        <i class="far fa-square"></i>
+                      </span>
+                      
+                  </div>
+                  <div class="column is-11">
+                      
+                      Duomenų rinkinys
+                    
+                  </div>
+                  </div>
+              </a>
+      </div>
+      <div class="column is-2 has-text-right">
+        <span class="is-size-6">(1)</span>
+      </div>
+      </div>
+  
+    
+</nav>
+
+<nav class="category-panel mb-5" id="filter_id">
+  
+    <a href="/datasets/stats/format/?selected_facets=organization_exact%3A9&amp;q=pastat%C5%B3+erdviniai
+             "
+       id="dataset-formats-stats"
+    >
+  
+    <p class="formats-panel-heading">
+        <span class="icon-text">
+        
+        <span class="icon">
+          <i class="fas fa-chart-bar fa-lg"></i>
+        </span>
+        
+        <span class="has-text-weight-bold" id="filter_title">
+          Formatas
+        </span>
+      </span>
+    </p>
+  
+  </a>
+    
+  
+
+  
+      <div class="columns is-gapless m-0 mt-1 ">
+      <div class="column is-10">
+            <a href="?selected_facets=organization_exact%3A9&amp;selected_facets=formats_exact%3A11&amp;q=pastat%C5%B3+erdviniai"
+               class="category-panel-block
+                
+                has-text-dark
+                "
+               id="11_id"
+               title="11"
+               aria-label="11">
+                  <div class="columns is-gapless is-vcentered m-0">
+                  <div class="column is-1">
+                      
+                      <span class="icon">
+                        <i class="far fa-square"></i>
+                      </span>
+                      
+                  </div>
+                  <div class="column is-11">
+                      
+                      URL
+                    
+                  </div>
+                  </div>
+              </a>
+      </div>
+      <div class="column is-2 has-text-right">
+        <span class="is-size-6">(1)</span>
+      </div>
+      </div>
+  
+    
+</nav>
+
+<nav class="category-panel mb-5" id="filter_id">
+  
+    <a href="/datasets/stats/publication/?selected_facets=organization_exact%3A9&amp;q=pastat%C5%B3+erdviniai
+             "
+       id="dataset-published-stats"
+    >
+  
+    <p class="published-panel-heading">
+        <span class="icon-text">
+        
+        <span class="icon">
+          <i class="fas fa-chart-bar fa-lg"></i>
+        </span>
+        
+        <span class="has-text-weight-bold" id="filter_title">
+          Įkėlimo data
+        </span>
+      </span>
+    </p>
+  
+  </a>
+    
+  
+
+  
+      <div class="columns is-gapless m-0 mt-1 ">
+      <div class="column is-10">
+            <a href="?selected_facets=organization_exact%3A9&amp;q=pastat%C5%B3+erdviniai&amp;date_from=2024-01-01&amp;date_to=2024-12-31"
+               class="category-panel-block
+                
+                has-text-dark
+                "
+               id="(2024, &#x27;Y&#x27;)_id"
+               title="(2024, &#x27;Y&#x27;)"
+               aria-label="(2024, &#x27;Y&#x27;)">
+                  <div class="columns is-gapless is-vcentered m-0">
+                  <div class="column is-1">
+                      
+                      <span class="icon">
+                        <i class="far fa-square"></i>
+                      </span>
+                      
+                  </div>
+                  <div class="column is-11">
+                      
+                      2024
+                    
+                  </div>
+                  </div>
+              </a>
+      </div>
+      <div class="column is-2 has-text-right">
+        <span class="is-size-6">(1)</span>
+      </div>
+      </div>
+  
+    
+</nav>
+
+
+<script type="text/javascript">
+    $(function () {
+        $('.filters-more').click(function () {
+            let targetClass = 'filter-hidden-' + $(this).attr('id').split('-').pop();
+            $('.' + targetClass).toggleClass('is-hidden');
+            $(this).text(function (i, text) {
+                return text === "Išskleisti" ? "Suskleisti" : "Išskleisti";
+            });
+        });
+    });
+</script>
+</div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="buttons">
+                <div class="control">
+                    <div class="tags">
+                        <span class="tag is-white is-medium has-text-dark">Rasta duomenų išteklių:</span>
+                        <span class="tag is-medium">1</span>
+                    </div>
+                </div>
+            </div>
+            
+                
+                
+                    <article class="media adp-media is-block">
+                        <div class="columns">
+                            
+                            
+                                <div class="column is-2 is-align-self-center">
+                                    <div class="category-icon has-text-centered">
+                                        <i class="fa-solid fa-cloud-sun fa-2x"></i>
+                                    </div>
+                                </div>
+                            
+                            <div class="column is-8">
+                                <div class="media-content divider-right pr-1">
+                                    <div class="content">
+                                        <div>
+                                            <strong>
+                                                <a href="/datasets/2838/"class="dataset-list-title">
+                                                    
+                                                    Pastatų erdviniai duomenys
+                                                
+                                            </a>
+                                        </strong>
+                                    </div>
+                                    <div class="tags mt-2 mb-1">
+                                        <span class="tag is-white has-text-dark">
+                                            
+                                                Publikuota:
+                                                2024-10-28
+                                            
+                                        </span>
+                                        
+                                            <span class="tag is-white has-text-dark">
+                                                Atnaujinta:
+                                                2026-01-05
+                                            </span>
+                                        
+                                        
+                                            <a href="/orgs/9/"
+                                               class="tag is-white has-text-dark dataset-list-organization">
+                                                Valstybės įmonė Registrų centras
+                                            </a>
+                                        
+                                    </div>
+                                    <div class="is-flex is-justify-content-space-between is-align-items-center mb-2">
+                                        <span class="tag is-white has-text-dark">
+                                            Duomenų išteklius viešinamas:
+                                            
+                                                Taip
+                                            
+                                        </span>
+                                        <span class="tag is-white has-text-dark">
+                                            Brandos lygis:
+                                            
+                                                <span style="margin-left: 0.5em"
+                                                      class="">
+                                                    
+                                                        
+                                                            <i class="far fa-star has-text-grey-light"></i>
+                                                        
+                                                    
+                                                        
+                                                            <i class="far fa-star has-text-grey-light"></i>
+                                                        
+                                                    
+                                                        
+                                                            <i class="far fa-star has-text-grey-light"></i>
+                                                        
+                                                    
+                                                        
+                                                            <i class="far fa-star has-text-grey-light"></i>
+                                                        
+                                                    
+                                                        
+                                                            <i class="far fa-star has-text-grey-light"></i>
+                                                        
+                                                    
+                                                </span>
+                                            
+                                        </span>
+                                    </div>
+                                    <p class="dataset-list-description my-1">
+                                        
+                                            
+                                            <p>Lietuvos Nekilnojamojo turto registre įregistruotų pastatų ribos ir kiti erdviniai duomenys. Duomenų rinkmenos pateikiamos savivaldybės teritorijos imties aprėptimi, Bendra duomenų imtis - visa Lietuvos teritorija. Duomenų formatas JSON, supakuotas ZIP formatu.
+Duomenys atverti pagal tarptautinę Creative Commons Attribution 4.0 licenciją su naudojimo ir platinimo sąlygomis, kurių ženklinimo simbolis CC BY 4.0. Duomenis galima naudoti ir dalintis neribotai, tačiau privaloma nurodyti atvertų duomenų autorystę, įdėti nuorodą į licenciją bei nurodyti, ar buvo padaryta pakeitimų.</p>
+                                        
+                                    
+                                </p>
+                                <div class="tags mt-3 mb-1">
+                                    
+                                        <p class="tag is-info is-light dataset-list-group-tag">Didelės vertės rinkiniai</p>
+                                    
+                                    
+                                        <a href="?selected_facets=formats_exact:11"
+                                           class="tag is-info is-light">URL</a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column is-2 is-align-self-center">
+                        <div class="has-text-centered">
+                            
+                            <div>
+                                <i class="fa fa-eye"></i>
+                                <span>657</span>
+                            </div>
+                            <div>
+                                <i class="fa fa-thumbs-up"></i>
+                                <span>0</span>
+                            </div>
+                            <div title="Atsisiuntimų skaičius">
+                                <i class="fas fa-cloud-download-alt"></i>
+                                <span>251</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        
+    
+    <br />
+    
+
+
+
+
+</div>
+</div>
+</div>
+        </div>
+    </section>
+
+
+
+
+<footer class="footer">
+    <div class="container">
+        <div class="columns">
+            <div class="column is-2">
+                <a href="https://vssa.lrv.lt/lt/">
+                    <img src="/static/img/vssa-logo.png" alt="VSSA logo">
+                </a>
+            </div>
+            <div class="column is-4">
+                <p>VSSA Valstybės skaitmeninių sprendimų agentūra, Konstitucijos pr. 15-89, Vilnius</p>
+                <br/>
+                <p>el. p. <a href="mailto:atviriduomenys@vssa.lt"><span class="has-text-dark">atviriduomenys@vssa.lt</span></a></p>
+            </div>
+            <div class="column is-6">
+                <p id="newsletter_search_title">Užsiprenumeruokite mūsų naujienlaiškį</p>
+                <form class="field has-addons media-content" action="/newsletter/subscribe/" method="post">
+                    <input type="hidden" name="csrfmiddlewaretoken" value="eKRJvoaoYVhn4Bl3O2gdXgPD51JBBmHFNAJaYvSYRIISIzdz3Y43fyolsKxKiRo6">
+                    <p class="control is-expanded">
+                        <input class="input newsletter-input" type="email" id="newsletter-input-email" required="required"
+                               placeholder="Įveskite el. pašto adresą..."
+                               name="email" title="El. paštas"
+                               aria-labelledby="newsletter_search_title"
+                        >
+                    </p>
+                    <p class="control">
+                        <button class="button is-primary" type="submit">
+                            Užsakyti
+                        </button>
+                    </p>
+                </form>
+                <br/>
+                <p>Susisiekite su mumis::</p>
+                <div class="footer-icons">
+                    <a class="footer-link is-inline-block" href="https://www.facebook.com/VSSAgentura/" target="_blank" title="Facebook" aria-label="Facebook">
+                        <img class="image is-32x32" alt="Facebook" src="/static/img/facebook-icon.svg"/>
+                    </a>
+                    <a class="footer-link is-inline-block" href="mailto:atviriduomenys@vssa.lt" title="El. paštas" aria-label="El. paštas">
+                        <img class="image is-32x32" alt="El. paštas" src="/static/img/email-icon.svg"/>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript">
+    function openMenu() {
+        var burger = document.querySelector('.burger');
+        var nav = document.querySelector('#navbarBasic');
+        burger.classList.toggle('is-active');
+        nav.classList.toggle('is-active');
+    }
+
+    function HideMessage(counter) {
+        var notificationBar = document.getElementById('message-list-' + counter);
+        notificationBar.classList.add('is-hidden');
+    }
+</script>
+
+    <script type="text/javascript">
+        $(function () {
+
+            var query = $('#search-q-val').val();
+            if (query != null && query !== "") {
+                $('#search-input').val("pastatų erdviniai");
+            }
+
+            $('.cats-more, .cats-more-inner').click(function () {
+                $('.' + this.id).toggleClass('is-hidden');
+                $(this).text(function (i, text) {
+                    return text === "+" ? "-" : "+";
+                })
+            });
+
+            $('.facets-more').click(function () {
+                $('.' + this.id).toggleClass('is-hidden');
+                $(this).text(function (i, text) {
+                    return text === "Išskleisti" ? "Suskleisti" : "Išskleisti";
+                })
+            });
+
+            $('.show-mobile-facets').click(function () {
+                $('#facet-modal').toggleClass("is-hidden");
+                $('#facet-modal').toggleClass("is-active");
+            });
+
+            $('.modal-close').click(function () {
+                $('#facet-modal').toggleClass("is-hidden");
+                $('#facet-modal').toggleClass("is-active");
+            });
+
+            var lang = "lt-LT";
+            var currentUrl = new URL(window.location);
+            var searchParams = new URLSearchParams(currentUrl.search);
+            var selectedDate = null;
+            var datasetTitles = "datasetSuggestions";
+
+            $('.date_from').change(function() {
+                var date = $('.date_from').val();
+                if (date != null) {
+                    searchParams.set('date_from', date);
+                    currentUrl.search = searchParams.toString();
+                    window.location = currentUrl.toString();
+                }
+            });
+            $('.date_to').change(function() {
+                var date = $('.date_to').val();
+                if (date != null) {
+                    searchParams.set('date_to', date);
+                    currentUrl.search = searchParams.toString();
+                    window.location = currentUrl.toString();
+                }
+            });
+
+            let manFilter = $('#jurisdiction-filter-input');
+            manFilter.on('input', function(){
+                if (manFilter.val().length !== 0) {
+                    $('.jurisdiction_filter_items_body').html('').load(
+                        "/update-dataset-jurisdiction-filters/?q=" + manFilter.val()
+                    );
+                }
+            });
+
+            let orgFilter = $('#organization-filter-input');
+            orgFilter.on('input', function(){
+                if (orgFilter.val().length !== 0) {
+                    $('.organization_filter_items_body').html('').load(
+                        "/update-dataset-org-filters/?q=" + orgFilter.val()
+                    );
+                }
+            });
+
+            let catFilter = $('#category-filter-input');
+            catFilter.on('input', function(){
+                if (catFilter.val().length !== 0) {
+                    $('.category_filter_items_body').html('').load(
+                        "/update-dataset-cat-filters/?q=" + catFilter.val()
+                    );
+                }
+            });
+
+            let tagsFilter = $('#tags-filter-input');
+            tagsFilter.on('input', function(){
+                if (tagsFilter.val().length !== 0) {
+                    $('.tag_filter_items_body').html('').load(
+                        "/update-dataset-tag-filters/?q=" + tagsFilter.val()
+                    );
+                }
+            });
+
+            function autocomplete(inp, arr) {
+                var currentFocus;
+
+                inp.addEventListener("input", function (e) {
+                    var a, b, i, val = this.value;
+                    closeAllLists();
+                    if (!val || val.length < 3) {
+                        return false;
+                    }
+                    currentFocus = -1;
+                    a = document.createElement("DIV");
+                    a.setAttribute("id", this.id + "autocomplete-list");
+                    a.setAttribute("class", "autocomplete-items");
+                    this.parentNode.appendChild(a);
+                    for (i = 0; i < arr.length; i++) {
+                        if (arr[i].substr(0, val.length).toUpperCase() == val.toUpperCase()) {
+                            b = document.createElement("DIV");
+                            b.innerHTML = "<strong>" + arr[i].substr(0, val.length) + "</strong>";
+                            b.innerHTML += arr[i].substr(val.length);
+                            b.innerHTML += "<input type='hidden' value='" + arr[i] + "'>";
+                            b.addEventListener("click", function (e) {
+                                inp.value = '"' + this.getElementsByTagName("input")[0].value + '"';
+                                closeAllLists();
+                                $('#dataset-filter').submit();
+                            });
+                            a.appendChild(b);
+                        }
+                    }
+                });
+
+                inp.addEventListener("keydown", function (e) {
+                    var x = document.getElementById(this.id + "autocomplete-list");
+                    if (x) x = x.getElementsByTagName("div");
+                    if (e.keyCode == 40) {
+                        currentFocus++;
+                        addActive(x);
+                    } else if (e.keyCode == 38) {
+                        currentFocus--;
+                        addActive(x);
+                    } else if (e.keyCode == 13) {
+                        // e.preventDefault();
+                        if (currentFocus > -1) {
+                            if (x) x[currentFocus].click();
+                        }
+                    }
+                });
+
+                function addActive(x) {
+                    if (!x) return false;
+                    removeActive(x);
+                    if (currentFocus >= x.length) currentFocus = 0;
+                    if (currentFocus < 0) currentFocus = (x.length - 1);
+                    x[currentFocus].classList.add("autocomplete-active");
+                }
+
+                function removeActive(x) {
+                    for (var i = 0; i < x.length; i++) {
+                        x[i].classList.remove("autocomplete-active");
+                    }
+                }
+
+                function closeAllLists(elmnt) {
+                    var x = document.getElementsByClassName("autocomplete-items");
+                    for (var i = 0; i < x.length; i++) {
+                        if (elmnt != x[i] && elmnt != inp) {
+                            x[i].parentNode.removeChild(x[i]);
+                        }
+                    }
+                }
+
+                document.addEventListener("click", function (e) {
+                    closeAllLists(e.target);
+                });
+            }
+
+            autocomplete(document.getElementById("search-input"), datasetTitles)
+        });
+    </script>
+
+
+</body>
+</html>

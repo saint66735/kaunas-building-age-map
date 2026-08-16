@@ -1,0 +1,531 @@
+Lietuvos atvirų duomenų portalas
+| Duomenų ištekliai
+data.gov.lt
+Į pagrindinį turinį
+Duomenų ištekliai
+Poreikiai ir pasiūlymai
+Pagalba atvėrėjams
+Atvirų duomenų saugykla
+Duomenų atvėrimo vadovas
+Duomenų struktūros aprašas
+Įrankiai duomenų atvėrimui
+Mokymo medžiaga
+Dažnai užduodami klausimai
+Koordinatoriaus ir tvarkytojo registravimas
+Duomenų atvėrimo principai
+Daugiau
+Reglamentacija
+Panaudojimo atvejai
+Nuorodos
+Apie
+Kontaktai
+Kiti AD portalai
+SPARQL paieška
+API
+Programinės įrangos atnaujinimai
+Naujienos
+Sveikatos duomenys
+Prisijungti
+LT
+LT
+EN
+Pradžia
+Duomenų ištekliai
+Duomenų rinkinio paieška
+Naujausi
+Naujausi
+Seniausi
+Pagal pavadinimą
+Tinkamiausi
+Duomenų ištekliaus būsena
+Atverti duomenys
+(180)
+Tik inventorinti
+(17)
+Brandos lygis
+(91)
+(49)
+(1)
+Duomenų skelbėjas
+Valstybės įmonė Registrų centras
+(197)
+Duomenų rengėjas
+Valstybės įmonė Registrų centras
+(197)
+Lietuvos Respublikos teisingumo ministerija
+(11)
+Lietuvos Respublikos ekonomikos ir inovacijų ministerija
+(2)
+Lietuvos Respublikos aplinkos ministerija
+(1)
+Lietuvos Respublikos kultūros ministerija
+(1)
+Valdymo sritis
+Lietuvos Respublikos ekonomikos ir inovacijų ministerija
+(197)
+Kategorija
+Teisingumas, teisės sistema ir visuomenės sauga
+(76)
+Ūkinė veikla ir verslas
+(50)
+Ekonomika ir finansai
+(28)
+Regionai ir miestai
+(27)
+Aplinka
+(23)
+Vyriausybė ir viešasis sektorius
+(18)
+Visuomeninės iniciatyvos
+(2)
+Sveikata
+(2)
+Švietimas
+(1)
+Statistika
+(1)
+Kultūra
+(1)
+Išskleisti
+Grupė
+Didelės vertės rinkiniai
+(49)
+Prieigos teisės
+Vieši
+(146)
+Apriboti
+(51)
+Žymė
+Registrų Centras
+(139)
+Rc
+(77)
+Registrai
+(30)
+Registras
+(23)
+Klasifikatoriai
+(19)
+Adresai
+(18)
+Antstoliai
+(16)
+Antstolių Informacinė Sistema
+(16)
+Vykdomos Bylos
+(13)
+Juridiniai Asmenys
+(13)
+bendrovė
+(12)
+Verslas
+(12)
+Gyventojų Registras
+(12)
+Licencija
+(11)
+Pažymėjimas
+(11)
+Leidimas
+(11)
+Licencijavimas
+(11)
+Skolos
+(10)
+Ntr
+(10)
+Taar
+(10)
+Hipoteka
+(9)
+Administracinis Suskirstymas
+(9)
+įmonės dalininkas
+(8)
+Testamentų Registras
+(8)
+Neveiksnūs Asmenys
+(8)
+Ribotai Veiksnūs Asmenys
+(8)
+Neveiksnių Ir Ribotai Veiksnių Asmenų Registras
+(8)
+Nirvar
+(8)
+Jar
+(7)
+Lis
+(7)
+Licencijų Is
+(7)
+Licencijų Informacinė Sistema
+(7)
+Aukcionai
+(7)
+Gatvės
+(6)
+juridinio asmenų dalyvis
+(6)
+Jadis
+(6)
+Juridinių Asmenų Dalyvių Is
+(6)
+Sutarčių Ir Teisių Suvaržymų Registras
+(6)
+Įgaliojimai
+(6)
+Įgaliojimų Registras
+(6)
+Įkeitimai
+(5)
+Nekilnojamas Turtas
+(5)
+Vedybų Sutartys
+(5)
+Vedybų Sutarčių Registras
+(5)
+Vsr
+(5)
+Palikimas
+(4)
+Juridinis Asmuo
+(4)
+Deklaracija
+(4)
+Įmonių Valdymas
+(4)
+Atestatas
+(4)
+Išskleisti
+Atnaujinama
+Kasmet
+(64)
+Kas mėnesį
+(43)
+Nuolat atnaujinama
+(36)
+Kas ketvirtį
+(27)
+Pagal poreikį
+(15)
+Neatnaujinamas
+(8)
+Kas savaitę
+(3)
+Kasdien
+(1)
+Duomenų ištekliaus rūšis
+Duomenų rinkinys
+(165)
+Duomenų publikavimo paslauga
+(17)
+Informacinė sistema
+(15)
+Formatas
+CSV
+(144)
+Saugyklos API
+(143)
+JSON
+(140)
+JSONL
+(139)
+XML
+(19)
+URL
+(3)
+Įkėlimo data
+2023
+(143)
+2024
+(3)
+2025
+(15)
+2026
+(36)
+Rasta duomenų išteklių:
+197
+Išplėstinių MGVDIS  duomenų paslauga
+Publikuota:
+2026-01-26
+Atnaujinta:
+2026-01-26
+Valstybės įmonė Registrų centras
+Duomenų išteklius viešinamas:
+Taip
+Brandos lygis:
+Šia duomenų paslauga pagal užklausimą pateikiamas aktualūs išplėstiniai duomenys iš MGVDIS AT605
+63
+0
+1
+Išplėstinis MGVDIS duomenų rinkinys
+Publikuota:
+2026-01-26
+Atnaujinta:
+2026-01-26
+Valstybės įmonė Registrų centras
+Duomenų išteklius viešinamas:
+Taip
+Brandos lygis:
+Išplėstinis MGVDIS duomenų rinkinys AT605
+XML
+90
+0
+0
+LIS klasifikatoriai iš Licencijų informacinės sistemos paslauga
+Publikuota:
+2026-01-26
+Atnaujinta:
+2026-01-26
+Valstybės įmonė Registrų centras
+Duomenų išteklius viešinamas:
+Taip
+Brandos lygis:
+Šia duomenų paslauga pagal užklausimą pateikiami aktualūs LIS klasifikatoriai
+AT1002
+56
+0
+0
+LIS klasifikatoriai
+Publikuota:
+2026-01-26
+Atnaujinta:
+2026-01-26
+Valstybės įmonė Registrų centras
+Duomenų išteklius viešinamas:
+Taip
+Brandos lygis:
+LIS klasifikatorių duomenų rinkinys. Duomenų geografinė imtis — visa šalies teritorija. AT1002
+XML
+67
+0
+1
+NIRVAR išsami informacija pagal neveiksnaus, ribotai veiksnaus asmens, nepilnamečio nuo keturiolikos iki aštuoniolikos metų, kurio teisės savarankiškai disponuoti savo pajamomis ir turtu teismo sprendimu apribotos ar atimtos, asmens kodą ir vardą, pavardę
+Publikuota:
+2026-01-20
+Atnaujinta:
+2026-01-20
+Valstybės įmonė Registrų centras
+Duomenų išteklius viešinamas:
+Taip
+Brandos lygis:
+NIRVAR išsami informacija pagal neveiksnaus, ribotai veiksnaus asmens, nepilnamečio nuo keturiolikos iki aštuoniolikos metų, kurio teisės savarankiškai disponuoti savo pajamomis ir turtu teismo sprendimu apribotos ar atimtos, asmens kodą ir vardą, pavardę(AT1687)
+XML
+34
+0
+1
+Hipotekos (įkeitimo) duomenų išrašas iš NTR ir (ar) STSR pagal hipotekos (įkeitimo) IDK (paslaugos)
+Publikuota:
+2026-01-20
+Atnaujinta:
+2026-01-20
+Valstybės įmonė Registrų centras
+Duomenų išteklius viešinamas:
+Taip
+Brandos lygis:
+Šia duomenų paslauga pagal užklausimą pateikiamas aktualus Hipotekos (įkeitimo) duomenų išrašas iš NTR ir (ar) STSR pagal hipotekos (įkeitimo) IDK(AT901)
+72
+0
+0
+Hipotekos (įkeitimo) duomenų išrašas iš NTR ir (ar) STSR pagal hipotekos (įkeitimo) IDK
+Publikuota:
+2026-01-20
+Atnaujinta:
+2026-01-20
+Valstybės įmonė Registrų centras
+Duomenų išteklius viešinamas:
+Taip
+Brandos lygis:
+Hipotekos (įkeitimo) duomenų išrašas iš NTR ir (ar) STSR pagal hipotekos (įkeitimo) IDK (AT901)
+XML
+66
+0
+1
+Išsami informacija iš VAR pagal vedybų, sugyventinių ar turto padalijimo sutartį sudariusio arba vieno iš sutuoktinių, kurių turtas padalytas, asmens duomenis (vardą, pavardę ir asmens kodą) paslauga
+Publikuota:
+2026-01-19
+Atnaujinta:
+2026-01-19
+Valstybės įmonė Registrų centras
+Duomenų išteklius viešinamas:
+Taip
+Brandos lygis:
+Šia duomenų paslauga pagal užklausimą pateikiama aktuali išsami informacija iš VAR pagal vedybų, sugyventinių ar turto padalijimo sutartį sudariusio arba vieno iš sutuoktinių, kurių turtas padalytas, asmens duomenis (vardą, pavardę ir asmens kodą)(AT2064)
+27
+0
+0
+Išsami informacija iš VAR pagal vedybų, sugyventinių ar turto padalijimo sutartį sudariusio arba vieno iš sutuoktinių, kurių turtas padalytas, asmens duomenis (vardą, pavardę ir asmens kodą)
+Publikuota:
+2026-01-19
+Atnaujinta:
+2026-01-19
+Valstybės įmonė Registrų centras
+Duomenų išteklius viešinamas:
+Taip
+Brandos lygis:
+Išsami informacija iš VAR pagal vedybų, sugyventinių ar turto padalijimo sutartį sudariusio arba vieno iš sutuoktinių, kurių turtas padalytas, asmens duomenis (vardą, pavardę ir asmens kodą)(AT2064)
+XML
+24
+0
+0
+TR išrašas pagal palikėjo (testatoriaus) asmens kodą paslauga
+Publikuota:
+2026-01-19
+Atnaujinta:
+2026-01-19
+Valstybės įmonė Registrų centras
+Duomenų išteklius viešinamas:
+Taip
+Brandos lygis:
+Šia duomenų paslauga pagal užklausimą pateikiamas aktualus Testamentų registro duomenų sąrašas (AT1623)
+28
+0
+0
+TR išrašas pagal palikėjo (testatoriaus) asmens kodą
+Publikuota:
+2026-01-19
+Atnaujinta:
+2026-01-19
+Valstybės įmonė Registrų centras
+Duomenų išteklius viešinamas:
+Taip
+Brandos lygis:
+TR išrašas pagal palikėjo (testatoriaus) asmens kodą
+(AT1623)
+XML
+39
+0
+1
+Įgaliojimų registro išsami informacija pagal įgaliotinio juridinio arba fizinio asmens kodą arba ILTU kodą, paslaugos kodą ir paslaugos teikėjo juridinio arba fizinio asmens kodą arba ILTU kodą paslauga
+Publikuota:
+2026-01-19
+Atnaujinta:
+2026-01-19
+Valstybės įmonė Registrų centras
+Duomenų išteklius viešinamas:
+Taip
+Brandos lygis:
+Įgaliojimų registro išsami informacija pagal įgaliotinio juridinio arba fizinio asmens kodą arba ILTU kodą, paslaugos kodą ir paslaugos teikėjo juridinio arba fizinio asmens kodą arba ILTU kodą (AT6895)
+20
+0
+0
+Įgaliojimų registro išsami informacija pagal įgaliotinio juridinio arba fizinio asmens kodą arba ILTU kodą, paslaugos kodą ir paslaugos teikėjo juridinio arba fizinio asmens kodą arba ILTU kodą
+Publikuota:
+2026-01-19
+Atnaujinta:
+2026-01-19
+Valstybės įmonė Registrų centras
+Duomenų išteklius viešinamas:
+Taip
+Brandos lygis:
+Įgaliojimų registro išsami informacija pagal įgaliotinio juridinio arba fizinio asmens kodą arba ILTU kodą, paslaugos kodą ir paslaugos teikėjo juridinio arba fizinio asmens kodą arba ILTU kodą (AT6895)
+XML
+32
+0
+1
+Išplėstinių GR duomenų paslauga
+Publikuota:
+2026-01-16
+Atnaujinta:
+2026-01-16
+Valstybės įmonė Registrų centras
+Duomenų išteklius viešinamas:
+Taip
+Brandos lygis:
+Šia duomenų paslauga pagal užklausimą pateikiamas aktualūs išplėstiniai duomenys iš GR (n605)
+83
+0
+0
+Išplėstinis GR duomenų rinkinys
+Publikuota:
+2026-01-16
+Atnaujinta:
+2026-01-16
+Valstybės įmonė Registrų centras
+Duomenų išteklius viešinamas:
+Taip
+Brandos lygis:
+Išplėstinis GR duomenų rinkinys (n605)
+XML
+72
+0
+1
+Adresų registro administracinių vienetų ir seniūnijų, gyvenamųjų vietovių, gatvių, adresų (žemės sklypų ir (ar) pastatų, patalpų) tekstiniai duomenys su koordinatėmis
+Publikuota:
+2026-01-16
+Atnaujinta:
+2026-01-22
+Valstybės įmonė Registrų centras
+Duomenų išteklius viešinamas:
+Taip
+Brandos lygis:
+Šia duomenų paslauga pagal užklausimą pateikiamas aktualus apskričių, arba savivaldybių, arba seniunijų, arba gyvenamųjų vietovių, arba žemės sklypų ir pastatų adresų, arba patalpų adresų tekstinių duomenų sąrašas su koordinatėmis
+Didelės vertės rinkiniai
+305
+0
+10
+Administracinių-teritorinių vienetų ir seniūnijų, gyvenamųjų vietovių, gatvių, adresų (žemės sklypų ir (ar) pastatų, patalpų) tekstinių duomenų su koordinatėmis rinkinys
+Publikuota:
+2026-01-16
+Atnaujinta:
+2026-01-16
+Valstybės įmonė Registrų centras
+Duomenų išteklius viešinamas:
+Taip
+Brandos lygis:
+Administracinių-teritorinių vienetų ir seniūnijų, gyvenamųjų vietovių, gatvių, adresų (žemės sklypų ir (ar) pastatų, patalpų) tekstinių duomenų su koordinatėmis rinkinys iš Lietuvos Respublikos adresų registro. Duomenų geografinė imtis — visa šalies teritorija. (AR2)
+XML
+141
+0
+8
+JA klasifikatorių pateikimas
+Publikuota:
+2026-01-15
+Atnaujinta:
+2026-01-15
+Valstybės įmonė Registrų centras
+Duomenų išteklius viešinamas:
+Taip
+Brandos lygis:
+Šia duomenų paslauga pagal užklausimą pateikiami JAR klasifikatoriai š Juridinių asmenų registro
+83
+0
+0
+Duomenų iš JANGIS apie juridinio asmens naudos gavėjus išrašo sistema-sistema būdu paslauga
+Publikuota:
+2026-01-15
+Atnaujinta:
+2026-01-15
+Valstybės įmonė Registrų centras
+Duomenų išteklius viešinamas:
+Taip
+Brandos lygis:
+Duomenų iš JANGIS apie juridinio asmens naudos gavėjus išrašo sistema-sistema būdu paslauga
+(n437)
+55
+0
+1
+Duomenų iš JANGIS apie juridinio asmens naudos gavėjus išrašas sistema-sistema būdu
+Publikuota:
+2026-01-15
+Atnaujinta:
+2026-01-15
+Valstybės įmonė Registrų centras
+Duomenų išteklius viešinamas:
+Taip
+Brandos lygis:
+Duomenų iš JANGIS apie juridinio asmens naudos gavėjus išrašas sistema-sistema būdu
+(n437)
+XML
+90
+0
+3
+Puslapis 1 iš 10.
+Pirmyn
+Paskutinis &raquo;
+VSSA Valstybės skaitmeninių sprendimų agentūra, Konstitucijos pr. 15-89, Vilnius
+el. p.
+atviriduomenys@vssa.lt
+Užsiprenumeruokite mūsų naujienlaiškį
+Užsakyti
+Susisiekite su mumis::

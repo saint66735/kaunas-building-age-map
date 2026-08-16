@@ -1,0 +1,113 @@
+Lietuvos atvirų duomenų portalas
+| Duomenų ištekliai
+&nbsp;&nbsp;
+data.gov.lt
+Į pagrindinį turinį
+Duomenų ištekliai
+Poreikiai ir pasiūlymai
+Pagalba atvėrėjams
+Atvirų duomenų saugykla
+Duomenų atvėrimo vadovas
+Duomenų struktūros aprašas
+Įrankiai duomenų atvėrimui
+Mokymo medžiaga
+Dažnai užduodami klausimai
+Koordinatoriaus ir tvarkytojo registravimas
+Duomenų atvėrimo principai
+Daugiau
+Reglamentacija
+Panaudojimo atvejai
+Nuorodos
+Apie
+Kontaktai
+Kiti AD portalai
+SPARQL paieška
+API
+Programinės įrangos atnaujinimai
+Naujienos
+Sveikatos duomenys
+Prisijungti
+LT
+LT
+EN
+Pradžia
+Duomenų ištekliai
+Duomenų rinkinio paieška
+Tinkamiausi
+Naujausi
+Seniausi
+Pagal pavadinimą
+Tinkamiausi
+Duomenų ištekliaus būsena
+Atverti duomenys
+(1)
+Brandos lygis
+Duomenų skelbėjas
+Valstybės įmonė Registrų centras
+(1)
+Duomenų rengėjas
+Valstybės įmonė Registrų centras
+(1)
+Valdymo sritis
+Lietuvos Respublikos ekonomikos ir inovacijų ministerija
+(1)
+Kategorija
+Aplinka
+(1)
+Teisingumas, teisės sistema ir visuomenės sauga
+(1)
+Ūkinė veikla ir verslas
+(1)
+Regionai ir miestai
+(1)
+Grupė
+Didelės vertės rinkiniai
+(1)
+Prieigos teisės
+Vieši
+(1)
+Žymė
+Pastatai
+(1)
+Rc
+(1)
+pastatų erdviniai duomenys
+(1)
+Erdviniai Duomenys
+(1)
+Atnaujinama
+Kas mėnesį
+(1)
+Duomenų ištekliaus rūšis
+Duomenų rinkinys
+(1)
+Formatas
+URL
+(1)
+Įkėlimo data
+2024
+(1)
+Rasta duomenų išteklių:
+1
+Pastatų erdviniai duomenys
+Publikuota:
+2024-10-28
+Atnaujinta:
+2026-01-05
+Valstybės įmonė Registrų centras
+Duomenų išteklius viešinamas:
+Taip
+Brandos lygis:
+Lietuvos Nekilnojamojo turto registre įregistruotų pastatų ribos ir kiti erdviniai duomenys. Duomenų rinkmenos pateikiamos savivaldybės teritorijos imties aprėptimi, Bendra duomenų imtis - visa Lietuvos teritorija. Duomenų formatas JSON, supakuotas ZIP formatu.
+Duomenys atverti pagal tarptautinę Creative Commons Attribution 4.0 licenciją su naudojimo ir platinimo sąlygomis, kurių ženklinimo simbolis CC BY 4.0. Duomenis galima naudoti ir dalintis neribotai, tačiau privaloma nurodyti atvertų duomenų autorystę, įdėti nuorodą į licenciją bei nurodyti, ar buvo padaryta pakeitimų.
+Didelės vertės rinkiniai
+URL
+657
+0
+251
+VSSA Valstybės skaitmeninių sprendimų agentūra, Konstitucijos pr. 15-89, Vilnius
+el. p.
+atviriduomenys@vssa.lt
+Užsiprenumeruokite mūsų naujienlaiškį
+Užsakyti
+Susisiekite su mumis::
