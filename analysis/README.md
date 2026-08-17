@@ -23,6 +23,11 @@ labeled statistical simulation for per-building detail (see
    deeper pass over the Spinta API) for a real exact join key. Finds a
    genuine official unique building number (`unikalus_nr`) in a dataset not
    originally in scope, but confirms it still doesn't solve the join.
+3. **[`PHASE3_THREE_WAY_MATCH.md`](PHASE3_THREE_WAY_MATCH.md)** — builds and
+   runs the three-way (categorical + spatial + area) matching idea Phase 2
+   only sketched. A real, verified improvement over Phase 1 (0.6% confident
+   vs. 0.0%), independently reproduced rather than assumed — but still far
+   short of usable.
 
 ## Layout
 
@@ -47,6 +52,9 @@ python analysis/scripts/02_assign_seniunija.py
 python analysis/scripts/03_match.py
 python analysis/scripts/03b_match_tight_sensitivity.py
 python analysis/scripts/04_plots.py
+python analysis/scripts/05_anchor_dataset_d.py
+python analysis/scripts/06_three_way_match.py
+python analysis/scripts/06b_three_way_tight_sensitivity.py
 ```
 
 Run from the repo root — the scripts use paths relative to it.

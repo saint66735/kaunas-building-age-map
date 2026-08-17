@@ -1,0 +1,6 @@
+n=3000
+confident: 19 (0.6%)
+ambiguous: 2944 (98.1%)
+no_match: 37 (1.2%)
+mean categorical pool size: 5355.8
+median categorical pool size: 3176.0

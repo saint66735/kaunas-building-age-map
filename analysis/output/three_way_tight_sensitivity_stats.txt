@@ -1,0 +1,4 @@
+TIGHT tolerance (0.9-1.1x, margin=0.15), n=3000
+confident: 37 (1.2%)
+ambiguous: 2769 (92.3%)
+no_match: 194 (6.5%)

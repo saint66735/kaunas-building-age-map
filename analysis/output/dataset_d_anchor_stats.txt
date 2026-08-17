@@ -1,0 +1,5 @@
+D features: 49487
+unanchored (0 hits): 5228 (10.6%)
+anchored (1 hit): 44256 (89.4%)
+ambiguous (2+ hits): 3 (0.0%)
+anchor rate (>=1 hit): 89.4%

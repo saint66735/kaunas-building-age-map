@@ -76,17 +76,21 @@ information is one click away).
 
 ### Why simulated, not real, per-building dates
 
-A real per-building join was attempted twice and confirmed structurally
-impossible with current public data:
+A real per-building join was attempted three times and confirmed
+structurally impossible with current public data (full evidence, scripts,
+and raw output in [`../analysis/`](../analysis/)):
 
 1. Fuzzy-matching buildings by footprint area + district: 0% confident
    matches at any reasonable tolerance.
-2. Fuzzy-matching by category + floor count, with real geometry spatially
-   anchored via point-in-polygon (92.4% anchor rate): still only 0.3%
-   confident. The single largest category alone (ordinary 1-story
-   residential buildings) had 16,010 candidates with continuously
-   overlapping footprint areas — no combination of available attributes
-   separates them into unique matches.
+2. Three-way match — category codes + floor count, spatially anchored via
+   point-in-polygon into real building footprints (89.4% anchor rate), plus
+   footprint area as a third independent check: **0.6% confident** (1.2% at
+   an artificially tight best-case tolerance). A real, verified improvement
+   over (1) — roughly 6-12x — but still nowhere near usable. The single
+   largest category alone (ordinary 1-story residential buildings) covers
+   15,727 anchored candidates with continuously overlapping footprint
+   areas — no combination of available attributes separates them into
+   unique matches.
 
 Checked and ruled out: national GRPK layer, INSPIRE Buildings WFS,
 Registrų centras's own map viewer, and a deeper search of the data.gov.lt
