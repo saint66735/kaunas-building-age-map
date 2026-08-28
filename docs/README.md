@@ -119,10 +119,16 @@ python3 -m http.server 8000
 settings (serve from the root of `main`, or from a `docs/` folder), and
 it's live at `https://<username>.github.io/<repo>/`.
 
-Note the file is ~8MB — that's the embedded building geometry and
-year-distribution data, simplified and compressed as much as reasonably
-possible while keeping the map interactive. Large for a single HTML file,
-but well within GitHub's per-file limits.
+Note the file is ~8MB uncompressed — that's the embedded building geometry
+and year-distribution data (66,343 building footprints average only ~5.6
+points each, so there's not much left to trim there without visibly
+distorting shapes). GitHub Pages gzips it in transit, so actual network
+transfer is ~1.4MB. The bigger cost is client-side: parsing an 8MB JSON
+blob and rendering 66k polygons. The building layer uses Leaflet's Canvas
+renderer (not one SVG element per building) and only restyles markers
+whose visibility actually changed between frames, rather than restyling
+all 66k on every slider-drag event — both matter far more for feel than
+shaving more bytes off the payload would.
 
 ## License
 

@@ -319,15 +319,17 @@ DATA.senPolys.forEach(function(d) {
 });
 
 const canvasRenderer = L.canvas({ padding: 0.4 });
+const BUILDING_COLOR = seqRamp[5];
 const buildingMarkers = [];
 DATA.buildingPolys.buildings.forEach(function(b) {
   const name = b.d >= 0 ? DATA.buildingPolys.districts[b.d] : null;
   const latlngs = b.r.map(([lon,lat]) => [lat,lon]);
   const m = L.polygon(latlngs, {
-    renderer: canvasRenderer, weight: 0, fillOpacity: 0.85, fillColor: seqRamp[4]
+    renderer: canvasRenderer, weight: 0, fillOpacity: 0.85, fillColor: BUILDING_COLOR
   }).addTo(map);
   m._districtName = name;
   m._simYear = b.y;
+  m._shown = true; // range mode's steady state: every building visible at BUILDING_COLOR
   buildingMarkers.push(m);
 });
 
@@ -354,7 +356,6 @@ const modeGrowthBtn = document.getElementById('modeGrowthBtn');
 const simToggle = document.getElementById('simToggle');
 const overlayToggle = document.getElementById('overlayToggle');
 const legendBox = document.querySelector('.legend-box');
-const BUILDING_COLOR = seqRamp[5];
 
 const STEP_MIN = 0, STEP_MAX = 1000;
 const DATA_MIN_YEAR = 1368, DATA_MAX_YEAR = 2026;
@@ -399,9 +400,9 @@ function renderRange() {
     );
   });
 
-  buildingMarkers.forEach(function(m) {
-    m.setStyle({ fillOpacity: 0.85, fillColor: BUILDING_COLOR });
-  });
+  // Building layer style is constant in range mode (doesn't depend on the
+  // selected range) -- reset once on mode entry via showAllBuildings(),
+  // not on every slider drag. See setMode().
 
   const city = fractionInRange(DATA.citywideHist, lo, hi);
   statCount.textContent = city.inRange.toLocaleString();
@@ -451,7 +452,13 @@ function renderGrowth() {
   buildingMarkers.forEach(function(m) {
     const exists = m._simYear <= asOf;
     if (exists) shown++;
-    m.setStyle({ fillOpacity: exists ? 0.9 : 0, fillColor: BUILDING_COLOR });
+    // Skip the (expensive, canvas-redraw-triggering) restyle for markers
+    // whose visibility hasn't actually changed since the last frame --
+    // during animation/dragging only a small slice crosses the threshold.
+    if (m._shown !== exists) {
+      m.setStyle({ fillOpacity: exists ? 0.9 : 0, fillColor: BUILDING_COLOR });
+      m._shown = exists;
+    }
   });
 
   const city = fractionInRange(DATA.citywideHist, DATA_MIN_YEAR, asOf);
@@ -470,9 +477,30 @@ function renderGrowth() {
 
 function render() { mode === 'range' ? renderRange() : renderGrowth(); }
 
-rangeMin.addEventListener('input', render);
-rangeMax.addEventListener('input', render);
-growthYear.addEventListener('input', render);
+// Range mode's building-layer style never depends on the selected range --
+// reset it once on mode entry rather than every renderRange() call.
+function showAllBuildings() {
+  // Runs once per mode switch (not per drag), so no need to guard this one --
+  // opacity differs from growth mode's "shown" state (0.9) even when the
+  // shown/hidden boolean itself hasn't changed, so it must always restyle.
+  buildingMarkers.forEach(function(m) {
+    m.setStyle({ fillOpacity: 0.85, fillColor: BUILDING_COLOR });
+    m._shown = true;
+  });
+}
+
+// <input type="range"> can fire 'input' far faster than the display can
+// usefully redraw 66k canvas polygons; coalesce bursts to one render per frame.
+let renderScheduled = false;
+function scheduleRender() {
+  if (renderScheduled) return;
+  renderScheduled = true;
+  requestAnimationFrame(function() { renderScheduled = false; render(); });
+}
+
+rangeMin.addEventListener('input', scheduleRender);
+rangeMax.addEventListener('input', scheduleRender);
+growthYear.addEventListener('input', scheduleRender);
 
 document.getElementById('resetBtn').addEventListener('click', function() {
   rangeMin.value = STEP_MIN; rangeMax.value = STEP_MAX; render();
@@ -490,6 +518,13 @@ function setMode(next) {
   if (mode === next) return;
   stopAnim();
   mode = next;
+  if (mode === 'range') {
+    showAllBuildings();
+  } else {
+    // Force renderGrowth()'s first pass to actually (re)apply every
+    // marker's style, since _shown may be stale from a prior mode/session.
+    buildingMarkers.forEach(function(m) { m._shown = null; });
+  }
   const isRange = mode === 'range';
   modeRangeBtn.classList.toggle('active', isRange);
   modeGrowthBtn.classList.toggle('active', !isRange);
