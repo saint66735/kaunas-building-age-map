@@ -554,34 +554,44 @@ simToggle.addEventListener('change', function() {
 overlayToggle.addEventListener('change', render);
 
 // Range-mode animate: sweep a moving 15-year window across the full span.
+// Each tick re-reads the slider's *current* position rather than a private
+// counter, so dragging the handles mid-playback ("skip ahead", or back) is
+// respected and the sweep continues from wherever the user left it, instead
+// of being silently overwritten on the next tick.
 let rangeAnim = null;
 const WINDOW = 15;
+function rangeAnimStartYear() {
+  const lo = stepToYear(+rangeMin.value);
+  return (lo + WINDOW >= DATA_MAX_YEAR) ? DATA_MIN_YEAR : lo;
+}
 document.getElementById('playBtn').addEventListener('click', function() {
   if (rangeAnim) { stopAnim(); return; }
   stopAnim();
   this.textContent = '⏸ Pause';
-  let loYear = DATA_MIN_YEAR, hiYear = DATA_MIN_YEAR + WINDOW;
-  rangeMin.value = yearToStep(loYear); rangeMax.value = yearToStep(hiYear); render();
+  const loYear = rangeAnimStartYear();
+  rangeMin.value = yearToStep(loYear); rangeMax.value = yearToStep(loYear + WINDOW); render();
   rangeAnim = setInterval(function() {
-    loYear += 4; hiYear += 4;
-    if (hiYear >= DATA_MAX_YEAR) { loYear = DATA_MIN_YEAR; hiYear = DATA_MIN_YEAR + WINDOW; }
-    rangeMin.value = yearToStep(loYear); rangeMax.value = yearToStep(hiYear);
+    let lo = stepToYear(+rangeMin.value) + 4;
+    if (lo + WINDOW >= DATA_MAX_YEAR) lo = DATA_MIN_YEAR;
+    rangeMin.value = yearToStep(lo); rangeMax.value = yearToStep(lo + WINDOW);
     render();
   }, 450);
 });
 
-// Growth-mode animate: sweep the cumulative "as of" pointer forward — the colony grows.
+// Growth-mode animate: sweep the cumulative "as of" pointer forward — the
+// colony grows. Same live-read-per-tick fix as range mode above, so
+// dragging growthYear mid-playback sticks instead of snapping back.
 let growthAnim = null;
 document.getElementById('playGrowthBtn').addEventListener('click', function() {
   if (growthAnim) { stopAnim(); return; }
   stopAnim();
   this.textContent = '⏸ Pause';
-  let year = DATA_MIN_YEAR;
-  growthYear.value = yearToStep(year); render();
+  let year = stepToYear(+growthYear.value);
+  if (year >= DATA_MAX_YEAR) { year = DATA_MIN_YEAR; growthYear.value = yearToStep(year); render(); }
   growthAnim = setInterval(function() {
-    year += 3;
-    if (year > DATA_MAX_YEAR) { year = DATA_MIN_YEAR; }
-    growthYear.value = yearToStep(year);
+    let y = stepToYear(+growthYear.value) + 3;
+    if (y > DATA_MAX_YEAR) y = DATA_MIN_YEAR;
+    growthYear.value = yearToStep(y);
     render();
   }, 180);
 });
