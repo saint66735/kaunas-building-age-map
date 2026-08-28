@@ -177,7 +177,7 @@
           <input type="range" id="rangeMax" min="0" max="1000" value="1000" step="1">
         </div>
       </div>
-      <button class="ctl primary" id="playBtn">▶ Animate growth</button>
+      <button class="ctl primary" id="playBtn">▶ Animate sweep</button>
       <button class="ctl" id="resetBtn">Reset</button>
     </div>
     <div class="controls-row" id="growthControls" style="display:none;">
@@ -303,9 +303,19 @@ function fractionInRange(hist, lo, hi) {
 }
 
 const map = L.map('map', { scrollWheelZoom: true }).setView([54.8975, 23.92], 12);
-L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-  attribution: '&copy; OpenStreetMap &copy; CARTO',
-  maxZoom: 19
+// CARTO's free anonymous dark_all tiles now require an account/API key
+// (started returning "API KEY REQUIRED" watermarked tiles) -- switched to
+// Esri's classic Dark Gray Canvas service, which is still free and
+// keyless. Base + Reference (labels) are two separate layers there.
+// maxNativeZoom caps actual tile requests at the service's real max detail
+// (deeper zooms return identical upsampled content); maxZoom keeps the
+// same interactive zoom range as before by scaling those tiles up.
+const esriAttribution = 'Esri, HERE, Garmin, &copy; OpenStreetMap contributors, and the GIS user community';
+L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
+  attribution: esriAttribution, maxZoom: 19, maxNativeZoom: 16
+}).addTo(map);
+L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Reference/MapServer/tile/{z}/{y}/{x}', {
+  maxZoom: 19, maxNativeZoom: 16
 }).addTo(map);
 
 const districtLayers = {};
@@ -510,7 +520,7 @@ document.getElementById('resetGrowthBtn').addEventListener('click', function() {
 });
 
 function stopAnim() {
-  if (rangeAnim) { clearInterval(rangeAnim); rangeAnim = null; document.getElementById('playBtn').textContent = '▶ Animate growth'; }
+  if (rangeAnim) { clearInterval(rangeAnim); rangeAnim = null; document.getElementById('playBtn').textContent = '▶ Animate sweep'; }
   if (growthAnim) { clearInterval(growthAnim); growthAnim = null; document.getElementById('playGrowthBtn').textContent = '▶ Animate growth'; }
 }
 
@@ -558,22 +568,27 @@ overlayToggle.addEventListener('change', render);
 // counter, so dragging the handles mid-playback ("skip ahead", or back) is
 // respected and the sweep continues from wherever the user left it, instead
 // of being silently overwritten on the next tick.
+// Advances the window's start in *step* space, not year space -- same
+// reasoning as growth mode's animation below (a flat year-per-tick pace
+// crawls through the compressed, sparse 1350-1800 stretch of the slider).
 let rangeAnim = null;
-const WINDOW = 15;
-function rangeAnimStartYear() {
+const WINDOW = 15; // window width stays a fixed 15 *years*, regardless of step density
+function rangeAnimStartStep() {
   const lo = stepToYear(+rangeMin.value);
-  return (lo + WINDOW >= DATA_MAX_YEAR) ? DATA_MIN_YEAR : lo;
+  const startYear = (lo + WINDOW >= DATA_MAX_YEAR) ? DATA_MIN_YEAR : lo;
+  return yearToStep(startYear);
 }
 document.getElementById('playBtn').addEventListener('click', function() {
   if (rangeAnim) { stopAnim(); return; }
   stopAnim();
   this.textContent = '⏸ Pause';
-  const loYear = rangeAnimStartYear();
-  rangeMin.value = yearToStep(loYear); rangeMax.value = yearToStep(loYear + WINDOW); render();
+  const loStep = rangeAnimStartStep();
+  rangeMin.value = loStep; rangeMax.value = yearToStep(stepToYear(loStep) + WINDOW); render();
   rangeAnim = setInterval(function() {
-    let lo = stepToYear(+rangeMin.value) + 4;
-    if (lo + WINDOW >= DATA_MAX_YEAR) lo = DATA_MIN_YEAR;
-    rangeMin.value = yearToStep(lo); rangeMax.value = yearToStep(lo + WINDOW);
+    let loStep2 = +rangeMin.value + 25;
+    let loYear2 = stepToYear(loStep2);
+    if (loYear2 + WINDOW >= DATA_MAX_YEAR) { loStep2 = STEP_MIN; loYear2 = DATA_MIN_YEAR; }
+    rangeMin.value = loStep2; rangeMax.value = yearToStep(loYear2 + WINDOW);
     render();
   }, 450);
 });
@@ -581,17 +596,27 @@ document.getElementById('playBtn').addEventListener('click', function() {
 // Growth-mode animate: sweep the cumulative "as of" pointer forward — the
 // colony grows. Same live-read-per-tick fix as range mode above, so
 // dragging growthYear mid-playback sticks instead of snapping back.
+//
+// Advances in *step* space, not year space. The slider's step<->year
+// mapping (BREAKPOINTS above) deliberately compresses the sparse
+// 1350-1800 tail into a small slice of the track so it's still reachable
+// by hand, but that means a flat year-per-tick pace used to crawl through
+// that whole stretch in near-real-time (with almost no buildings yet to
+// show for it) before visibly doing anything. Stepping at a flat rate
+// respects that same compression: the animation now flies through the
+// sparse pre-1800 era in about a second and spends its time where the
+// data actually is.
 let growthAnim = null;
 document.getElementById('playGrowthBtn').addEventListener('click', function() {
   if (growthAnim) { stopAnim(); return; }
   stopAnim();
   this.textContent = '⏸ Pause';
-  let year = stepToYear(+growthYear.value);
-  if (year >= DATA_MAX_YEAR) { year = DATA_MIN_YEAR; growthYear.value = yearToStep(year); render(); }
+  let step = +growthYear.value;
+  if (step >= STEP_MAX) { step = STEP_MIN; growthYear.value = step; render(); }
   growthAnim = setInterval(function() {
-    let y = stepToYear(+growthYear.value) + 3;
-    if (y > DATA_MAX_YEAR) y = DATA_MIN_YEAR;
-    growthYear.value = yearToStep(y);
+    let s = +growthYear.value + 8;
+    if (s > STEP_MAX) s = STEP_MIN;
+    growthYear.value = s;
     render();
   }, 180);
 });
